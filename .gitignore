@@ -10,3 +10,6 @@ Thumbs.db
 # Editor/OS cruft
 *.swp
 .vscode/
+
+# Local cleanup scratch space (stale git lock/tmp files the bridge couldn't unlink)
+/_to_delete/
