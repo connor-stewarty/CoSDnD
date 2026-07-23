@@ -1,0 +1,12 @@
+.DS_Store
+Thumbs.db
+
+# Raw audio if Vibe exports it alongside transcripts
+*.mp3
+*.wav
+*.m4a
+*.aac
+
+# Editor/OS cruft
+*.swp
+.vscode/

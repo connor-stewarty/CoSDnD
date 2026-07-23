@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Curse of Strahd — Campaign Chronicle</title>
+<style>
+  :root {
+    --bg: #0d0a0e;
+    --bg-panel: #17121a;
+    --bg-panel-2: #1e1620;
+    --line: #3a2a30;
+    --ink: #e7ddd0;
+    --ink-dim: #a89a94;
+    --blood: #8f2436;
+    --blood-bright: #b8394d;
+    --gold: #c9a24b;
+    --gold-dim: #8a7238;
+    --shadow: rgba(0,0,0,0.55);
+  }
+
+  * { box-sizing: border-box; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    margin: 0;
+    background: radial-gradient(ellipse at 50% -10%, #241a20 0%, var(--bg) 55%) fixed;
+    color: var(--ink);
+    font-family: Georgia, 'Iowan Old Style', 'Palatino Linotype', 'Times New Roman', serif;
+    line-height: 1.6;
+  }
+
+  a { color: var(--gold); }
+
+  .wrap { max-width: 880px; margin: 0 auto; padding: 0 24px; }
+
+  /* ---------- Hero ---------- */
+  .hero {
+    position: relative;
+    padding: 110px 24px 90px;
+    text-align: center;
+    overflow: hidden;
+    border-bottom: 1px solid var(--line);
+    background:
+      radial-gradient(ellipse 70% 60% at 50% 0%, rgba(143,36,54,0.18), transparent 70%),
+      linear-gradient(180deg, #140f14 0%, #0d0a0e 100%);
+  }
+  .hero::before {
+    content: "";
+    position: absolute; inset: 0;
+    background: repeating-linear-gradient(115deg, rgba(255,255,255,0.015) 0 2px, transparent 2px 6px);
+    pointer-events: none;
+    animation: drift 40s linear infinite;
+  }
+  @keyframes drift {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-120px); }
+  }
+  .eyebrow {
+    letter-spacing: 0.35em;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: var(--gold-dim);
+    margin: 0 0 18px;
+  }
+  h1.title {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: clamp(40px, 8vw, 72px);
+    letter-spacing: 0.04em;
+    margin: 0;
+    color: var(--ink);
+    text-shadow: 0 0 24px rgba(143,36,54,0.55), 0 2px 0 #000;
+  }
+  .title .accent { color: var(--blood-bright); }
+  .subtitle {
+    margin: 18px auto 0;
+    max-width: 560px;
+    color: var(--ink-dim);
+    font-style: italic;
+    font-size: 17px;
+  }
+  .divider {
+    margin: 34px auto 0;
+    width: 220px;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--gold-dim), transparent);
+  }
+  .divider::after {
+    content: "✦";
+    display: block;
+    text-align: center;
+    color: var(--gold-dim);
+    font-size: 14px;
+    margin-top: -9px;
+    background: transparent;
+  }
+
+  /* ---------- Stat strip ---------- */
+  .stats {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 14px;
+    margin-top: 40px;
+  }
+  .stat {
+    background: var(--bg-panel);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 14px 22px;
+    min-width: 120px;
+  }
+  .stat .n {
+    font-size: 26px;
+    color: var(--gold);
+    font-weight: bold;
+    display: block;
+  }
+  .stat .l {
+    font-size: 11px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--ink-dim);
+  }
+
+  /* ---------- Sections ---------- */
+  section { padding: 70px 0; }
+  section + section { border-top: 1px solid var(--line); }
+
+  h2.section-title {
+    font-size: 13px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--gold-dim);
+    text-align: center;
+    margin: 0 0 8px;
+  }
+  h3.section-heading {
+    text-align: center;
+    font-size: clamp(26px, 4vw, 34px);
+    margin: 0 0 34px;
+    color: var(--ink);
+  }
+
+  .story p {
+    font-size: 18px;
+    color: var(--ink-dim);
+    text-align: center;
+    max-width: 640px;
+    margin: 0 auto;
+  }
+
+  /* ---------- Party roster ---------- */
+  .roster {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 18px;
+  }
+  .card {
+    background: var(--bg-panel);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 22px;
+    box-shadow: 0 8px 24px var(--shadow);
+  }
+  .card.you { border-color: var(--blood); }
+  .card h4 {
+    margin: 0 0 4px;
+    font-size: 19px;
+    color: var(--ink);
+  }
+  .card .role {
+    color: var(--gold-dim);
+    font-size: 13px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  .card p { margin: 0; color: var(--ink-dim); font-size: 15px; }
+  .you-tag {
+    display: inline-block;
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    color: var(--blood-bright);
+    border: 1px solid var(--blood);
+    border-radius: 20px;
+    padding: 2px 8px;
+    margin-bottom: 10px;
+  }
+
+  /* ---------- Timeline ---------- */
+  .timeline-controls {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .timeline-controls button {
+    background: var(--bg-panel-2);
+    color: var(--ink);
+    border: 1px solid var(--line);
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 12px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-family: inherit;
+  }
+  .timeline-controls button:hover { border-color: var(--gold-dim); color: var(--gold); }
+
+  .session {
+    background: var(--bg-panel);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    margin-bottom: 16px;
+    overflow: hidden;
+  }
+  .session summary {
+    list-style: none;
+    cursor: pointer;
+    padding: 20px 24px;
+    display: flex;
+    align-items: baseline;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+  .session summary::-webkit-details-marker { display: none; }
+  .session .num {
+    color: var(--blood-bright);
+    font-size: 13px;
+    letter-spacing: 0.1em;
+    min-width: 70px;
+  }
+  .session .stitle { font-size: 19px; color: var(--ink); flex: 1; min-width: 160px; }
+  .session .sdate { color: var(--ink-dim); font-size: 13px; }
+  .session .tldr {
+    padding: 0 24px 20px 110px;
+    color: var(--ink-dim);
+    font-size: 15px;
+    margin-top: -12px;
+  }
+  .session .body {
+    padding: 4px 24px 24px 110px;
+    border-top: 1px dashed var(--line);
+    margin-top: 4px;
+  }
+  .session .body h5 {
+    margin: 16px 0 6px;
+    color: var(--gold-dim);
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+  .session .body ul { margin: 6px 0; padding-left: 20px; color: var(--ink); }
+  .session .quote-inline {
+    border-left: 2px solid var(--blood);
+    padding-left: 14px;
+    font-style: italic;
+    color: var(--ink);
+    margin: 10px 0;
+  }
+  .session .cliff {
+    color: var(--ink);
+    font-style: italic;
+  }
+
+  /* ---------- Quotes ---------- */
+  .quote-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 18px;
+  }
+  .quote-card {
+    background: var(--bg-panel-2);
+    border-left: 3px solid var(--blood);
+    border-radius: 8px;
+    padding: 20px 22px;
+  }
+  .quote-card p.q {
+    font-size: 18px;
+    font-style: italic;
+    margin: 0 0 10px;
+    color: var(--ink);
+  }
+  .quote-card p.q::before { content: "“"; color: var(--blood-bright); }
+  .quote-card p.q::after { content: "”"; color: var(--blood-bright); }
+  .quote-card .who {
+    font-size: 12px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--gold-dim);
+  }
+
+  /* ---------- Locations ---------- */
+  .loc-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 18px;
+  }
+  .loc-card {
+    background: var(--bg-panel);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 20px;
+  }
+  .loc-card h4 { margin: 0 0 6px; color: var(--ink); font-size: 17px; }
+  .loc-card .meta {
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--gold-dim);
+    margin-bottom: 8px;
+  }
+  .loc-card p { margin: 0; color: var(--ink-dim); font-size: 14px; }
+
+  footer {
+    text-align: center;
+    padding: 50px 24px 70px;
+    color: var(--ink-dim);
+    font-size: 13px;
+  }
+  footer .raven { color: var(--gold-dim); margin-bottom: 8px; font-size: 20px; }
+
+  .empty-note {
+    text-align: center;
+    color: var(--ink-dim);
+    font-size: 14px;
+    font-style: italic;
+  }
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <div class="wrap">
+    <p class="eyebrow">A Campaign Chronicle</p>
+    <h1 class="title">Curse of <span class="accent">Strahd</span></h1>
+    <p class="subtitle" id="campaign-subtitle">The chronicles of a party who wandered into the mists of Barovia and haven't found the way out since.</p>
+    <div class="divider"></div>
+    <div class="stats" id="stats-row"></div>
+  </div>
+</div>
+
+<section class="story">
+  <div class="wrap">
+    <h2 class="section-title">Where things stand</h2>
+    <h3 class="section-heading">The Story So Far</h3>
+    <!-- Replace this paragraph with a 2-4 sentence rolling summary of the campaign. Update it every few sessions. -->
+    <p id="story-so-far">
+      The party was pulled off a familiar road by an unnatural mist and deposited somewhere that answers to no map —
+      Barovia, a valley of fog, wolves, and a castle that watches from every hill. So far they've only seen the edge
+      of it. Whatever is actually running this place hasn't introduced itself yet.
+    </p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2 class="section-title">The Party</h2>
+    <h3 class="section-heading">Who Wandered In</h3>
+    <div class="roster" id="roster"></div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2 class="section-title">Session Log</h2>
+    <h3 class="section-heading">The Timeline</h3>
+    <div class="timeline-controls">
+      <button id="order-toggle">Show Oldest First</button>
+    </div>
+    <div id="timeline"></div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2 class="section-title">Best Of</h2>
+    <h3 class="section-heading">Memorable Quotes</h3>
+    <div class="quote-grid" id="quotes"></div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2 class="section-title">The Valley</h2>
+    <h3 class="section-heading">Locations Explored</h3>
+    <div class="loc-grid" id="locations"></div>
+  </div>
+</section>
+
+<footer>
+  <div class="raven">🦅</div>
+  <div>The mists remember everything, even when the party doesn't.</div>
+  <div id="last-updated" style="margin-top:6px;"></div>
+</footer>
+
+<script>
+/* =========================================================================
+   CAMPAIGN DATA
+   Edit the arrays below to update the site. Open this file in any text
+   editor, add an entry, save, and refresh the browser — no build step,
+   no server, nothing to install.
+   ========================================================================= */
+
+// ---- Party roster --------------------------------------------------------
+// ADD PARTY MEMBERS HERE
+const partyMembers = [
+  {
+    name: "Your Character Name",
+    classRace: "Class • Race",
+    blurb: "One line on who they are and how they play at the table.",
+    isYou: true
+  },
+  {
+    name: "Example Party Member",
+    classRace: "Class • Race",
+    blurb: "Replace with your actual party — one card per player character.",
+    isYou: false
+  }
+];
+
+// ---- Sessions --------------------------------------------------------------
+// ADD NEW SESSIONS HERE. Keep them in the order you write them —
+// the "Show Oldest/Newest First" toggle handles display order.
+const sessions = [
+  {
+    number: 0,
+    title: "The Mists Take Us",
+    date: "2026-07-01",
+    inGameDate: "Day 1",
+    tldr: "A rolling fog swallowed the road behind us and spat us out somewhere that isn't on any map we know.",
+    highlights: [
+      "Caught in an unnaturally thick mist on a familiar road; the way back vanished.",
+      "Emerged on a muddy road between twisted trees and a wrought-iron gate.",
+      "Found a fresh gravestone bearing a name none of us recognized.",
+      "A pale figure watched from a hillside, then was gone."
+    ],
+    quote: { text: "I'm not saying it's a vampire, I'm just saying everything about this says 'vampire.'", who: "Party member" },
+    cliffhanger: "The road forks: a village with lit windows to the left, a castle looming on a hill through a break in the fog to the right."
+  }
+  // { number: 1, title: "...", date: "...", inGameDate: "...", tldr: "...", highlights: [...], quote: {text:"...", who:"..."}, cliffhanger: "..." },
+];
+
+// ---- Memorable quotes (separate from per-session quotes above, for the highlight reel) ----
+// ADD QUOTES HERE
+const quotes = [
+  { text: "I'm not saying it's a vampire, I'm just saying everything about this says 'vampire.'", who: "Party member", session: 0 }
+];
+
+// ---- Locations explored ----------------------------------------------------
+// ADD LOCATIONS HERE
+const locations = [
+  { name: "The Misty Road", session: 0, blurb: "Entry point into Barovia — gravestone, torn diary page, first sighting of the castle." }
+];
+
+/* =========================================================================
+   RENDERING — no need to touch anything below this line
+   ========================================================================= */
+
+function el(html) {
+  const t = document.createElement('template');
+  t.innerHTML = html.trim();
+  return t.content.firstChild;
+}
+
+function renderStats() {
+  const stats = [
+    { n: sessions.length, l: "Sessions" },
+    { n: partyMembers.length, l: "Party Members" },
+    { n: locations.length, l: "Places Found" },
+    { n: quotes.length, l: "Quotable Moments" }
+  ];
+  const row = document.getElementById('stats-row');
+  stats.forEach(s => {
+    row.appendChild(el(`<div class="stat"><span class="n">${s.n}</span><span class="l">${s.l}</span></div>`));
+  });
+}
+
+function renderRoster() {
+  const wrap = document.getElementById('roster');
+  if (!partyMembers.length) { wrap.appendChild(el('<p class="empty-note">No party members added yet.</p>')); return; }
+  partyMembers.forEach(m => {
+    wrap.appendChild(el(`
+      <div class="card ${m.isYou ? 'you' : ''}">
+        ${m.isYou ? '<span class="you-tag">You</span><br>' : ''}
+        <h4>${m.name}</h4>
+        <div class="role">${m.classRace}</div>
+        <p>${m.blurb}</p>
+      </div>
+    `));
+  });
+}
+
+let order = 'newest';
+function renderTimeline() {
+  const wrap = document.getElementById('timeline');
+  wrap.innerHTML = '';
+  if (!sessions.length) { wrap.appendChild(el('<p class="empty-note">No sessions logged yet — add your first entry to the sessions array.</p>')); return; }
+  const list = [...sessions].sort((a, b) => order === 'newest' ? b.number - a.number : a.number - b.number);
+  list.forEach(s => {
+    const highlightsHtml = (s.highlights || []).map(h => `<li>${h}</li>`).join('');
+    wrap.appendChild(el(`
+      <details class="session" ${s === list[0] ? 'open' : ''}>
+        <summary>
+          <span class="num">SESSION ${String(s.number).padStart(2, '0')}</span>
+          <span class="stitle">${s.title}</span>
+          <span class="sdate">${s.date || ''}${s.inGameDate ? ' · In-game: ' + s.inGameDate : ''}</span>
+        </summary>
+        <div class="tldr">${s.tldr || ''}</div>
+        <div class="body">
+          ${highlightsHtml ? `<h5>What Happened</h5><ul>${highlightsHtml}</ul>` : ''}
+          ${s.quote ? `<div class="quote-inline">"${s.quote.text}" — ${s.quote.who}</div>` : ''}
+          ${s.cliffhanger ? `<h5>Where We Left Off</h5><p class="cliff">${s.cliffhanger}</p>` : ''}
+        </div>
+      </details>
+    `));
+  });
+}
+
+function renderQuotes() {
+  const wrap = document.getElementById('quotes');
+  if (!quotes.length) { wrap.appendChild(el('<p class="empty-note">No quotes logged yet.</p>')); return; }
+  quotes.forEach(q => {
+    wrap.appendChild(el(`
+      <div class="quote-card">
+        <p class="q">${q.text}</p>
+        <div class="who">${q.who}${q.session !== undefined ? ' · Session ' + String(q.session).padStart(2, '0') : ''}</div>
+      </div>
+    `));
+  });
+}
+
+function renderLocations() {
+  const wrap = document.getElementById('locations');
+  if (!locations.length) { wrap.appendChild(el('<p class="empty-note">No locations logged yet.</p>')); return; }
+  locations.forEach(l => {
+    wrap.appendChild(el(`
+      <div class="loc-card">
+        <h4>${l.name}</h4>
+        <div class="meta">First visited · Session ${String(l.session).padStart(2, '0')}</div>
+        <p>${l.blurb}</p>
+      </div>
+    `));
+  });
+}
+
+document.getElementById('order-toggle').addEventListener('click', function () {
+  order = order === 'newest' ? 'oldest' : 'newest';
+  this.textContent = order === 'newest' ? 'Show Oldest First' : 'Show Newest First';
+  renderTimeline();
+});
+
+renderStats();
+renderRoster();
+renderTimeline();
+renderQuotes();
+renderLocations();
+
+document.getElementById('last-updated').textContent =
+  'Chronicle last opened ' + new Date().toLocaleDateString(undefined, { year: 'numeric', month: 'long', day: 'numeric' });
+</script>
+
+</body>
+</html>
