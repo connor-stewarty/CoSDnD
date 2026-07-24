@@ -335,7 +335,7 @@
   <div class="wrap">
     <p class="eyebrow">A Campaign Chronicle</p>
     <h1 class="title">Curse of <span class="accent">Strahd</span></h1>
-    <p class="subtitle" id="campaign-subtitle">The chronicles of a party who wandered into the mists of Barovia and haven't found the way out since.</p>
+    <p class="subtitle" id="campaign-subtitle">A year into Barovia, still not dead, still not free — this is where we started actually writing it down.</p>
     <div class="divider"></div>
     <div class="stats" id="stats-row"></div>
   </div>
@@ -347,9 +347,10 @@
     <h3 class="section-heading">The Story So Far</h3>
     <!-- Replace this paragraph with a 2-4 sentence rolling summary of the campaign. Update it every few sessions. -->
     <p id="story-so-far">
-      The party was pulled off a familiar road by an unnatural mist and deposited somewhere that answers to no map —
-      Barovia, a valley of fog, wolves, and a castle that watches from every hill. So far they've only seen the edge
-      of it. Whatever is actually running this place hasn't introduced itself yet.
+      About a year into the campaign, fresh out of a house that cost them people, the party regrouped in Vallaki,
+      picked up two new allies, and got their first real lead on Strahd's weakness: the Amber Temple. A dusk elf
+      wizard named Casimir has joined the cause and knows the way. The plan now is Barovia village, more allies,
+      then a one-way trip into old, guarded, unfriendly magic.
     </p>
   </div>
 </section>
@@ -407,17 +408,42 @@
 // ADD PARTY MEMBERS HERE
 const partyMembers = [
   {
-    name: "Your Character Name",
-    classRace: "Class • Race",
-    blurb: "One line on who they are and how they play at the table.",
-    isYou: true
+    name: "Dablin",
+    classRace: "War veteran • likely caster",
+    blurb: "Thousand-yard stare, PTSD from the Great Gnome Wars, still swaps spells looking for the one that could've saved his brothers.",
+    isYou: false
   },
   {
-    name: "Example Party Member",
-    classRace: "Class • Race",
-    blurb: "Replace with your actual party — one card per player character.",
+    name: "Bulbin",
+    classRace: "—",
+    blurb: "Keeps a small arsenal of liquor (\"the good shit\" included), fire-breathes when overserved, is technically Dog's \"master.\"",
+    isYou: false
+  },
+  {
+    name: "Cassius",
+    classRace: "—",
+    blurb: "Fire damage in a fight where fire mattered — one of the few things that actually stopped the ghouls from healing.",
+    isYou: false
+  },
+  {
+    name: "William",
+    classRace: "—",
+    blurb: "Radiant damage dealer, asks the smart questions (witch covens, local lore), keeps the party moving in a sane direction.",
+    isYou: false
+  },
+  {
+    name: "Dog",
+    classRace: "—",
+    blurb: "Not an animal. A person, fully committed to playing a short, dirty, feral man-on-all-fours who answers to \"Dog\" and calls Bulbin \"master.\"",
+    isYou: false
+  },
+  {
+    name: "Phoenix Cloak",
+    classRace: "likely rogue",
+    blurb: "Newest recruit, met in a Vallaki tavern. Attuned the Stone of Luck the same night he joined.",
     isYou: false
   }
+  // { name: "...", classRace: "...", blurb: "...", isYou: true/false },
 ];
 
 // ---- Sessions --------------------------------------------------------------
@@ -425,33 +451,43 @@ const partyMembers = [
 // the "Show Oldest/Newest First" toggle handles display order.
 const sessions = [
   {
-    number: 0,
-    title: "The Mists Take Us",
-    date: "2026-07-01",
-    inGameDate: "Day 1",
-    tldr: "A rolling fog swallowed the road behind us and spat us out somewhere that isn't on any map we know.",
+    number: 1,
+    title: "New Allies and the Amber Temple Lead",
+    date: "2026-07-23",
+    inGameDate: "One evening through the following afternoon",
+    tldr: "Fresh out of a house that cost the party people, they recruited Dog and Phoenix Cloak in Vallaki, then rode out to a Vistani/Dusk Elf camp and picked up a third ally, Casimir — who says he knows where the Amber Temple is, and that it's tied to Strahd's immortality.",
     highlights: [
-      "Caught in an unnaturally thick mist on a familiar road; the way back vanished.",
-      "Emerged on a muddy road between twisted trees and a wrought-iron gate.",
-      "Found a fresh gravestone bearing a name none of us recognized.",
-      "A pale figure watched from a hillside, then was gone."
+      "Left \"the house\" where party members died; regrouped in Vallaki and recruited Dog and Phoenix Cloak.",
+      "Phoenix attuned to a found Stone of Luck (+1 ability checks and saving throws).",
+      "Traveled to a nearby Vistani/Dusk Elf camp on a tip from Sushura, an ally at the Vallaki inn.",
+      "Learned the Dusk Elves' tragic history with Strahd from an elder guard — a dead bride-to-be, a reincarnation curse, a slaughtered people.",
+      "Recruited Casimir, a dusk elf wizard, who revealed the Amber Temple's location and its link to Strahd's secret to immortality.",
+      "Agreed to route through Barovia village next, gathering allies before the one-way trip to the Temple."
     ],
-    quote: { text: "I'm not saying it's a vampire, I'm just saying everything about this says 'vampire.'", who: "Party member" },
-    cliffhanger: "The road forks: a village with lit windows to the left, a castle looming on a hill through a break in the fog to the right."
+    quote: { text: "This is the first handshake you've had all of Curse of Strahd.", who: "The DM, on Casimir" },
+    cliffhanger: "Party is en route to Barovia village, gathering allies before the long, treacherous, reportedly one-way trip to the Amber Temple."
   }
-  // { number: 1, title: "...", date: "...", inGameDate: "...", tldr: "...", highlights: [...], quote: {text:"...", who:"..."}, cliffhanger: "..." },
+  // { number: 2, title: "...", date: "...", inGameDate: "...", tldr: "...", highlights: [...], quote: {text:"...", who:"..."}, cliffhanger: "..." },
 ];
 
 // ---- Memorable quotes (separate from per-session quotes above, for the highlight reel) ----
 // ADD QUOTES HERE
 const quotes = [
-  { text: "I'm not saying it's a vampire, I'm just saying everything about this says 'vampire.'", who: "Party member", session: 0 }
+  { text: "Racist turtle.", who: "Table, context lost to the transcript", session: 1 },
+  { text: "This is the first handshake you've had all of Curse of Strahd.", who: "The DM, on Casimir", session: 1 },
+  { text: "We found a Catholic holiday.", who: "On finding lint in a pocket", session: 1 },
+  { text: "I got the double dragon.", who: "Bulbin, mid-drunken-almost-combustion", session: 1 },
+  { text: "He's just always big, I guess.", who: "On Dog getting enlarged into Clifford", session: 1 }
 ];
 
 // ---- Locations explored ----------------------------------------------------
 // ADD LOCATIONS HERE
 const locations = [
-  { name: "The Misty Road", session: 0, blurb: "Entry point into Barovia — gravestone, torn diary page, first sighting of the castle." }
+  { name: "\"The House\"", session: 1, blurb: "Where the party lost people to something ghoul-like before this log begins. Exact name/location TBD." },
+  { name: "Vallaki", session: 1, blurb: "Home base this session — an inn, allies Irina and Sushura, a town mid pro-Strahd \"celebration.\"" },
+  { name: "The Windmill", session: 1, blurb: "Site of a coven of three hags, killed roughly two in-game weeks before this session." },
+  { name: "Vistani / Dusk Elf Camp", session: 1, blurb: "Recruited Casimir here; learned the Dusk Elves' history with Strahd." },
+  { name: "Amber Temple", session: 1, blurb: "Not yet visited — a lead only. Past Barovia village, reportedly a one-way trip guarded by ancient traps." }
 ];
 
 /* =========================================================================
