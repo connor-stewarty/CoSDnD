@@ -189,6 +189,42 @@
     margin-bottom: 10px;
   }
 
+  /* ---------- Fallen ---------- */
+  .fallen-heading {
+    margin: 40px 0 16px;
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--ink-dim);
+  }
+  .fallen-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 18px;
+  }
+  .fallen-card {
+    background: var(--bg-panel);
+    border: 1px dashed var(--line);
+    border-radius: 12px;
+    padding: 18px 22px;
+    opacity: 0.75;
+  }
+  .fallen-card h4 {
+    margin: 0 0 4px;
+    font-size: 17px;
+    color: var(--ink-dim);
+  }
+  .fallen-card h4::before { content: "✝ "; color: var(--blood); }
+  .fallen-card .role {
+    color: var(--gold-dim);
+    font-size: 12px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+  }
+  .fallen-card p { margin: 0; color: var(--ink-dim); font-size: 14px; }
+
   /* ---------- Timeline ---------- */
   .timeline-controls {
     text-align: center;
@@ -360,6 +396,7 @@
     <h2 class="section-title">The Party</h2>
     <h3 class="section-heading">Who Wandered In</h3>
     <div class="roster" id="roster"></div>
+    <div id="fallen-wrap"></div>
   </div>
 </section>
 
@@ -420,16 +457,10 @@ const partyMembers = [
     isYou: false
   },
   {
-    name: "Cassius",
-    classRace: "—",
-    blurb: "Fire damage in a fight where fire mattered — one of the few things that actually stopped the ghouls from healing.",
-    isYou: false
-  },
-  {
-    name: "William",
-    classRace: "—",
-    blurb: "Radiant damage dealer, asks the smart questions (witch covens, local lore), keeps the party moving in a sane direction.",
-    isYou: false
+    name: "Scottishbard",
+    classRace: "Bard",
+    blurb: "The name is the whole bit: introduced himself to Casimir with \"well, I'm Scottish, bard\" one line before the campaign's first handshake. Also handles door-barring duty on the road.",
+    isYou: true
   },
   {
     name: "Dog",
@@ -440,10 +471,22 @@ const partyMembers = [
   {
     name: "Phoenix Cloak",
     classRace: "likely rogue",
-    blurb: "Newest recruit, met in a Vallaki tavern. Attuned the Stone of Luck the same night he joined.",
+    blurb: "Newest recruit, met in a Vallaki tavern, stepping in after Cassius (a wizard) died in \"the house.\" Attuned the Stone of Luck the same night he joined.",
+    isYou: false
+  },
+  {
+    name: "Casimir",
+    classRace: "Wizard • Dusk Elf",
+    blurb: "Leader of the Dusk Elves camped alongside the Vistani. Knows where the Amber Temple is and thinks it holds Strahd's secret. Joined the party this session.",
     isYou: false
   }
   // { name: "...", classRace: "...", blurb: "...", isYou: true/false },
+];
+
+// Fallen party members — not shown in the active roster above, but worth remembering.
+// ADD FALLEN PARTY MEMBERS HERE
+const fallen = [
+  { name: "Cassius", classRace: "Wizard", session: 1, blurb: "Died in \"the house,\" just before this log begins. Dealt fire damage in the fight that killed him — fire and radiant were the only things that stopped the enemy regenerating. Replaced by Phoenix Cloak." }
 ];
 
 // ---- Sessions --------------------------------------------------------------
@@ -526,6 +569,22 @@ function renderRoster() {
       </div>
     `));
   });
+
+  const fallenWrap = document.getElementById('fallen-wrap');
+  if (typeof fallen !== 'undefined' && fallen.length) {
+    fallenWrap.appendChild(el('<div class="fallen-heading">In Memoriam</div>'));
+    const grid = el('<div class="fallen-grid"></div>');
+    fallen.forEach(f => {
+      grid.appendChild(el(`
+        <div class="fallen-card">
+          <h4>${f.name}</h4>
+          <div class="role">${f.classRace}${f.session !== undefined ? ' · Session ' + String(f.session).padStart(2, '0') : ''}</div>
+          <p>${f.blurb}</p>
+        </div>
+      `));
+    });
+    fallenWrap.appendChild(grid);
+  }
 }
 
 let order = 'newest';
