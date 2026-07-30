@@ -3,25 +3,51 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="A player's-eye chronicle of our Curse of Strahd campaign: sessions, party, places, and the lines nobody will let us forget.">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#0d0a0e">
 <title>Curse of Strahd — Campaign Chronicle</title>
 <style>
   :root {
+    /* Surfaces */
     --bg: #0d0a0e;
     --bg-panel: #17121a;
     --bg-panel-2: #1e1620;
     --line: #3a2a30;
+
+    /* Ink */
     --ink: #e7ddd0;
     --ink-dim: #a89a94;
+
+    /* Accents. The -ink variants are the only ones allowed to carry text:
+       the darker originals stay on hairlines, borders and ornaments. */
     --blood: #8f2436;
     --blood-bright: #b8394d;
+    --blood-ink: #cf6274;
     --gold: #c9a24b;
     --gold-dim: #8a7238;
-    --shadow: rgba(0,0,0,0.55);
+    --gold-ink: #a89047;
+
+    /* Spacing scale */
+    --s-1: 6px;
+    --s-2: 12px;
+    --s-3: 18px;
+    --s-4: 28px;
+    --s-5: 44px;
+    --s-6: 72px;
+
+    --radius: 12px;
+    --radius-sm: 8px;
+    --measure: 68ch;
+    --shadow-card: 0 10px 24px -14px rgba(0, 0, 0, 0.85);
   }
 
   * { box-sizing: border-box; }
 
-  html { scroll-behavior: smooth; }
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
 
   body {
     margin: 0;
@@ -29,271 +55,323 @@
     color: var(--ink);
     font-family: Georgia, 'Iowan Old Style', 'Palatino Linotype', 'Times New Roman', serif;
     line-height: 1.6;
+    text-rendering: optimizeLegibility;
   }
 
   a { color: var(--gold); }
 
-  .wrap { max-width: 880px; margin: 0 auto; padding: 0 24px; }
+  :focus-visible {
+    outline: 2px solid var(--gold);
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+
+  .wrap { max-width: 880px; margin: 0 auto; padding: 0 var(--s-4); }
+
+  .icon {
+    width: 1em;
+    height: 1em;
+    flex: none;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 1.5;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
 
   /* ---------- Hero ---------- */
   .hero {
     position: relative;
-    padding: 110px 24px 90px;
+    padding: 112px var(--s-4) 88px;
     text-align: center;
     overflow: hidden;
     border-bottom: 1px solid var(--line);
     background:
-      radial-gradient(ellipse 70% 60% at 50% 0%, rgba(143,36,54,0.18), transparent 70%),
+      radial-gradient(ellipse 70% 60% at 50% 0%, rgba(143, 36, 54, 0.18), transparent 70%),
       linear-gradient(180deg, #140f14 0%, #0d0a0e 100%);
   }
   .hero::before {
     content: "";
     position: absolute; inset: 0;
-    background: repeating-linear-gradient(115deg, rgba(255,255,255,0.015) 0 2px, transparent 2px 6px);
+    background: repeating-linear-gradient(115deg, rgba(255, 255, 255, 0.015) 0 2px, transparent 2px 6px);
     pointer-events: none;
     animation: drift 40s linear infinite;
   }
   @keyframes drift {
-    0% { transform: translateX(0); }
-    100% { transform: translateX(-120px); }
-  }
-  .eyebrow {
-    letter-spacing: 0.35em;
-    text-transform: uppercase;
-    font-size: 12px;
-    color: var(--gold-dim);
-    margin: 0 0 18px;
+    from { transform: translateX(0); }
+    to { transform: translateX(-120px); }
   }
   h1.title {
-    font-family: Georgia, 'Times New Roman', serif;
-    font-size: clamp(40px, 8vw, 72px);
-    letter-spacing: 0.04em;
+    font-size: clamp(44px, 8vw, 76px);
+    line-height: 1.05;
+    letter-spacing: 0.02em;
     margin: 0;
     color: var(--ink);
-    text-shadow: 0 0 24px rgba(143,36,54,0.55), 0 2px 0 #000;
+    text-wrap: balance;
+    text-shadow: 0 2px 0 #000, 0 14px 34px rgba(0, 0, 0, 0.6);
   }
-  .title .accent { color: var(--blood-bright); }
+  .title .accent { color: var(--blood-ink); }
   .subtitle {
-    margin: 18px auto 0;
-    max-width: 560px;
+    margin: var(--s-3) auto 0;
+    max-width: 34em;
     color: var(--ink-dim);
     font-style: italic;
     font-size: 17px;
-  }
-  .divider {
-    margin: 34px auto 0;
-    width: 220px;
-    height: 1px;
-    background: linear-gradient(90deg, transparent, var(--gold-dim), transparent);
-  }
-  .divider::after {
-    content: "✦";
-    display: block;
-    text-align: center;
-    color: var(--gold-dim);
-    font-size: 14px;
-    margin-top: -9px;
-    background: transparent;
+    text-wrap: pretty;
   }
 
-  /* ---------- Stat strip ---------- */
-  .stats {
+  /* Ornament: a drawn mark on a hairline, not a glyph. */
+  .divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--s-2);
+    margin: var(--s-4) auto 0;
+    width: 220px;
+    color: var(--gold-dim);
+  }
+  .divider::before,
+  .divider::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, currentColor);
+  }
+  .divider::after { background: linear-gradient(90deg, currentColor, transparent); }
+  .divider .icon { width: 11px; height: 11px; }
+
+  /* ---------- Ledger (campaign tallies) ---------- */
+  .ledger {
+    list-style: none;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 14px;
-    margin-top: 40px;
-  }
-  .stat {
-    background: var(--bg-panel);
-    border: 1px solid var(--line);
-    border-radius: 10px;
-    padding: 14px 22px;
-    min-width: 120px;
-  }
-  .stat .n {
-    font-size: 26px;
-    color: var(--gold);
-    font-weight: bold;
-    display: block;
-  }
-  .stat .l {
-    font-size: 11px;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
+    align-items: baseline;
+    gap: var(--s-1) var(--s-3);
+    margin: var(--s-4) 0 0;
+    padding: 0;
+    font-size: 14px;
     color: var(--ink-dim);
+  }
+  .ledger li {
+    display: flex;
+    align-items: baseline;
+    gap: 0.45em;
+  }
+  .ledger li + li::before {
+    content: "·";
+    color: var(--gold-dim);
+    margin-right: 0.45em;
+  }
+  .ledger .n {
+    font-size: 17px;
+    color: var(--gold);
   }
 
   /* ---------- Sections ---------- */
-  section { padding: 70px 0; }
+  section { padding: var(--s-6) 0; }
   section + section { border-top: 1px solid var(--line); }
 
-  h2.section-title {
-    font-size: 13px;
-    letter-spacing: 0.3em;
-    text-transform: uppercase;
-    color: var(--gold-dim);
+  h2.section-heading {
     text-align: center;
-    margin: 0 0 8px;
-  }
-  h3.section-heading {
-    text-align: center;
-    font-size: clamp(26px, 4vw, 34px);
-    margin: 0 0 34px;
+    font-size: clamp(27px, 4vw, 34px);
+    line-height: 1.2;
+    margin: 0 0 var(--s-5);
     color: var(--ink);
+    text-wrap: balance;
+  }
+  h3.subheading {
+    margin: var(--s-5) 0 var(--s-3);
+    text-align: center;
+    font-size: 12px;
+    font-weight: normal;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--ink-dim);
   }
 
   .story p {
     font-size: 18px;
     color: var(--ink-dim);
-    text-align: center;
-    max-width: 640px;
+    max-width: var(--measure);
     margin: 0 auto;
+    text-wrap: pretty;
+  }
+
+  .label {
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--gold-ink);
+  }
+
+  .grid {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: var(--s-3);
+    margin: 0;
+    padding: 0;
   }
 
   /* ---------- Party roster ---------- */
-  .roster {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 18px;
-  }
   .card {
     background: var(--bg-panel);
     border: 1px solid var(--line);
-    border-radius: 12px;
-    padding: 22px;
-    box-shadow: 0 8px 24px var(--shadow);
+    border-radius: var(--radius);
+    padding: var(--s-4) var(--s-3);
+    box-shadow: var(--shadow-card);
   }
   .card.you { border-color: var(--blood); }
-  .card h4 {
-    margin: 0 0 4px;
+  .card h3 {
+    margin: 0 0 var(--s-1);
     font-size: 19px;
+    line-height: 1.25;
     color: var(--ink);
   }
-  .card .role {
-    color: var(--gold-dim);
-    font-size: 13px;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    margin-bottom: 10px;
+  .card .label { display: block; margin-bottom: var(--s-2); }
+  .card p {
+    margin: 0;
+    color: var(--ink-dim);
+    font-size: 15px;
+    text-wrap: pretty;
   }
-  .card p { margin: 0; color: var(--ink-dim); font-size: 15px; }
   .you-tag {
     display: inline-block;
-    font-size: 10px;
+    font-size: 11px;
     letter-spacing: 0.1em;
-    color: var(--blood-bright);
+    text-transform: uppercase;
+    color: var(--blood-ink);
     border: 1px solid var(--blood);
     border-radius: 20px;
-    padding: 2px 8px;
-    margin-bottom: 10px;
+    padding: 1px 9px;
+    margin-bottom: var(--s-2);
   }
 
   /* ---------- Fallen ---------- */
-  .fallen-heading {
-    margin: 40px 0 16px;
-    text-align: center;
-    font-size: 12px;
-    letter-spacing: 0.2em;
-    text-transform: uppercase;
-    color: var(--ink-dim);
-  }
-  .fallen-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 18px;
-  }
   .fallen-card {
     background: var(--bg-panel);
     border: 1px dashed var(--line);
-    border-radius: 12px;
-    padding: 18px 22px;
-    opacity: 0.75;
+    border-radius: var(--radius);
+    padding: var(--s-3) var(--s-3) var(--s-4);
   }
   .fallen-card h4 {
-    margin: 0 0 4px;
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    margin: 0 0 var(--s-1);
     font-size: 17px;
+    line-height: 1.25;
+    color: var(--ink);
+  }
+  .fallen-card h4 .icon { color: var(--blood-ink); }
+  .fallen-card .label { display: block; margin-bottom: var(--s-2); }
+  .fallen-card p {
+    margin: 0;
     color: var(--ink-dim);
+    font-size: 14px;
+    text-wrap: pretty;
   }
-  .fallen-card h4::before { content: "✝ "; color: var(--blood); }
-  .fallen-card .role {
-    color: var(--gold-dim);
-    font-size: 12px;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    margin-bottom: 8px;
-  }
-  .fallen-card p { margin: 0; color: var(--ink-dim); font-size: 14px; }
 
   /* ---------- Timeline ---------- */
   .timeline-controls {
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: var(--s-4);
   }
   .timeline-controls button {
+    min-height: 44px;
     background: var(--bg-panel-2);
     color: var(--ink);
     border: 1px solid var(--line);
-    padding: 8px 16px;
-    border-radius: 20px;
+    padding: var(--s-2) var(--s-3);
+    border-radius: 22px;
     font-size: 12px;
     letter-spacing: 0.08em;
     text-transform: uppercase;
     cursor: pointer;
     font-family: inherit;
+    transition: border-color 160ms ease, color 160ms ease;
   }
   .timeline-controls button:hover { border-color: var(--gold-dim); color: var(--gold); }
+  .timeline-controls button:active { background: var(--bg-panel); }
 
   .session {
+    --indent: 110px;
     background: var(--bg-panel);
     border: 1px solid var(--line);
-    border-radius: 12px;
-    margin-bottom: 16px;
+    border-radius: var(--radius);
+    margin-bottom: var(--s-3);
     overflow: hidden;
   }
   .session summary {
     list-style: none;
     cursor: pointer;
-    padding: 20px 24px;
-    display: flex;
+    padding: var(--s-3) var(--s-4);
+    /* Grid, not wrapping flex: the chevron stays pinned right and vertically
+       centred however far the title and dateline wrap. */
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr) auto;
+    grid-template-areas:
+      "num title chev"
+      "num date  chev";
     align-items: baseline;
-    gap: 16px;
-    flex-wrap: wrap;
+    gap: var(--s-1) var(--s-3);
   }
   .session summary::-webkit-details-marker { display: none; }
+  .session summary:hover .stitle { color: var(--gold); }
   .session .num {
-    color: var(--blood-bright);
+    grid-area: num;
+    min-width: 70px;
+    color: var(--blood-ink);
     font-size: 13px;
     letter-spacing: 0.1em;
-    min-width: 70px;
   }
-  .session .stitle { font-size: 19px; color: var(--ink); flex: 1; min-width: 160px; }
-  .session .sdate { color: var(--ink-dim); font-size: 13px; }
+  .session .stitle {
+    grid-area: title;
+    margin: 0;
+    font-size: 19px;
+    font-weight: normal;
+    line-height: 1.3;
+    color: var(--ink);
+    transition: color 160ms ease;
+  }
+  .session .sdate { grid-area: date; color: var(--ink-dim); font-size: 13px; }
+  .session .chev {
+    grid-area: chev;
+    align-self: center;
+    width: 14px;
+    height: 14px;
+    color: var(--ink-dim);
+    transition: transform 200ms cubic-bezier(0.22, 1, 0.36, 1);
+  }
+  .session[open] .chev { transform: rotate(180deg); }
   .session .tldr {
-    padding: 0 24px 20px 110px;
+    padding: 0 var(--s-4) var(--s-3) var(--indent);
+    max-width: var(--measure);
     color: var(--ink-dim);
     font-size: 15px;
-    margin-top: -12px;
   }
   .session .body {
-    padding: 4px 24px 24px 110px;
+    padding: var(--s-2) var(--s-4) var(--s-4) var(--indent);
+    max-width: var(--measure);
     border-top: 1px dashed var(--line);
-    margin-top: 4px;
   }
-  .session .body h5 {
-    margin: 16px 0 6px;
-    color: var(--gold-dim);
+  .session .body h4 {
+    margin: var(--s-3) 0 var(--s-1);
     font-size: 12px;
+    font-weight: normal;
     letter-spacing: 0.1em;
     text-transform: uppercase;
+    color: var(--gold-ink);
   }
-  .session .body ul { margin: 6px 0; padding-left: 20px; color: var(--ink); }
+  .session .body ul { margin: var(--s-1) 0; padding-left: 20px; color: var(--ink); }
+  .session .body li + li { margin-top: var(--s-1); }
   .session .quote-inline {
-    border-left: 2px solid var(--blood);
-    padding-left: 14px;
+    border-left: 1px solid var(--blood);
+    padding-left: var(--s-2);
     font-style: italic;
     color: var(--ink);
-    margin: 10px 0;
+    margin: var(--s-2) 0;
   }
   .session .cliff {
     color: var(--ink);
@@ -302,60 +380,61 @@
 
   /* ---------- Quotes ---------- */
   .quote-grid {
+    list-style: none;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-    gap: 18px;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap: var(--s-3) var(--s-5);
+    margin: 0;
+    padding: 0;
   }
-  .quote-card {
-    background: var(--bg-panel-2);
-    border-left: 3px solid var(--blood);
-    border-radius: 8px;
-    padding: 20px 22px;
+  .quote-grid figure {
+    margin: 0;
+    padding-top: var(--s-3);
+    border-top: 1px solid var(--line);
   }
-  .quote-card p.q {
-    font-size: 18px;
+  .quote-grid blockquote {
+    margin: 0 0 var(--s-2);
+    font-size: 19px;
     font-style: italic;
-    margin: 0 0 10px;
+    line-height: 1.45;
     color: var(--ink);
+    text-wrap: pretty;
   }
-  .quote-card p.q::before { content: "“"; color: var(--blood-bright); }
-  .quote-card p.q::after { content: "”"; color: var(--blood-bright); }
-  .quote-card .who {
-    font-size: 12px;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    color: var(--gold-dim);
-  }
+  .quote-grid blockquote p { margin: 0; text-indent: -0.4em; }
+  .quote-grid figcaption { font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--gold-ink); }
 
   /* ---------- Locations ---------- */
-  .loc-grid {
+  .loc-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid var(--line);
+  }
+  .loc-list li {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 18px;
+    grid-template-columns: 1fr minmax(0, 1.6fr);
+    gap: var(--s-1) var(--s-4);
+    padding: var(--s-3) 0;
+    border-bottom: 1px solid var(--line);
   }
-  .loc-card {
-    background: var(--bg-panel);
-    border: 1px solid var(--line);
-    border-radius: 12px;
-    padding: 20px;
+  .loc-list h3 {
+    margin: 0;
+    font-size: 18px;
+    line-height: 1.3;
+    color: var(--ink);
   }
-  .loc-card h4 { margin: 0 0 6px; color: var(--ink); font-size: 17px; }
-  .loc-card .meta {
-    font-size: 11px;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    color: var(--gold-dim);
-    margin-bottom: 8px;
-  }
-  .loc-card p { margin: 0; color: var(--ink-dim); font-size: 14px; }
+  .loc-list .label { display: block; margin-top: 2px; }
+  .loc-list p { margin: 0; color: var(--ink-dim); font-size: 15px; text-wrap: pretty; }
 
   footer {
     text-align: center;
-    padding: 50px 24px 70px;
+    padding: var(--s-5) var(--s-4) var(--s-6);
     color: var(--ink-dim);
     font-size: 13px;
   }
-  footer .raven { color: var(--gold-dim); margin-bottom: 8px; font-size: 20px; }
+  footer .mark { color: var(--gold-dim); margin-bottom: var(--s-2); }
+  footer .mark .icon { width: 13px; height: 13px; }
+  footer .updated { margin-top: var(--s-1); }
 
   .empty-note {
     text-align: center;
@@ -363,24 +442,67 @@
     font-size: 14px;
     font-style: italic;
   }
+
+  .visually-hidden {
+    position: absolute;
+    width: 1px; height: 1px;
+    margin: -1px; padding: 0;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+  }
+
+  /* ---------- Narrow screens ---------- */
+  @media (max-width: 700px) {
+    .hero { padding: 80px var(--s-3) 64px; }
+    .wrap { padding: 0 var(--s-3); }
+    section { padding: var(--s-5) 0; }
+    .session { --indent: var(--s-3); }
+    .session summary {
+      padding: var(--s-3);
+      grid-template-columns: minmax(0, 1fr) auto;
+      grid-template-areas:
+        "num   chev"
+        "title chev"
+        "date  chev";
+    }
+    .session .tldr,
+    .session .body { padding-right: var(--s-3); }
+    .loc-list li { grid-template-columns: 1fr; }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after {
+      animation-duration: 0.001ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.001ms !important;
+    }
+  }
 </style>
 </head>
 <body>
 
+<svg width="0" height="0" aria-hidden="true" focusable="false" style="position:absolute">
+  <symbol id="i-mark" viewBox="0 0 24 24"><path d="M12 2 22 12 12 22 2 12Z"/></symbol>
+  <symbol id="i-grave" viewBox="0 0 24 24"><path d="M12 3v18M6 8h12"/></symbol>
+  <symbol id="i-chevron" viewBox="0 0 24 24"><path d="m5 9 7 7 7-7"/></symbol>
+</svg>
+
 <div class="hero">
   <div class="wrap">
-    <p class="eyebrow">A Campaign Chronicle</p>
     <h1 class="title">Curse of <span class="accent">Strahd</span></h1>
     <p class="subtitle" id="campaign-subtitle">A year into Barovia, still not dead, still not free — this is where we started actually writing it down.</p>
-    <div class="divider"></div>
-    <div class="stats" id="stats-row"></div>
+    <div class="divider" aria-hidden="true"><svg class="icon"><use href="#i-mark"/></svg></div>
+    <ul class="ledger" id="ledger"></ul>
   </div>
 </div>
 
-<section class="story">
+<main>
+
+<section class="story" aria-labelledby="h-story">
   <div class="wrap">
-    <h2 class="section-title">Where things stand</h2>
-    <h3 class="section-heading">The Story So Far</h3>
+    <h2 class="section-heading" id="h-story">The Story So Far</h2>
     <!-- Replace this paragraph with a 2-4 sentence rolling summary of the campaign. Update it every few sessions. -->
     <p id="story-so-far">
       About a year into the campaign, fresh out of a house that cost them people, the party regrouped in Vallaki,
@@ -391,46 +513,44 @@
   </div>
 </section>
 
-<section>
+<section aria-labelledby="h-party">
   <div class="wrap">
-    <h2 class="section-title">The Party</h2>
-    <h3 class="section-heading">Who Wandered In</h3>
-    <div class="roster" id="roster"></div>
+    <h2 class="section-heading" id="h-party">Who Wandered In</h2>
+    <ul class="grid" id="roster"></ul>
     <div id="fallen-wrap"></div>
   </div>
 </section>
 
-<section>
+<section aria-labelledby="h-timeline">
   <div class="wrap">
-    <h2 class="section-title">Session Log</h2>
-    <h3 class="section-heading">The Timeline</h3>
+    <h2 class="section-heading" id="h-timeline">The Timeline</h2>
     <div class="timeline-controls">
-      <button id="order-toggle">Show Oldest First</button>
+      <button id="order-toggle" type="button">Show Oldest First</button>
     </div>
     <div id="timeline"></div>
   </div>
 </section>
 
-<section>
+<section aria-labelledby="h-quotes">
   <div class="wrap">
-    <h2 class="section-title">Best Of</h2>
-    <h3 class="section-heading">Memorable Quotes</h3>
-    <div class="quote-grid" id="quotes"></div>
+    <h2 class="section-heading" id="h-quotes">Memorable Quotes</h2>
+    <ul class="quote-grid" id="quotes"></ul>
   </div>
 </section>
 
-<section>
+<section aria-labelledby="h-locations">
   <div class="wrap">
-    <h2 class="section-title">The Valley</h2>
-    <h3 class="section-heading">Locations Explored</h3>
-    <div class="loc-grid" id="locations"></div>
+    <h2 class="section-heading" id="h-locations">Locations Explored</h2>
+    <ul class="loc-list" id="locations"></ul>
   </div>
 </section>
+
+</main>
 
 <footer>
-  <div class="raven">🦅</div>
+  <div class="mark" aria-hidden="true"><svg class="icon"><use href="#i-mark"/></svg></div>
   <div>The mists remember everything, even when the party doesn't.</div>
-  <div id="last-updated" style="margin-top:6px;"></div>
+  <div class="updated" id="last-updated"></div>
 </footer>
 
 <script>
@@ -537,50 +657,64 @@ const locations = [
    RENDERING — no need to touch anything below this line
    ========================================================================= */
 
+const ESCAPES = { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' };
+
+// Campaign entries are hand-written prose, so quotes, ampersands and the odd
+// angle bracket are expected. Escape them instead of trusting them as markup.
+function esc(value) {
+  return String(value === undefined || value === null ? '' : value).replace(/[&<>"']/g, c => ESCAPES[c]);
+}
+
 function el(html) {
   const t = document.createElement('template');
   t.innerHTML = html.trim();
   return t.content.firstChild;
 }
 
-function renderStats() {
-  const stats = [
-    { n: sessions.length, l: "Sessions" },
-    { n: partyMembers.length, l: "Party Members" },
-    { n: locations.length, l: "Places Found" },
-    { n: quotes.length, l: "Quotable Moments" }
+function sessionLabel(n) {
+  return 'Session ' + String(n).padStart(2, '0');
+}
+
+function count(n, singular, plural) {
+  return `<span class="n">${n}</span> ${n === 1 ? singular : plural}`;
+}
+
+function renderLedger() {
+  const entries = [
+    count(sessions.length, 'session', 'sessions'),
+    count(partyMembers.length, 'party member', 'party members'),
+    count(locations.length, 'place found', 'places found'),
+    count(quotes.length, 'quotable moment', 'quotable moments')
   ];
-  const row = document.getElementById('stats-row');
-  stats.forEach(s => {
-    row.appendChild(el(`<div class="stat"><span class="n">${s.n}</span><span class="l">${s.l}</span></div>`));
-  });
+  const row = document.getElementById('ledger');
+  entries.forEach(e => row.appendChild(el(`<li>${e}</li>`)));
 }
 
 function renderRoster() {
   const wrap = document.getElementById('roster');
-  if (!partyMembers.length) { wrap.appendChild(el('<p class="empty-note">No party members added yet.</p>')); return; }
+  if (!partyMembers.length) { wrap.appendChild(el('<li class="empty-note">No party members added yet.</li>')); return; }
   partyMembers.forEach(m => {
     wrap.appendChild(el(`
-      <div class="card ${m.isYou ? 'you' : ''}">
-        ${m.isYou ? '<span class="you-tag">You</span><br>' : ''}
-        <h4>${m.name}</h4>
-        <div class="role">${m.classRace}</div>
-        <p>${m.blurb}</p>
-      </div>
+      <li class="card ${m.isYou ? 'you' : ''}">
+        ${m.isYou ? '<span class="you-tag">You</span>' : ''}
+        <h3>${esc(m.name)}</h3>
+        <span class="label">${esc(m.classRace)}</span>
+        <p>${esc(m.blurb)}</p>
+      </li>
     `));
   });
 
   const fallenWrap = document.getElementById('fallen-wrap');
   if (typeof fallen !== 'undefined' && fallen.length) {
-    fallenWrap.appendChild(el('<div class="fallen-heading">In Memoriam</div>'));
-    const grid = el('<div class="fallen-grid"></div>');
+    fallenWrap.appendChild(el('<h3 class="subheading">In Memoriam</h3>'));
+    const grid = el('<ul class="grid"></ul>');
     fallen.forEach(f => {
       grid.appendChild(el(`
-        <div class="fallen-card">
-          <h4>${f.name}</h4>
-          <div class="role">${f.classRace}${f.session !== undefined ? ' · Session ' + String(f.session).padStart(2, '0') : ''}</div>
-          <p>${f.blurb}</p>
-        </div>
+        <li class="fallen-card">
+          <h4><svg class="icon" aria-hidden="true"><use href="#i-grave"/></svg>${esc(f.name)}</h4>
+          <span class="label">${esc(f.classRace)}${f.session !== undefined ? ' · ' + sessionLabel(f.session) : ''}</span>
+          <p>${esc(f.blurb)}</p>
+        </li>
       `));
     });
     fallenWrap.appendChild(grid);
@@ -594,19 +728,21 @@ function renderTimeline() {
   if (!sessions.length) { wrap.appendChild(el('<p class="empty-note">No sessions logged yet — add your first entry to the sessions array.</p>')); return; }
   const list = [...sessions].sort((a, b) => order === 'newest' ? b.number - a.number : a.number - b.number);
   list.forEach(s => {
-    const highlightsHtml = (s.highlights || []).map(h => `<li>${h}</li>`).join('');
+    const highlightsHtml = (s.highlights || []).map(h => `<li>${esc(h)}</li>`).join('');
+    const dateline = [s.date ? esc(s.date) : '', s.inGameDate ? 'In-game: ' + esc(s.inGameDate) : ''].filter(Boolean).join(' · ');
     wrap.appendChild(el(`
       <details class="session" ${s === list[0] ? 'open' : ''}>
         <summary>
-          <span class="num">SESSION ${String(s.number).padStart(2, '0')}</span>
-          <span class="stitle">${s.title}</span>
-          <span class="sdate">${s.date || ''}${s.inGameDate ? ' · In-game: ' + s.inGameDate : ''}</span>
+          <span class="num">${sessionLabel(s.number).toUpperCase()}</span>
+          <h3 class="stitle">${esc(s.title)}</h3>
+          <span class="sdate">${dateline}</span>
+          <svg class="icon chev" aria-hidden="true"><use href="#i-chevron"/></svg>
         </summary>
-        <div class="tldr">${s.tldr || ''}</div>
+        <div class="tldr">${esc(s.tldr)}</div>
         <div class="body">
-          ${highlightsHtml ? `<h5>What Happened</h5><ul>${highlightsHtml}</ul>` : ''}
-          ${s.quote ? `<div class="quote-inline">"${s.quote.text}" — ${s.quote.who}</div>` : ''}
-          ${s.cliffhanger ? `<h5>Where We Left Off</h5><p class="cliff">${s.cliffhanger}</p>` : ''}
+          ${highlightsHtml ? `<h4>What Happened</h4><ul>${highlightsHtml}</ul>` : ''}
+          ${s.quote ? `<blockquote class="quote-inline">“${esc(s.quote.text)}” — ${esc(s.quote.who)}</blockquote>` : ''}
+          ${s.cliffhanger ? `<h4>Where We Left Off</h4><p class="cliff">${esc(s.cliffhanger)}</p>` : ''}
         </div>
       </details>
     `));
@@ -615,27 +751,31 @@ function renderTimeline() {
 
 function renderQuotes() {
   const wrap = document.getElementById('quotes');
-  if (!quotes.length) { wrap.appendChild(el('<p class="empty-note">No quotes logged yet.</p>')); return; }
+  if (!quotes.length) { wrap.appendChild(el('<li class="empty-note">No quotes logged yet.</li>')); return; }
   quotes.forEach(q => {
     wrap.appendChild(el(`
-      <div class="quote-card">
-        <p class="q">${q.text}</p>
-        <div class="who">${q.who}${q.session !== undefined ? ' · Session ' + String(q.session).padStart(2, '0') : ''}</div>
-      </div>
+      <li>
+        <figure>
+          <blockquote><p>“${esc(q.text)}”</p></blockquote>
+          <figcaption>${esc(q.who)}${q.session !== undefined ? ' · ' + sessionLabel(q.session) : ''}</figcaption>
+        </figure>
+      </li>
     `));
   });
 }
 
 function renderLocations() {
   const wrap = document.getElementById('locations');
-  if (!locations.length) { wrap.appendChild(el('<p class="empty-note">No locations logged yet.</p>')); return; }
+  if (!locations.length) { wrap.appendChild(el('<li class="empty-note">No locations logged yet.</li>')); return; }
   locations.forEach(l => {
     wrap.appendChild(el(`
-      <div class="loc-card">
-        <h4>${l.name}</h4>
-        <div class="meta">First visited · Session ${String(l.session).padStart(2, '0')}</div>
-        <p>${l.blurb}</p>
-      </div>
+      <li>
+        <div>
+          <h3>${esc(l.name)}</h3>
+          <span class="label">First visited · ${sessionLabel(l.session)}</span>
+        </div>
+        <p>${esc(l.blurb)}</p>
+      </li>
     `));
   });
 }
@@ -646,7 +786,7 @@ document.getElementById('order-toggle').addEventListener('click', function () {
   renderTimeline();
 });
 
-renderStats();
+renderLedger();
 renderRoster();
 renderTimeline();
 renderQuotes();
