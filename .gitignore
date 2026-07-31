@@ -13,3 +13,6 @@ Thumbs.db
 
 # Local cleanup scratch space (stale git lock/tmp files the bridge couldn't unlink)
 /_to_delete/
+
+# Impeccable design-hook scratch (regenerated per session)
+.impeccable/hook.cache.json

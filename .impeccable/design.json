@@ -1,0 +1,179 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-07-31T00:00:00.000Z",
+  "title": "Design System: Curse of Strahd — Campaign Chronicle",
+  "extensions": {
+    "colorMeta": {
+      "void": { "role": "neutral", "displayName": "Void", "canonical": "#0a090c", "tonalRamp": ["#0a090c", "#131118", "#1d1a25", "#2a2534", "#3b3548", "#5e566f", "#8f88a0", "#cfcbd8"] },
+      "field": { "role": "neutral", "displayName": "Field Black", "canonical": "#121016", "tonalRamp": ["#0b0a0e", "#121016", "#1c1922", "#2a2533", "#3d3748", "#615a72", "#928ba2", "#d0ccda"] },
+      "field-2": { "role": "neutral", "displayName": "Raised Field", "canonical": "#17141b", "tonalRamp": ["#0c0a0e", "#17141b", "#221e29", "#312b3a", "#453d52", "#6a6179", "#9a92a8", "#d4d0dd"] },
+      "blood": { "role": "primary", "displayName": "Oxblood", "canonical": "#4e1220", "tonalRamp": ["#1c060b", "#2b0a11", "#3c0d19", "#4e1220", "#6b1a2c", "#93304a", "#c06c81", "#e8bcc4"] },
+      "blood-deep": { "role": "primary", "displayName": "Deep Oxblood", "canonical": "#2b0a11", "tonalRamp": ["#150409", "#2b0a11", "#3d0f19", "#521523", "#701f31", "#98394f", "#c47686", "#eac2c8"] },
+      "blood-line": { "role": "primary", "displayName": "Blood Hairline", "canonical": "#7a2033", "tonalRamp": ["#2a0a11", "#40101a", "#571726", "#6f1c2d", "#7a2033", "#a03e53", "#c87c8c", "#ecc3ca"] },
+      "rose": { "role": "tertiary", "displayName": "Rose Ink", "canonical": "#e8a3ad", "tonalRamp": ["#3d1a20", "#59262e", "#77343e", "#96454f", "#b45f69", "#cd7f89", "#e8a3ad", "#f7d8dc"] },
+      "rose-mid": { "role": "tertiary", "displayName": "Rose Mid", "canonical": "#d9a7ae", "tonalRamp": ["#391b1f", "#54292e", "#71383e", "#8f4a51", "#ac6068", "#c48189", "#d9a7ae", "#f2dadd"] },
+      "rose-dim": { "role": "tertiary", "displayName": "Rose Dim", "canonical": "#b2848c", "tonalRamp": ["#2e191c", "#452629", "#5d3439", "#77444a", "#91575e", "#a56d74", "#b2848c", "#dcbec3"] },
+      "bone": { "role": "neutral", "displayName": "Bone", "canonical": "#f0eae0", "tonalRamp": ["#2a251e", "#3e382e", "#544d41", "#6c6456", "#8b8274", "#ada497", "#d0c9bd", "#f0eae0"] },
+      "bone-dim": { "role": "neutral", "displayName": "Dimmed Bone", "canonical": "#b4aa9d", "tonalRamp": ["#241f18", "#372f26", "#4c4336", "#635849", "#7d715f", "#998d7b", "#b4aa9d", "#ded8cf"] },
+      "bone-faint": { "role": "neutral", "displayName": "Faint Bone", "canonical": "#8b8177", "tonalRamp": ["#1e1a17", "#2f2a25", "#423b34", "#574e45", "#6e6459", "#8b8177", "#aca395", "#d5cec4"] },
+      "gold": { "role": "secondary", "displayName": "Struck Gold", "canonical": "#d9b463", "tonalRamp": ["#2b2210", "#413418", "#584722", "#715b2b", "#8d7337", "#ab8d47", "#d9b463", "#f2e2ba"] },
+      "gold-mid": { "role": "secondary", "displayName": "Working Metal", "canonical": "#a8843a", "tonalRamp": ["#241c0d", "#372a14", "#4b3a1b", "#615023", "#7d652c", "#a8843a", "#c9a862", "#eddcb4"] },
+      "gold-dim": { "role": "secondary", "displayName": "Tarnished Gold", "canonical": "#6f5a28", "tonalRamp": ["#191408", "#28200d", "#3a2f13", "#4d3e1a", "#6f5a28", "#8f7538", "#b79a5b", "#e4d5ae"] },
+      "rule": { "role": "neutral", "displayName": "Hairline", "canonical": "#2c2429", "tonalRamp": ["#100d0f", "#1c171a", "#2c2429", "#3d333a", "#52454c", "#786773", "#a597a1", "#d8cfd5"] },
+      "rule-lit": { "role": "neutral", "displayName": "Lit Hairline", "canonical": "#453640", "tonalRamp": ["#151016", "#231b21", "#33282f", "#453640", "#5c4856", "#836b7c", "#ad99a6", "#ddd1d9"] }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "Title card only. Two lines, second line in gold." },
+      "headline": { "displayName": "Headline", "purpose": "Uppercase section headings, each followed by a fading gold trail rule." },
+      "title": { "displayName": "Episode Title", "purpose": "Session titles in the disclosure log." },
+      "card-title": { "displayName": "Card Title", "purpose": "Cast names and place names." },
+      "numeral": { "displayName": "Episode Numeral", "purpose": "Zero-padded session numbers struck on the 62px plate." },
+      "quote": { "displayName": "Quote", "purpose": "The table's voice: upright display type, not body italic." },
+      "quote-featured": { "displayName": "Featured Quote", "purpose": "The first quote, spanning the full grid width." },
+      "lede": { "displayName": "Lede", "purpose": "The rolling story summary, opened with a gold Cinzel drop cap." },
+      "body": { "displayName": "Body", "purpose": "All sustained prose, capped at the 66ch measure." },
+      "body-small": { "displayName": "Body Small", "purpose": "Card blurbs, recaps, place descriptions, credit values." },
+      "aside-italic": { "displayName": "Aside Italic", "purpose": "Subtitle, standing line, cliffhangers, attributions, empty states." },
+      "label": { "displayName": "Field Label", "purpose": "Gold uppercase label naming a value beneath or beside it. Never a kicker." },
+      "label-small": { "displayName": "Field Label Small", "purpose": "Meta keys, memoriam labels, chips." },
+      "nav": { "displayName": "Nav", "purpose": "Sticky bar section links." }
+    },
+    "shadows": [
+      { "name": "lift", "value": "0 14px 30px -18px rgba(0,0,0,0.9)", "purpose": "The system's only ambient shadow. Cast cards only; seats the plate without drawing an edge." },
+      { "name": "struck-top-rule", "value": "inset 0 1px 0 #7a2033", "purpose": "Oxblood hairline struck across the top of an opened episode. Structure, not depth." },
+      { "name": "title-relief", "value": "0 1px 0 rgba(0,0,0,0.9), 0 18px 46px rgba(0,0,0,0.55)", "purpose": "Text shadow on the title card only, so display type holds against the mist." }
+    ],
+    "motion": [
+      { "name": "ease-state", "value": "180ms ease", "purpose": "Colour and border transitions on nav links, controls, and card state." },
+      { "name": "ease-disclosure", "value": "220ms cubic-bezier(0.22, 1, 0.36, 1)", "purpose": "Decelerating curve for the nav underline scale-in and the episode chevron rotation (260ms)." },
+      { "name": "mist-drift", "value": "26s / 37s ease-in-out infinite alternate; translate3d(0, ±7%, 0) scale(1 → 1.3), opacity 0.55 → 1", "purpose": "The one authored moment, on the cold open. Vertical only — a fog, not a marquee." },
+      { "name": "reduced-motion", "value": "@media (prefers-reduced-motion: reduce) { animation-duration: 0.001ms; transition-duration: 0.001ms; scroll-behavior: auto }", "purpose": "Global gate. All motion including smooth scroll is disabled." }
+    ],
+    "breakpoints": [
+      { "name": "narrow", "value": "820px" },
+      { "name": "page", "value": "1120px" },
+      { "name": "measure", "value": "66ch" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Ghost Button",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "The page's only control: the session-log order toggle. Transparent, hairline-bordered, gold on hover.",
+      "html": "<button class=\"ds-btn-ghost\" type=\"button\"><svg class=\"ds-btn-ghost-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M7 4v16m0 0-3.5-4M7 20l3.5-4M17 20V4m0 0-3.5 4M17 4l3.5 4\"/></svg><span>Oldest first</span></button>",
+      "css": ".ds-btn-ghost { min-height: 44px; display: inline-flex; align-items: center; gap: 8px; padding: 0 18px; background: transparent; color: #b4aa9d; border: 1px solid #453640; border-radius: 2px; font-family: Alegreya, Georgia, 'Iowan Old Style', serif; font-weight: 700; font-size: 11.5px; letter-spacing: 0.14em; text-transform: uppercase; cursor: pointer; transition: color 180ms ease, border-color 180ms ease, background-color 180ms ease; } .ds-btn-ghost-icon { width: 13px; height: 13px; flex: none; fill: none; stroke: currentColor; stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; } .ds-btn-ghost:hover { color: #d9b463; border-color: #6f5a28; background: rgba(217,180,99,0.05); } .ds-btn-ghost:focus-visible { outline: 2px solid #d9b463; outline-offset: 3px; }"
+    },
+    {
+      "name": "Section Nav",
+      "kind": "nav",
+      "refersTo": "nav-link",
+      "description": "Sticky translucent bar. Links go bone on hover and gold with a scaling underline when the reader is in that section.",
+      "html": "<div class=\"ds-bar\"><div class=\"ds-bar-inner\"><a class=\"ds-bar-mark\" href=\"#top\">CURSE <span class=\"ds-of\">OF</span> STRAHD</a><nav class=\"ds-nav\"><a href=\"#story\">Story</a><a href=\"#party\" aria-current=\"true\">Party</a><a href=\"#log\">Sessions</a><a href=\"#quotes\">Quotes</a></nav></div></div>",
+      "css": ".ds-bar { background: rgba(10,9,12,0.86); backdrop-filter: blur(10px); border-bottom: 1px solid #2c2429; } .ds-bar-inner { display: flex; align-items: center; gap: 32px; padding: 0 32px; height: 58px; } .ds-bar-mark { font-family: Cinzel, 'Trajan Pro', Georgia, serif; font-size: 13px; font-weight: 600; letter-spacing: 0.2em; color: #f0eae0; text-decoration: none; white-space: nowrap; } .ds-bar-mark .ds-of { color: #a8843a; } .ds-nav { margin-left: auto; display: flex; gap: 20px; } .ds-nav a { position: relative; padding: 19px 0; font-family: Alegreya, Georgia, 'Iowan Old Style', serif; font-size: 12px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: #8b8177; text-decoration: none; transition: color 180ms ease; } .ds-nav a::after { content: \"\"; position: absolute; left: 0; right: 0; bottom: 14px; height: 1px; background: #d9b463; transform: scaleX(0); transition: transform 220ms cubic-bezier(0.22,1,0.36,1); } .ds-nav a:hover { color: #f0eae0; } .ds-nav a[aria-current=\"true\"] { color: #d9b463; } .ds-nav a[aria-current=\"true\"]::after { transform: scaleX(1); } .ds-nav a:focus-visible { outline: 2px solid #d9b463; outline-offset: 3px; }"
+    },
+    {
+      "name": "Cast Card",
+      "kind": "card",
+      "refersTo": "card-cast",
+      "description": "Party member plate. The Cinzel initial is cut into the card at device scale because no portraits exist.",
+      "html": "<div class=\"ds-cast-card\"><span class=\"ds-cast-ghost\" aria-hidden=\"true\">D</span><div class=\"ds-cast-body\"><h3>Dablin</h3><span class=\"ds-cast-role\">War veteran • likely caster</span><p>Thousand-yard stare, PTSD from the Great Gnome Wars, still swaps spells looking for the one that could've saved his brothers.</p></div></div>",
+      "css": ".ds-cast-card { position: relative; overflow: hidden; display: flex; flex-direction: column; background: repeating-linear-gradient(135deg, rgba(255,255,255,0.012) 0 2px, transparent 2px 6px), linear-gradient(180deg, #17141b, #121016); border: 1px solid #2c2429; border-radius: 3px; box-shadow: 0 14px 30px -18px rgba(0,0,0,0.9); font-family: Alegreya, Georgia, 'Iowan Old Style', serif; } .ds-cast-ghost { position: absolute; right: -0.14em; bottom: -0.34em; font-family: Cinzel, 'Trajan Pro', Georgia, serif; font-weight: 600; font-size: 210px; line-height: 0.8; color: rgba(217,180,99,0.17); pointer-events: none; user-select: none; } .ds-cast-body { position: relative; padding: 20px; display: flex; flex-direction: column; gap: 6px; } .ds-cast-body h3 { font-family: Cinzel, 'Trajan Pro', Georgia, serif; font-weight: 600; font-size: 19px; line-height: 1.2; letter-spacing: 0.03em; margin: 0; color: #f0eae0; } .ds-cast-role { font-weight: 700; font-size: 11.5px; letter-spacing: 0.16em; text-transform: uppercase; color: #d9b463; } .ds-cast-body p { margin: 6px 0 0; font-size: 15.5px; line-height: 1.55; color: #b4aa9d; }"
+    },
+    {
+      "name": "Cast Card — Lead",
+      "kind": "card",
+      "refersTo": "card-cast-lead",
+      "description": "The card belonging to whoever is reading: oxblood border, corner bloom, rose ghost initial, and the lead chip.",
+      "html": "<div class=\"ds-cast-card-lead\"><span class=\"ds-cast-lead-ghost\" aria-hidden=\"true\">S</span><div class=\"ds-cast-lead-body\"><span class=\"ds-lead-flag\">Played by you</span><h3>Scottishbard</h3><span class=\"ds-cast-lead-role\">Bard</span><p>The name is the whole bit. Also handles door-barring duty on the road.</p></div></div>",
+      "css": ".ds-cast-card-lead { position: relative; overflow: hidden; background: repeating-linear-gradient(135deg, rgba(255,255,255,0.012) 0 2px, transparent 2px 6px), radial-gradient(120% 90% at 100% 0%, rgba(122,32,51,0.34), transparent 62%), linear-gradient(180deg, #1b1016, #121016); border: 1px solid #7a2033; border-radius: 3px; box-shadow: 0 14px 30px -18px rgba(0,0,0,0.9); font-family: Alegreya, Georgia, 'Iowan Old Style', serif; } .ds-cast-lead-ghost { position: absolute; right: -0.14em; bottom: -0.34em; font-family: Cinzel, 'Trajan Pro', Georgia, serif; font-weight: 600; font-size: 210px; line-height: 0.8; color: rgba(232,163,173,0.2); pointer-events: none; user-select: none; } .ds-cast-lead-body { position: relative; padding: 20px; display: flex; flex-direction: column; gap: 6px; } .ds-lead-flag { align-self: flex-start; margin-bottom: 2px; padding: 2px 8px; border: 1px solid #7a2033; border-radius: 2px; background: rgba(122,32,51,0.22); color: #e8a3ad; font-size: 10.5px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; } .ds-cast-card-lead h3 { font-family: Cinzel, 'Trajan Pro', Georgia, serif; font-weight: 600; font-size: 19px; letter-spacing: 0.03em; margin: 0; color: #f0eae0; } .ds-cast-lead-role { font-weight: 700; font-size: 11.5px; letter-spacing: 0.16em; text-transform: uppercase; color: #d9b463; } .ds-cast-card-lead p { margin: 6px 0 0; font-size: 15.5px; line-height: 1.55; color: #b4aa9d; }"
+    },
+    {
+      "name": "Lead Flag Chip",
+      "kind": "chip",
+      "refersTo": "chip-lead-flag",
+      "description": "Marks the cast card belonging to the reader. The only chip in the system.",
+      "html": "<span class=\"ds-chip-lead\">Played by you</span>",
+      "css": ".ds-chip-lead { display: inline-block; padding: 2px 8px; border: 1px solid #7a2033; border-radius: 2px; background: rgba(122,32,51,0.22); color: #e8a3ad; font-family: Alegreya, Georgia, 'Iowan Old Style', serif; font-size: 10.5px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; }"
+    },
+    {
+      "name": "Episode Disclosure",
+      "kind": "custom",
+      "refersTo": "numeral-plate",
+      "description": "A session entry as a native details disclosure. The number plate changes border, ink, and ground between closed and open; it is the state indicator.",
+      "html": "<details class=\"ds-ep\" open><summary><span class=\"ds-ep-num\" aria-hidden=\"true\">01</span><h3 class=\"ds-ep-title\">New Allies and the Amber Temple Lead</h3><span class=\"ds-ep-meta\"><span><span class=\"ds-ep-k\">Played</span>2026-07-23</span></span><svg class=\"ds-ep-chev\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"m5 9 7 7 7-7\"/></svg></summary><div class=\"ds-ep-body\"><p class=\"ds-ep-recap\">The party regrouped in Vallaki and picked up two new allies.</p><ul class=\"ds-beats\"><li>Casimir knows the way to the Amber Temple.</li><li>The plan is Barovia village, then old guarded magic.</li></ul></div></details>",
+      "css": ".ds-ep { border-top: 1px solid #2c2429; border-bottom: 1px solid #2c2429; font-family: Alegreya, Georgia, 'Iowan Old Style', serif; transition: background-color 200ms ease; } .ds-ep[open] { background: linear-gradient(180deg, rgba(122,32,51,0.22) 0%, rgba(122,32,51,0.05) 220px, transparent 420px), #17141b; box-shadow: inset 0 1px 0 #7a2033; } .ds-ep summary { list-style: none; cursor: pointer; display: grid; grid-template-columns: 84px minmax(0,1fr) auto; grid-template-areas: \"num title chev\" \"num meta chev\"; align-items: baseline; column-gap: 20px; row-gap: 4px; padding: 32px 0; } .ds-ep summary::-webkit-details-marker { display: none; } .ds-ep-num { grid-area: num; align-self: start; display: grid; place-items: center; width: 62px; height: 62px; border: 1px solid #453640; background: rgba(0,0,0,0.35); font-family: Cinzel, 'Trajan Pro', Georgia, serif; font-weight: 600; font-size: 27px; line-height: 1; letter-spacing: 0.02em; color: #a8843a; transition: color 220ms ease, border-color 220ms ease, background-color 220ms ease; } .ds-ep[open] .ds-ep-num { color: #d9b463; border-color: #6f5a28; background: rgba(122,32,51,0.34); } .ds-ep summary:hover .ds-ep-num { color: #d9b463; border-color: #6f5a28; } .ds-ep-title { grid-area: title; margin: 0; font-family: Cinzel, 'Trajan Pro', Georgia, serif; font-weight: 600; font-size: 23px; line-height: 1.22; letter-spacing: 0.02em; color: #f0eae0; } .ds-ep-meta { grid-area: meta; display: flex; gap: 2px 20px; font-size: 13.5px; color: #8b8177; } .ds-ep-k { font-size: 10.5px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: #a8843a; margin-right: 0.55em; } .ds-ep-chev { grid-area: chev; align-self: center; width: 15px; height: 15px; fill: none; stroke: currentColor; stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; color: #8b8177; transition: transform 260ms cubic-bezier(0.22,1,0.36,1), color 200ms ease; } .ds-ep[open] .ds-ep-chev { transform: rotate(180deg); color: #d9b463; } .ds-ep summary:hover .ds-ep-chev { color: #d9b463; } .ds-ep summary:focus-visible { outline: 2px solid #d9b463; outline-offset: 3px; } .ds-ep-body { padding: 0 0 52px 84px; } .ds-ep-recap { margin: 0 0 32px; font-size: 17.5px; color: #b4aa9d; } .ds-beats { list-style: none; margin: 0; padding: 0; } .ds-beats li { position: relative; padding-left: 20px; margin-bottom: 12px; color: #f0eae0; font-size: 16.5px; line-height: 1.55; } .ds-beats li::before { content: \"\"; position: absolute; left: 0; top: 0.72em; width: 8px; height: 1px; background: #a8843a; }"
+    },
+    {
+      "name": "Valley Route",
+      "kind": "custom",
+      "refersTo": null,
+      "description": "Locations as a walked road. The rail runs between nodes and stops at the last; a place only heard about gets a hollow node and a dashed incoming segment.",
+      "html": "<ul class=\"ds-places\"><li><span class=\"ds-node\" aria-hidden=\"true\"></span><div><h3>Vallaki</h3><span class=\"ds-place-label\">First seen · Session 01</span></div><p>Walled town, uneasy peace, the party's base of operations.</p></li><li class=\"ds-unvisited\"><span class=\"ds-node\" aria-hidden=\"true\"></span><div><h3>The Amber Temple</h3><span class=\"ds-place-label\">Not been there yet</span></div><p>A lead only. Old, guarded, unfriendly magic.</p></li></ul>",
+      "css": ".ds-places { list-style: none; margin: 0; padding: 0; font-family: Alegreya, Georgia, 'Iowan Old Style', serif; } .ds-places li { position: relative; display: grid; grid-template-columns: minmax(180px,0.85fr) minmax(0,1.6fr); gap: 6px 52px; padding: 32px 0 32px 32px; } .ds-places li::before { content: \"\"; position: absolute; left: 4px; top: 0; bottom: 0; width: 1px; background: #453640; } .ds-places li:first-child::before { top: 34px; } .ds-places li:last-child::before { bottom: auto; height: 39px; } .ds-places li.ds-unvisited::before { background: repeating-linear-gradient(180deg, #6f5a28 0 5px, transparent 5px 11px); } .ds-node { position: absolute; left: 0; top: 30px; width: 9px; height: 9px; background: #a8843a; transform: rotate(45deg); } .ds-unvisited .ds-node { background: #0a090c; border: 1px solid #6f5a28; } .ds-places h3 { font-family: Cinzel, 'Trajan Pro', Georgia, serif; font-weight: 600; font-size: 19px; letter-spacing: 0.03em; line-height: 1.25; margin: 0; color: #f0eae0; } .ds-place-label { display: block; margin-top: 5px; color: #8b8177; font-size: 10.5px; font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase; } .ds-places p { margin: 0; font-size: 16px; color: #b4aa9d; }"
+    },
+    {
+      "name": "Featured Quote",
+      "kind": "custom",
+      "refersTo": null,
+      "description": "The table's voice on oxblood ground: upright Cinzel display at short measure, rose attribution.",
+      "html": "<div class=\"ds-quote-band\"><figure class=\"ds-quote\"><blockquote><p>“Well, I'm Scottish, bard.”</p></blockquote><figcaption>Scottishbard <span class=\"ds-quote-ses\">· Session 01</span></figcaption></figure></div>",
+      "css": ".ds-quote-band { background: radial-gradient(90% 130% at 12% 0%, rgba(140,38,60,0.62), transparent 72%), linear-gradient(180deg, #2e0c15 0%, #2b0a11 100%); border-top: 1px solid #7a2033; border-bottom: 1px solid #2c2429; padding: 52px 32px; } .ds-quote { margin: 0; } .ds-quote blockquote { margin: 0; } .ds-quote blockquote p { margin: 0; font-family: Cinzel, 'Trajan Pro', Georgia, serif; font-weight: 600; font-size: clamp(28px, 4.4vw, 50px); line-height: 1.12; letter-spacing: 0.005em; color: #f0eae0; text-wrap: balance; } .ds-quote figcaption { margin-top: 12px; font-family: Alegreya, Georgia, 'Iowan Old Style', serif; font-size: 15px; font-style: italic; color: #d9a7ae; } .ds-quote-ses { color: #b2848c; font-style: normal; font-size: 12.5px; letter-spacing: 0.06em; }"
+    },
+    {
+      "name": "Memoriam Card",
+      "kind": "card",
+      "refersTo": "card-memoriam",
+      "description": "The fallen, kept quieter than the living: flat ground, no lift, a headstone marker in a fixed column.",
+      "html": "<div class=\"ds-memoriam\"><span class=\"ds-stone\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 32\"><path d=\"M4 31V11a8 8 0 0 1 16 0v20Z\"/><path d=\"M12 15v9M8.5 18.5h7\"/></svg></span><div><h4>The Fallen</h4><span class=\"ds-memoriam-label\">Class unconfirmed · Session 01</span><p>Lost in the house, before anyone was writing it down.</p></div></div>",
+      "css": ".ds-memoriam { display: grid; grid-template-columns: 36px 1fr; gap: 20px; padding: 20px; background: #0f0e11; border: 1px solid #2c2429; border-radius: 3px; font-family: Alegreya, Georgia, 'Iowan Old Style', serif; } .ds-stone { display: grid; place-items: center; align-self: start; width: 36px; height: 44px; border: 1px solid #453640; border-radius: 18px 18px 2px 2px; color: #8b8177; } .ds-stone svg { width: 14px; height: 14px; fill: none; stroke: currentColor; stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; } .ds-memoriam h4 { font-family: Cinzel, 'Trajan Pro', Georgia, serif; font-weight: 600; font-size: 17px; letter-spacing: 0.03em; margin: 0 0 2px; color: #b4aa9d; } .ds-memoriam-label { font-size: 10.5px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: #8b8177; } .ds-memoriam p { margin: 6px 0 0; font-size: 14.5px; line-height: 1.55; color: #8b8177; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Season Hub",
+    "overview": "This is Barovia's own dark gothic, played completely straight, arranged as a produced season rather than a wiki: a title card, a cast, an episode log, a record of things people actually said, and a route through the valley. The craft bar was set explicitly by the user against actual-play brands (Critical Role, Dimension 20) — the reference is a show's home page, not a fan page about a show. The register is dry and specific about the table and solemn about the setting; both are held at once, and neither gets sanded down.\n\nThe world is built from four materials and nothing else: near-black grounds, oxblood as a committed field, bone as ink, and gold used only as struck metal. There is no photography, no illustration, and no icon set beyond three hand-drawn inline SVG strokes, because media/ is empty and no campaign art may be invented. Where a portrait would go, a Cinzel initial is cut into the card at device scale and cropped by the card edge. Density is editorial: a 66ch measure for anything read at length, generous vertical air between sections, and cards that stay legible whether the campaign has one session logged or forty.\n\nProvenance. The direction roll ran DEGRADED: concept-seed.mjs --scope direction --mode experience could not reach https://impeccable.style/api/roll (the environment's proxy returns 403 on CONNECT), so there are no challenger cards, no QUALITY BAR boards, and no approved comp. The seed key 1fc2c67f printed in the direction contract is uncorroborable and must not be read by a later pass as a verified roll. The roll dealt index 3 of the grounded list — a court-reporter \"transcript of proceedings\" world. The user took the standing exit (candidate 1, the category standard) instead. That exit is now a brand commitment, not a fallback: this project is the dark Barovia gothic played straight, and a future pass must not \"restore\" the dealt transcript world.",
+    "keyCharacteristics": [
+      "Oxblood is a field that carries whole regions, never an accent swatch.",
+      "Two typefaces only, both embedded as base64 latin woff2 subsets; zero network requests.",
+      "Gold appears at hairline weight — rules, frames, numerals, nodes, links, focus.",
+      "Depth is tonal and hairline-drawn; one soft shadow token exists and no other.",
+      "Every device on the page carries meaning: the ghost initial stands in for art that does not exist, the dashed rail segment marks a road not walked.",
+      "Exactly one authored motion moment; everything else is functional state transition."
+    ],
+    "rules": [
+      { "name": "The Committed Field Rule", "body": "Oxblood is a ground, not an accent. It may only be spent on a full-width region that owns its whole vertical span (cold open, quotes, credits). A component never gets an oxblood fill of its own except as a translucent wash (rgba(122, 32, 51, 0.2–0.35)) signalling state.", "section": "colors" },
+      { "name": "The Alternating Third Rule", "body": "The bottom third of the page runs oxblood (quotes) → dark band (The Valley) → oxblood (credits). This alternation is deliberate: the dark band is the breath between the table's voice and the sign-off. Do not \"fix\" it by collapsing the two oxblood fields into one continuous run.", "section": "colors" },
+      { "name": "The Struck Metal Rule", "body": "Gold is metal struck into a surface: hairlines, frames, numerals, nodes, dashes, underlines, focus rings, and links. It is never a background behind text and never a filled button.", "section": "colors" },
+      { "name": "The Text-Safe Ramp Rule", "body": "--gold-dim and --blood are hairline-and-ornament values only. The text-safe inks are --gold, --gold-mid, --bone, --bone-dim, --bone-faint — and on oxblood ground, the rose family. Every text/background pair on the shipped page clears 4.5:1; any new pair must be checked before it ships.", "section": "colors" },
+      { "name": "The No Local Ground Rule", "body": "A component sitting inside an oxblood band declares no background of its own. The credits footer carries padding and nothing else, because a local background would quietly override the committed field.", "section": "colors" },
+      { "name": "The Two Voices Rule", "body": "Anything titled or numbered is Cinzel 600. Anything read at length is Alegreya. There is no third face and no weight outside 400 / 400i / 600 (Cinzel) / 700 (Alegreya). A new face means a new base64 payload in the file, so the answer is no.", "section": "typography" },
+      { "name": "The Table's Voice Rule", "body": "The page's ambient register is Barovia's — solemn, italic, at a reading measure. The quotes section inverts every one of those: upright Cinzel, heavy, short measure, loud, on oxblood ground. That inversion is the whole point of the section; do not normalize it into body italic.", "section": "typography" },
+      { "name": "The Field-Label Rule", "body": "The gold uppercase label names a value that sits beneath or beside it — a definition term, a role under a cast name, a sub-heading inside an opened episode. It never sits above a headline as a kicker or eyebrow. If a label has no value attached to it, it does not belong on the page.", "section": "typography" },
+      { "name": "The Measure Rule", "body": "Anything read at length is capped at 66ch (--measure), regardless of how wide its container is.", "section": "layout" },
+      { "name": "The n=1 to n=40 Rule", "body": "Every list renders from a hand-edited JS array (partyMembers, fallen, sessions, quotes, locations, dungeonMaster) and must look composed at one entry and at forty. Counts are rendered as a spelled-out sentence rather than a scoreboard; the newest episode opens by default; every list has a written empty state; the memoriam block and the in-memoriam credit column remove themselves entirely when nothing has died.", "section": "layout" },
+      { "name": "The One Bar Rule", "body": "Below 820px the sticky bar carries the navigation and drops the wordmark. A phone bar holds one or the other, and the title card already carries the identity.", "section": "layout" },
+      { "name": "The One Shadow Rule", "body": "--lift is the system's entire shadow vocabulary. New surfaces separate by tone and hairline. No hard-offset shadows, no stacked elevation ramp, no glow.", "section": "elevation" },
+      { "name": "The Backdrop Rule", "body": "The only translucent surface on the page is the sticky bar (rgba(10,9,12,0.86) with a 10px backdrop blur). Cards and bands are opaque.", "section": "elevation" }
+    ],
+    "dos": [
+      "Do spend oxblood as a full-width field that owns its whole region, and keep the bottom-third alternation (quotes oxblood → Valley dark → credits oxblood) exactly as built.",
+      "Do keep gold at hairline weight — rules, frames, numerals, nodes, links, focus — per The Struck Metal Rule.",
+      "Do check every new text/background pair against 4.5:1, and treat --gold-dim and --blood as ornament-only values.",
+      "Do set anything titled or numbered in Cinzel 600 and anything read at length in Alegreya, capped at the 66ch measure.",
+      "Do give every new list a written empty state and make it compose at one entry and at forty.",
+      "Do draw new structure with 1px rule / rule-lit hairlines and tonal steps rather than reaching for a shadow.",
+      "Do gate any new motion behind prefers-reduced-motion and keep it non-horizontal.",
+      "Do make each device mean something — if a variant does not encode a fact about the campaign, it is decoration."
+    ],
+    "donts": [
+      "Don't fabricate campaign art, maps, portraits, or photographs. media/ is empty by fact, and the ghost initial exists precisely so that stays true.",
+      "Don't add a third typeface, a webfont link, a CDN, an icon font, or any request that leaves the page. The file must stay self-contained and deployable as a static site/ directory.",
+      "Don't use glyph characters or icon-font symbols for icons; the three inline SVG symbols, stroked at 1.5, are the vocabulary.",
+      "Don't add a hard-offset or stacked shadow. --lift is the whole vocabulary.",
+      "Don't place a kicker or eyebrow above a headline. The uppercase gold label is a field label and must have a value under or beside it.",
+      "Don't give a component its own background inside an oxblood band, and don't set a background on the credits footer.",
+      "Don't put a fill behind gold text or build a filled/primary button; the one control on the page is a ghost.",
+      "Don't smooth over uncertainty. \"Class unconfirmed\", \"Not been there yet\", and unresolved facts are content and get their own quiet typographic treatment, not a fake value."
+    ]
+  }
+}
