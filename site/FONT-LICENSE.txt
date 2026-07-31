@@ -1,4 +1,8 @@
+This page embeds two typefaces. Both are licensed under the SIL Open Font
+License, Version 1.1, reproduced in full below.
+
 Copyright 2011 The Alegreya Project Authors (https://github.com/huertatipografica/Alegreya)
+Copyright 2020 The Cinzel Project Authors (https://github.com/NDISCOVER/Cinzel)
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 This license is copied below, and is also available with a FAQ at:
