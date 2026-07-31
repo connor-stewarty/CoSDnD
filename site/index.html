@@ -182,7 +182,7 @@
   }
   .titlecard {
     position: relative;
-    padding: clamp(76px, 13vh, 132px) 0 clamp(48px, 8vh, 84px);
+    padding: clamp(72px, 12vh, 116px) 0 clamp(44px, 7vh, 72px);
     text-align: center;
   }
   /* One authored moment: the mist gathers and thins in the frame. It rises and
@@ -252,12 +252,14 @@
     text-wrap: balance;
   }
 
+  /* Sits with the subtitle as the close of one block, not stranded below it. */
   .standing {
-    margin: var(--s-5) auto 0;
-    max-width: 34em;
-    font-size: 15px;
+    margin: var(--s-3) auto 0;
+    max-width: 30em;
+    font-size: clamp(15px, 1.7vw, 17px);
     font-style: italic;
-    color: var(--bone-faint);
+    line-height: 1.5;
+    color: #c2a08a;
     text-wrap: balance;
   }
 
@@ -540,6 +542,15 @@
   .ep-body h4:first-child { margin-top: 0; }
   .ep-body h4 { margin: var(--s-4) 0 var(--s-2); }
   .ep-aside { padding-top: 4px; border-top: 1px solid var(--rule-lit); }
+  /* The cliffhanger is the episode's closing beat, so it spans the full plate
+     instead of hanging off the bottom of a short column. */
+  .ep-close {
+    grid-column: 1 / -1;
+    margin-top: var(--s-2);
+    padding-top: var(--s-3);
+    border-top: 1px solid var(--rule-lit);
+  }
+  .ep-close .cliff { max-width: 52em; }
   .beats { list-style: none; margin: 0; padding: 0; }
   .beats li {
     position: relative;
@@ -610,8 +621,12 @@
     background: var(--rule-lit);
   }
   .places li:first-child::before { top: 34px; }
-  .places li:last-child::before { bottom: auto; height: 34px; }
+  .places li:last-child::before { bottom: auto; height: 39px; }
   .places li:only-child::before { display: none; }
+  /* The road to somewhere the party has not been is drawn, but not walked. */
+  .places li.unvisited::before {
+    background: repeating-linear-gradient(180deg, var(--gold-dim) 0 5px, transparent 5px 11px);
+  }
   .places .node {
     position: absolute;
     left: 0;
@@ -627,11 +642,9 @@
   .places p { margin: 0; font-size: 16px; color: var(--bone-dim); text-wrap: pretty; }
 
   /* ---------------- Credits ---------------- */
-  footer.credits {
-    background: linear-gradient(180deg, var(--void) 0%, #150a0e 100%);
-    border-top: 1px solid var(--rule);
-    padding: var(--s-6) 0 var(--s-5);
-  }
+  /* No background here: the oxblood band owns this ground, and a local
+     background would quietly override the committed field. */
+  footer.credits { padding: var(--s-6) 0 var(--s-5); }
   .credits-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(220px, 100%), 1fr)); gap: var(--s-4); }
   .credits-grid dt { margin-bottom: var(--s-1); }
   .credits-grid dd { margin: 0; font-size: 16px; color: var(--bone-dim); }
@@ -1080,11 +1093,14 @@ function renderTimeline() {
             <p class="ep-recap">${esc(s.tldr)}</p>
             ${beats ? `<h4 class="label">What happened</h4><ul class="beats">${beats}</ul>` : ''}
           </div>
-          ${s.quote || s.cliffhanger ? `<aside class="ep-aside">
-            ${s.quote ? `<h4 class="label">Line of the night</h4>
-            <blockquote class="ep-quote"><p>“${esc(s.quote.text)}”</p><footer>${esc(s.quote.who)}</footer></blockquote>` : ''}
-            ${s.cliffhanger ? `<h4 class="label">Where we left off</h4><p class="cliff">${esc(s.cliffhanger)}</p>` : ''}
+          ${s.quote ? `<aside class="ep-aside">
+            <h4 class="label">Line of the night</h4>
+            <blockquote class="ep-quote"><p>“${esc(s.quote.text)}”</p><footer>${esc(s.quote.who)}</footer></blockquote>
           </aside>` : ''}
+          ${s.cliffhanger ? `<div class="ep-close">
+            <h4 class="label">Where we left off</h4>
+            <p class="cliff">${esc(s.cliffhanger)}</p>
+          </div>` : ''}
         </div>
       </details>
     `));
