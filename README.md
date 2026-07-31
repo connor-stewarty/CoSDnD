@@ -9,7 +9,7 @@ A living record of our Curse of Strahd campaign, kept from the player's-eye view
 - **world/** — living reference docs built up as the party learns things: NPCs met, locations visited, memorable quotes. These are *player-knowledge only* — no spoilers your character wouldn't know.
 - **transcripts/** — raw transcripts land here, one file per session. Treat these as source material, not something to polish — the real writing happens in `sessions/`.
 - **media/** — maps, character art, screenshots, battle-map photos — anything visual worth keeping.
-- **site/** — `index.html`, the shareable showcase site. Self-contained, no build step — open it in a browser or send the file directly.
+- **site/** — `index.html`, the shareable showcase site. Self-contained, no build step — open it in a browser or send the file directly. `FONT-LICENSE.txt` sits alongside it (see below).
 - **scripts/** — local, offline speech-to-text tooling (see below) for turning a raw session recording into a transcript without relying on Vibe or any cloud service.
 
 ## Workflow after each session
@@ -49,3 +49,7 @@ By default this uses `whisper-large-v3-turbo` — fast and very accurate. On an 
 ## Sharing the site
 
 `site/index.html` is fully self-contained (no external files needed) — you can email it, AirDrop it, or drop it in a shared drive and anyone can just open it in a browser.
+
+That includes the typefaces. The page sets its titles in **Cinzel** and its text in **Alegreya**, both embedded directly in the file as base64 woff2, so it looks the same offline, in an email attachment, and on GitHub Pages — no font requests, no CDN, nothing to install. That's what most of the file's size is; the part you actually edit is still the plain JS arrays near the top. Both faces are licensed under the SIL Open Font License 1.1, and the license ships next to the page as `site/FONT-LICENSE.txt` — keep that file with the site if you redistribute it.
+
+It's also still deployed by GitHub Actions on every push to `main` that touches `site/**` (`.github/workflows/deploy-pages.yml`), which just uploads the `site/` folder as-is.
