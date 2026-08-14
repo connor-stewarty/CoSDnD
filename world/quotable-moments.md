@@ -25,3 +25,21 @@ The running "best of" log — funny, iconic, or unhinged lines from the table (i
 
 > "The ghost of Cassius."
 > — Session 01, on a duplicated map token — darker than intended, since Cassius is actually dead.
+
+> "You killed my daughter. I'm gonna kill you."
+> — Rudolph van Richten, Session 02, before the whole story came out.
+
+> "He's just an NPC — he doesn't have a class. He just attacks once per turn."
+> — Session 02, on Parriwimple, mid-recruitment.
+
+> "I don't want a charity here."
+> — Session 02, the tavern's bartender, moments before selling a glass of water for 2 gold.
+
+> "Power Word Poo."
+> — Parriwimple, Session 02, self-declared spell, cast at least twice.
+
+> "Your mom."
+> — Scottishbard, Session 02, casting Vicious Mockery point-blank into a one-shot kill.
+
+> "This is literally the worst crit I've ever done. I rolled three ones and a two."
+> — Session 02, on a natural 20 that did almost nothing.
