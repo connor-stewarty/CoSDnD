@@ -56,6 +56,14 @@ Non-obvious behavior worth knowing before you edit:
 - **`renderStanding()` spells out counts as words** and reads as a sentence, so
   it stays legible at one session and at forty. Empty states are written, not
   absent — keep that true for anything you add.
+- **Every session is addressable at `#session-NN`.** The timeline is built by
+  script, so the anchor doesn't exist when the browser first goes looking for a
+  fragment — `revealSession()` does the scroll instead, with smooth scrolling
+  suppressed for that opening jump only. Open state lives in the `openSessions`
+  set, which `renderTimeline()` re-syncs to the DOM on every render so entries
+  survive a sort flip. Hash updates are driven off `summary` **clicks**, not the
+  `toggle` event: `toggle` also fires for the entry render opens by default,
+  which would stamp a hash onto a plain page load.
 
 ### Hard constraints on the site
 

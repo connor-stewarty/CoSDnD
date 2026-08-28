@@ -5,7 +5,7 @@
 **In-game date:** Picks up the evening after the gate fight — a long rest in the tower past the gate, then the following morning arriving at the Amber Temple and fighting through its front hall.
 
 ## TL;DR
-The party rested in the tower past the statue gate, left Irina and Rudolph van Richten behind with the fire, and finally reached the Amber Temple — where a hooded, eyeless statue in the entrance hall turned out to be a spellcasting guardian who opened with Fireball, banished Dog to a nightmare dimension, dropped Scottishbard with Chain Lightning, and nearly killed him again with Finger of Death, before Bulbin ended it with a thrown spear.
+The party rested in the tower past the statue gate, left Irina and Rudolph van Richten behind with the fire, and finally reached the Amber Temple — where a hooded, eyeless statue in the entrance hall turned out to be a spellcasting guardian who opened with Fireball, banished Dog to a nightmare dimension, dropped Scottishbard with Chain Lightning, and — once Dog was back — very nearly killed Dog outright with Finger of Death, before Bulbin ended it with a thrown spear.
 
 ## What happened
 - Session opens where Session 02 left off: past the gate, in a stone tower. Someone kicks the door in — latches broken, the door falls, revealing a staircase — and the party decides to rest.

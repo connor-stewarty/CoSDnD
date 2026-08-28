@@ -572,6 +572,24 @@
     border-top: 1px solid var(--rule-lit);
   }
   .ep-close .cliff { max-width: 52em; }
+  /* A session is addressable, so it can be handed to one person on its own.
+     Quiet utility text on a hairline — not a field label, and not a second
+     control competing with the sort toggle for the eye. */
+  .ep-permalink {
+    grid-column: 1 / -1;
+    margin: 0;
+    font-size: 13px;
+    letter-spacing: 0.03em;
+  }
+  .ep-permalink a {
+    color: var(--bone-faint);
+    text-decoration: none;
+    border-bottom: 1px solid var(--rule-lit);
+    padding-bottom: 2px;
+    transition: color 200ms ease, border-color 200ms ease;
+  }
+  .ep-permalink a:hover,
+  .ep-permalink a[data-copied] { color: var(--gold); border-color: var(--gold-dim); }
   .beats { list-style: none; margin: 0; padding: 0; }
   .beats li {
     position: relative;
@@ -1002,7 +1020,7 @@ const sessions = [
     title: "Into the Amber Temple",
     date: "2026-08-27",
     inGameDate: "A long rest in the tower past the gate, then the following morning at the temple's front door",
-    tldr: "The party rested past the statue gate, left Irina and Rudolph van Richten behind with the fire, and finally reached the Amber Temple — where a hooded, eyeless statue in the entrance hall turned out to be a spellcaster who opened with Fireball, banished Dog to a nightmare dimension, dropped Scottishbard with Chain Lightning, and very nearly killed him again with Finger of Death.",
+    tldr: "The party rested past the statue gate, left Irina and Rudolph van Richten behind with the fire, and finally reached the Amber Temple — where a hooded, eyeless statue in the entrance hall turned out to be a spellcaster who opened with Fireball, banished Dog to a nightmare dimension, dropped Scottishbard with Chain Lightning, and — once Dog was back — very nearly killed Dog outright with Finger of Death.",
     highlights: [
       "Long-rested in a tower past the gate; a failed tinderbox roll was rescued by Dablin casting Firebolt at the woodpile.",
       "Left Irina behind where it was warm, and left Rudolph van Richten to guard her — knowingly walking into the dungeon without the party's only healer.",
@@ -1156,6 +1174,60 @@ function renderRoster() {
 }
 
 let order = 'newest';
+
+// ---- Session permalinks ----------------------------------------------------
+// Every session has its own address (…#session-03). Opening one puts that
+// address in the URL bar, so the link is already there to copy; pasting one
+// back opens that session and nothing else.
+function sessionAnchor(n) {
+  return 'session-' + pad(n);
+}
+
+function sessionFromHash() {
+  const m = /^#session-0*(\d+)$/.exec(location.hash || '');
+  const n = m ? Number(m[1]) : NaN;
+  return sessions.some(s => s.number === n) ? n : null;
+}
+
+// Which sessions are expanded. More than one may be, the way the log has
+// always worked. renderTimeline() keeps this in step with the DOM, so an entry
+// the reader opened stays open when the sort order flips. Empty means "nobody
+// has chosen yet" and the first entry in the current order opens, as before.
+const openSessions = new Set();
+
+// The session the URL currently points at — the last one opened by hand.
+let linkedSession = null;
+
+function setHash(hash) {
+  // file:// can refuse history writes; the permalink builds its own URL, so
+  // losing the address-bar update is cosmetic rather than a broken feature.
+  try {
+    history.replaceState(null, '', hash || location.pathname + location.search);
+  } catch (e) { /* ignore */ }
+}
+
+async function copyText(text) {
+  try {
+    if (navigator.clipboard && window.isSecureContext) {
+      await navigator.clipboard.writeText(text);
+      return true;
+    }
+  } catch (e) { /* fall through to the older path */ }
+  try {
+    const ta = document.createElement('textarea');
+    ta.value = text;
+    ta.setAttribute('readonly', '');
+    ta.style.cssText = 'position:fixed;top:0;left:-9999px;';
+    document.body.appendChild(ta);
+    ta.select();
+    const ok = document.execCommand('copy');
+    document.body.removeChild(ta);
+    return ok;
+  } catch (e) {
+    return false;
+  }
+}
+
 function renderTimeline() {
   const wrap = document.getElementById('timeline');
   wrap.innerHTML = '';
@@ -1164,6 +1236,9 @@ function renderTimeline() {
     return;
   }
   const list = [...sessions].sort((a, b) => order === 'newest' ? b.number - a.number : a.number - b.number);
+  const kept = [...openSessions].filter(n => list.some(s => s.number === n));
+  openSessions.clear();
+  (kept.length ? kept : [list[0].number]).forEach(n => openSessions.add(n));
   list.forEach(s => {
     const beats = (s.highlights || []).map(h => `<li>${esc(h)}</li>`).join('');
     const meta = [
@@ -1171,7 +1246,7 @@ function renderTimeline() {
       s.inGameDate ? `<span><span class="k">In game</span>${esc(s.inGameDate)}</span>` : ''
     ].filter(Boolean).join('');
     wrap.appendChild(el(`
-      <details class="ep" ${s === list[0] ? 'open' : ''}>
+      <details class="ep" id="${sessionAnchor(s.number)}" ${openSessions.has(s.number) ? 'open' : ''}>
         <summary>
           <span class="num" aria-hidden="true">${pad(s.number)}</span>
           <h3 class="ep-title"><span class="visually-hidden">${sessionLabel(s.number)}: </span>${esc(s.title)}</h3>
@@ -1191,9 +1266,59 @@ function renderTimeline() {
             <h4 class="label">Where we left off</h4>
             <p class="cliff">${esc(s.cliffhanger)}</p>
           </div>` : ''}
+          <p class="ep-permalink">
+            <a href="#${sessionAnchor(s.number)}" data-permalink>Link to ${sessionLabel(s.number)}</a>
+          </p>
         </div>
       </details>
     `));
+  });
+  wireTimeline(wrap);
+}
+
+function wireTimeline(wrap) {
+  wrap.querySelectorAll('details.ep').forEach(ep => {
+    const number = Number(String(ep.id).replace('session-', ''));
+
+    // Driven from the click rather than the toggle event: `toggle` also fires
+    // for the entry render opens by default, which would stamp a hash onto a
+    // plain page load. A click is unambiguously the reader's doing, and
+    // keyboard activation of a summary dispatches one too.
+    ep.querySelector('summary').addEventListener('click', e => {
+      e.preventDefault();
+      if (ep.open) {
+        ep.open = false;
+        openSessions.delete(number);
+        if (linkedSession === number) {
+          linkedSession = null;
+          setHash('');
+        }
+      } else {
+        ep.open = true;
+        openSessions.add(number);
+        linkedSession = number;
+        setHash('#' + ep.id);
+      }
+    });
+
+    const link = ep.querySelector('a[data-permalink]');
+    if (!link) return;
+    const label = link.textContent;
+    let restore;
+    link.addEventListener('click', async () => {
+      // The href still carries the anchor, so this works with or without a
+      // clipboard: the browser puts the address in the bar either way.
+      const url = location.href.split('#')[0] + '#' + ep.id;
+      if (await copyText(url)) {
+        clearTimeout(restore);
+        link.textContent = 'Link copied';
+        link.setAttribute('data-copied', '');
+        restore = setTimeout(() => {
+          link.textContent = label;
+          link.removeAttribute('data-copied');
+        }, 2000);
+      }
+    });
   });
 }
 
@@ -1252,12 +1377,49 @@ orderToggle.addEventListener('click', () => {
   renderTimeline();
 });
 
+// A pasted …#session-03 link decides what's open before the log is built.
+linkedSession = sessionFromHash();
+if (linkedSession !== null) openSessions.add(linkedSession);
+
 renderStanding();
 renderRoster();
 renderTimeline();
 renderQuotes();
 renderLocations();
 renderCredits();
+
+// The timeline is built by script, so on a deep link the anchor doesn't exist
+// yet when the browser first goes looking for it. Take it there once it does.
+function revealSession(n) {
+  const target = document.getElementById(sessionAnchor(n));
+  if (target) target.scrollIntoView({ block: 'start' });
+}
+
+// Arriving on a permalink should land on the session, not fly the reader
+// through the whole page to reach it: the page scrolls smoothly by design, so
+// suppress that for the opening jump only — including the browser's own late
+// attempt at the fragment, which happens once the anchor finally exists.
+if (linkedSession !== null) {
+  const root = document.documentElement;
+  root.style.scrollBehavior = 'auto';
+  revealSession(linkedSession);
+  window.addEventListener('load', () => {
+    revealSession(linkedSession);
+    requestAnimationFrame(() => { root.style.scrollBehavior = ''; });
+  });
+}
+
+// Someone edits the address, follows a permalink, or comes back through history.
+window.addEventListener('hashchange', () => {
+  const n = sessionFromHash();
+  if (n === null) return;
+  linkedSession = n;
+  if (!openSessions.has(n)) {
+    openSessions.add(n);
+    renderTimeline();
+  }
+  revealSession(n);
+});
 
 document.getElementById('last-updated').textContent =
   'Opened ' + new Date().toLocaleDateString(undefined, { year: 'numeric', month: 'long', day: 'numeric' });
