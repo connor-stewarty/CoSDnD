@@ -799,9 +799,10 @@
     <!-- Replace this paragraph with a 2-4 sentence rolling summary of the campaign. Update it every few sessions. -->
     <p class="lede" id="story-so-far">
       About a year into the campaign, fresh out of a house that cost them people, the party regrouped in Vallaki,
-      picked up two new allies, and got their first real lead on Strahd's weakness: the Amber Temple. A dusk elf
-      wizard named Casimir has joined the cause and knows the way. The plan now is Barovia village, more allies,
-      then a one-way trip into old, guarded, unfriendly magic.
+      picked up allies wherever they could find them — a dusk elf wizard, a strongman sold to them by his own
+      mother, a grieving vampire hunter — and followed the one real lead on Strahd's weakness up into the
+      mountains. They are now inside the Amber Temple. The front hall cost them a guardian fight nobody expected
+      to walk away from, and it is the first room of many.
     </p>
   </div>
 </section>
@@ -995,6 +996,23 @@ const sessions = [
     ],
     quote: { text: "He's just an NPC — he doesn't have a class. He just attacks once per turn.", who: "On Parriwimple, mid-recruitment" },
     cliffhanger: "The gate on the mountain road to the Amber Temple stands open, guardians cleared — the party hasn't gone through it yet."
+  },
+  {
+    number: 3,
+    title: "Into the Amber Temple",
+    date: "2026-08-27",
+    inGameDate: "A long rest in the tower past the gate, then the following morning at the temple's front door",
+    tldr: "The party rested past the statue gate, left Irina and Rudolph van Richten behind with the fire, and finally reached the Amber Temple — where a hooded, eyeless statue in the entrance hall turned out to be a spellcaster who opened with Fireball, banished Dog to a nightmare dimension, dropped Scottishbard with Chain Lightning, and very nearly killed him again with Finger of Death.",
+    highlights: [
+      "Long-rested in a tower past the gate; a failed tinderbox roll was rescued by Dablin casting Firebolt at the woodpile.",
+      "Left Irina behind where it was warm, and left Rudolph van Richten to guard her — knowingly walking into the dungeon without the party's only healer.",
+      "Reached the Amber Temple: fifty feet of it built into the mountainside, six enclaves of praying hooded statues, and a seventh inside with no eyes and its hands open, waiting.",
+      "Dog rolled a natural 20 for traps, squeezed through an arrow slit and came back with a Wand of Secrets off a skeleton.",
+      "The eyeless statue opened with Fireball, then banished Dog, then dropped Scottishbard with Chain Lightning — Dog survived Finger of Death on a natural 20 rolled live on camera.",
+      "Bulbin ended it with a thrown spear; the guardian left behind his spellbook, a Robe of Useful Items and a formerly-cursed Staff of Frost."
+    ],
+    quote: { text: "You want to see your nightmares?", who: "The guardian, immediately before banishing Dog" },
+    cliffhanger: "The entrance hall is cleared and the guardian is dead. Still unopened: the door with six armed strangers behind it, a hallway with a burnt corpse in it, and everything past that."
   }
   // { number: 3, title: "...", date: "...", inGameDate: "...", tldr: "...", highlights: [...], quote: {text:"...", who:"..."}, cliffhanger: "..." },
 ];
@@ -1010,7 +1028,11 @@ const quotes = [
   { text: "You killed my daughter. I'm gonna kill you.", who: "Rudolph van Richten, before the whole story came out", session: 2 },
   { text: "He's just an NPC — he doesn't have a class. He just attacks once per turn.", who: "On Parriwimple, mid-recruitment", session: 2 },
   { text: "Power Word Poo.", who: "Parriwimple's self-declared spell, cast at least twice", session: 2 },
-  { text: "Your mom.", who: "Scottishbard, casting Vicious Mockery into a one-shot kill", session: 2 }
+  { text: "Your mom.", who: "Scottishbard, casting Vicious Mockery into a one-shot kill", session: 2 },
+  { text: "You want to see your nightmares?", who: "The Amber Temple's guardian, before banishing Dog", session: 3 },
+  { text: "I hurt myself today.", who: "Dog, punching himself in the face to stay raged", session: 3 },
+  { text: "I'm here too to kill furries.", who: "Parriwimple, arriving late and reading the room correctly", session: 3 },
+  { text: "Wizards be eating good today, but barbarians be getting shit.", who: "Bulbin, handing over the Staff of Frost anyway", session: 3 }
 ];
 
 // ---- Locations explored ----------------------------------------------------
@@ -1020,10 +1042,11 @@ const locations = [
   { name: "Vallaki", session: 1, blurb: "Home base this session — an inn, allies Irina and Sushura, a town mid pro-Strahd \"celebration.\"" },
   { name: "The Windmill", session: 1, blurb: "Site of a coven of three hags, killed roughly two in-game weeks before this session." },
   { name: "Vistani / Dusk Elf Camp", session: 1, blurb: "Recruited Casimir here; learned the Dusk Elves' history with Strahd." },
-  { name: "Amber Temple", session: 1, blurb: "Not yet visited — a lead only. Past Barovia village, reportedly a one-way trip guarded by ancient traps." },
   { name: "Barovia (village)", session: 2, blurb: "Recruited Parriwimple here; hyperinflated prices at the tavern and general store (2gp for a glass of water)." },
   { name: "The Bridge", session: 2, blurb: "Ambushed by animated cursed weapons at a decoy wrecked carriage. Captured the carriage and a cursed blade, reforged into Phoenix Cloak's short sword. Exact name TBD." },
-  { name: "\"The Statue Gate\"", session: 2, blurb: "A stone gate on the mountain road to the Amber Temple, ringed with vulture-like statues that animate as guardians. Fought through it — gate now stands open, but the party hasn't gone past it yet." }
+  { name: "\"The Statue Gate\"", session: 2, blurb: "A stone gate on the mountain road to the Amber Temple, ringed with vulture-like statues that animate as guardians. Fought through it, then walked through it — the tower is on the far side." },
+  { name: "The Tower Past the Gate", session: 3, blurb: "A stone tower beyond the statue gate with a broken bridge outside. Warm on the first floor, frozen shut at the top, and full of stone soldiers in plate armor up there. Irina and Rudolph van Richten are still in it, keeping the fire going." },
+  { name: "Amber Temple", session: 3, blurb: "Casimir named it back in Session 01; the party finally stood in front of it in Session 03. Fifty feet of temple built straight into the mountainside, six enclaves of praying hooded statues along its face, the road buried in snow. The entrance hall is cleared — everything past it isn't. Per the DM, this place loves mages." }
 ];
 
 /* =========================================================================

@@ -43,3 +43,30 @@ The running "best of" log — funny, iconic, or unhinged lines from the table (i
 
 > "This is literally the worst crit I've ever done. I rolled three ones and a two."
 > — Session 02, on a natural 20 that did almost nothing.
+
+> "You want to see your nightmares?"
+> — the Amber Temple's guardian, Session 03, immediately before banishing Dog.
+
+> "I hurt myself today."
+> — Dog, Session 03, punching himself in the face to stay raged.
+
+> "I'm here too to kill furries."
+> — Parriwimple, Session 03, arriving late and correctly reading the room.
+
+> "Wizards be eating good today, but barbarians be getting shit."
+> — Bulbin, Session 03, handing the Staff of Frost to the wizard anyway.
+
+> "I'm the guardian of this temple, and you shall not pass me."
+> — the guardian, Session 03, in the middle of being killed by a thrown spear.
+
+> "Man, I love being a rogue."
+> — Phoenix Cloak, Session 03, after a second natural 20 and a self-narrated kill.
+
+> "AI is not your friend right now."
+> — Session 03, mid rules argument, moments before the DM went and got the actual Player's Handbook.
+
+> "I don't even know anything that has a 30 passive perception. Maybe like a Tarrasque."
+> — Session 03, on Phoenix Cloak rolling a 29 to hide.
+
+> "Welcome to the Amber Temple."
+> — The DM (William), Session 03, closing out the night.

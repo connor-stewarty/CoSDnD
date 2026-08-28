@@ -29,3 +29,8 @@ A few sentences — what would you tell a new player at the table about who this
 
 ## Running list of "oh right, I have that" items
 Consumables, quest items, favors owed/owed-to — the stuff that's easy to forget between sessions.
+
+- **Dispel Magic** — prepared as of Session 03. Tried it at 3rd level on the guardian's hood of magical darkness and failed the check; the DC on that one was set unusually high.
+- **Bardic Inspiration** — handed a die to Bulbin in Session 03, which is worth remembering as a habit; it's easy to sit on these all fight.
+- The party was level 8 as of Session 03 (per the DM, sizing up the temple guardian).
+- Went down to Chain Lightning in Session 03 and spent most of that fight unconscious — stabilized by Casimir, then healed by Dog's plus-marked bone. Worth a line in the journal.
