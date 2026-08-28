@@ -50,7 +50,7 @@ No combat during the recorded portion — this was a downtime, roleplay, and tra
 - **Dog** *(new party member)* — not an animal; a person who plays a short, dirty, feral man-on-all-fours, refers to Bulbin as "master," sleeps curled on the floor (or the bed, once invited), sniffs and growls at strangers. Full commitment to the bit.
 - **Irina** — ally at the inn in Vallaki where the party rested; checks in on their safety.
 - **Sushura** — NPC at the inn; pointed the party toward the Vistani camp for gear and potential recruits.
-- **Kenny** *(mentioned, not directly present in scene)* — lives near Vallaki, apparently knows the area/Vistani camp well.
+- ~~**Kenny** *(mentioned, not directly present in scene)* — lives near Vallaki, apparently knows the area/Vistani camp well.~~ **Not an NPC.** Kenny is the real-life name of the player behind Dablin Horkus Porkus; the transcript caught the table addressing him directly. Same mistake as reading William as a PC. Left here struck through so nobody re-adds him.
 - **Unnamed dusk elf elder** — guard at the camp; recounted the massacre of the dusk elves by Strahd over his dead bride-to-be.
 - **Casimir** *(new ally/party member)* — leader of the dusk elves near the Vistani camp; a wizard; knows about the Amber Temple and Strahd's likely weakness; joins the party.
 
