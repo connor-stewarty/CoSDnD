@@ -70,3 +70,33 @@ The running "best of" log — funny, iconic, or unhinged lines from the table (i
 
 > "Welcome to the Amber Temple."
 > — The DM (William), Session 03, closing out the night.
+
+> "He said the *first* enemy."
+> — The table, Session 04, one second after the DM said there were no other bad guys in the Amber Temple.
+
+> "I was just being nice last game... because I think y'all would have actually died."
+> — The DM (William), Session 04, admitting the barracks should have joined the Session 03 guardian fight.
+
+> "Raging has now become a commodity in this dungeon."
+> — The DM, Session 04, as Bulbin discovers rage doesn't come back on a short rest.
+
+> "I'm not stuck in a room with them. They're stuck in a room with me."
+> — Bulbin, Session 04, alone at the bottom of a thirty-foot pit, having killed everything in it.
+
+> "So why did I spend all this time trying to open up the chest?" / "Because you thought there was something in it."
+> — Session 04, on the empty ceiling chest that destroyed the floor of the room.
+
+> "What kind of person is going to go, yeah, I'ma walk into the room full of skulls and open the trapped chest?"
+> — Session 04, asked immediately after doing exactly that.
+
+> "Well, at least now you'll be warmed up."
+> — Dablin, Session 04, after a natural 20 Firebolt.
+
+> "We are so fucked."
+> — Dog, Session 04, whispering to Casimir on getting a good look at the lich.
+
+> "What are you guys looking at? Hey man, I think you need some lotion."
+> — Parriwimple, Session 04, to a lich.
+
+> "I only eat the rich people."
+> — Phoenix Cloak, Session 04, declining to eat the dead guardian.

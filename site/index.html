@@ -819,8 +819,8 @@
       About a year into the campaign, fresh out of a house that cost them people, the party regrouped in Vallaki,
       picked up allies wherever they could find them — a dusk elf wizard, a strongman sold to them by his own
       mother, a grieving vampire hunter — and followed the one real lead on Strahd's weakness up into the
-      mountains. They are now inside the Amber Temple. The front hall cost them a guardian fight nobody expected
-      to walk away from, and it is the first room of many.
+      mountains. They are now deep inside the Amber Temple, working through it a freezing room at a time. The
+      thing that finally told them where the power is kept was a lich who answered the door politely.
     </p>
   </div>
 </section>
@@ -1031,6 +1031,23 @@ const sessions = [
     ],
     quote: { text: "You want to see your nightmares?", who: "The guardian, immediately before banishing Dog" },
     cliffhanger: "The entrance hall is cleared and the guardian is dead. Still unopened: the door with six armed strangers behind it, a hallway with a burnt corpse in it, and everything past that."
+  },
+  {
+    number: 4,
+    title: "The Front-Desk Lich",
+    date: "2026-09-10",
+    inGameDate: "Straight on from Session 03 \u2014 a short rest in the barracks, then about an hour working the temple's upper floor",
+    tldr: "The party cleared the barracks they'd shut the door on last session and took the room to rest in, then spent an hour looting the Amber Temple's upper floor \u2014 walking into a hospitality illusion, a statue that charms you into starving to death, and a ceiling chest that dropped Bulbin thirty feet into a room of poltergeists. They ended the night meeting a lich who turned out to be the friendliest thing in the building.",
+    highlights: [
+      "Cleared the barracks behind the door Bulbin shut last session \u2014 Casimir's Ice Storm decided it before it started.",
+      "The DM admitted he'd held those guards back during the guardian fight, because the party would have died.",
+      "The temple's real gimmick surfaced: \u221210\u00b0C, Constitution saves on a rolling 60-minute clock, and five minutes off that clock for every search.",
+      "Found a Tome of Understanding in a chest's false bottom, crafted alchemist's fire on a natural 20, and learned Phoenix Cloak has been carrying an unused +2 rapier since Session 02.",
+      "A cozy dining room turned out to be an illusion over specters; a statue in a room of skulls charms you into standing there until you starve, with two corpses as proof.",
+      "Forcing a chest glued to the ceiling disintegrated the floor \u2014 Bulbin fell thirty feet and cleared a room of poltergeists alone before the party roped him out."
+    ],
+    quote: { text: "I'm not stuck in a room with them. They're stuck in a room with me.", who: "Bulbin, alone at the bottom of the pit" },
+    cliffhanger: "Mid-conversation with a friendly, amnesiac lich who has opened his library and conjured a floor across the pit to let the party walk over. He says the temple's power sits in sarcophagi on the level below, and that touching one is how he got his."
   }
   // { number: 3, title: "...", date: "...", inGameDate: "...", tldr: "...", highlights: [...], quote: {text:"...", who:"..."}, cliffhanger: "..." },
 ];
@@ -1050,7 +1067,11 @@ const quotes = [
   { text: "You want to see your nightmares?", who: "The Amber Temple's guardian, before banishing Dog", session: 3 },
   { text: "I hurt myself today.", who: "Dog, punching himself in the face to stay raged", session: 3 },
   { text: "I'm here too to kill furries.", who: "Parriwimple, arriving late and reading the room correctly", session: 3 },
-  { text: "Wizards be eating good today, but barbarians be getting shit.", who: "Bulbin, handing over the Staff of Frost anyway", session: 3 }
+  { text: "Wizards be eating good today, but barbarians be getting shit.", who: "Bulbin, handing over the Staff of Frost anyway", session: 3 },
+  { text: "I'm not stuck in a room with them. They're stuck in a room with me.", who: "Bulbin, alone at the bottom of a thirty-foot pit", session: 4 },
+  { text: "I was just being nice last game \u2014 because I think y'all would have actually died.", who: "The DM, on the fight he quietly skipped last session", session: 4 },
+  { text: "Raging has now become a commodity in this dungeon.", who: "The DM, as Bulbin learns rage waits for a long rest", session: 4 },
+  { text: "What are you guys looking at? Hey man, I think you need some lotion.", who: "Parriwimple, to a lich", session: 4 }
 ];
 
 // ---- Locations explored ----------------------------------------------------
@@ -1064,7 +1085,9 @@ const locations = [
   { name: "The Bridge", session: 2, blurb: "Ambushed by animated cursed weapons at a decoy wrecked carriage. Captured the carriage and a cursed blade, reforged into Phoenix Cloak's short sword. Exact name TBD." },
   { name: "\"The Statue Gate\"", session: 2, blurb: "A stone gate on the mountain road to the Amber Temple, ringed with vulture-like statues that animate as guardians. Fought through it, then walked through it — the tower is on the far side." },
   { name: "The Tower Past the Gate", session: 3, blurb: "A stone tower beyond the statue gate with a broken bridge outside. Warm on the first floor, frozen shut at the top, and full of stone soldiers in plate armor up there. Irina and Rudolph van Richten are still in it, keeping the fire going." },
-  { name: "Amber Temple", session: 3, blurb: "Casimir named it back in Session 01; the party finally stood in front of it in Session 03. Fifty feet of temple built straight into the mountainside, six enclaves of praying hooded statues along its face, the road buried in snow. The entrance hall is cleared — everything past it isn't. Per the DM, this place loves mages." }
+  { name: "Amber Temple", session: 3, blurb: "Casimir named it back in Session 01; the party finally stood in front of it in Session 03. Fifty feet of temple built into the mountainside, six enclaves of praying hooded statues along its face. Entrance hall and upper floor now cleared. It is \u221210\u00b0C inside, and the cold is on a clock." },
+  { name: "The Pit Below the Skull Room", session: 4, blurb: "Opened when a chest glued to the ceiling was forced and the floor disintegrated. Dark, full of broken swords and poltergeists. Bulbin fell thirty feet into it and cleared it by himself." },
+  { name: "The Lich's Library", session: 4, blurb: "Behind a secret door across the pit. Home to a small, amnesiac, disarmingly friendly lich who calls himself the front desk librarian. He opened the doors and conjured a floor across the gap; the party got as far as the threshold." }
 ];
 
 /* =========================================================================

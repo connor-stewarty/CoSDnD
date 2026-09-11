@@ -55,7 +55,7 @@ No combat during the recorded portion — this was a downtime, roleplay, and tra
 - **Casimir** *(new ally/party member)* — leader of the dusk elves near the Vistani camp; a wizard; knows about the Amber Temple and Strahd's likely weakness; joins the party.
 
 ## Fallen
-- **Cassius** — a wizard, Todd's character before Phoenix Cloak. Died in "the house" in the fight against the tanky, self-healing ghoul-things, just before this session begins. Dealt fire damage in that fight — one of the two damage types (with radiant) that stopped the ghouls from regenerating. Survived, apparently, by a leftover map token that got duplicated by accident back in town — "the ghost of Cassius" jokes wrote themselves.
+- **Cassius** — a paladin, Todd's character before Phoenix Cloak. *(This originally read "a wizard"; corrected after Session 04, where Todd compares playing Phoenix Cloak to playing a paladin. The NPC glossary had it right.)* Died in "the house" in the fight against the tanky, self-healing ghoul-things, just before this session begins. Dealt fire damage in that fight — one of the two damage types (with radiant) that stopped the ghouls from regenerating. Survived, apparently, by a leftover map token that got duplicated by accident back in town — "the ghost of Cassius" jokes wrote themselves.
 
 ## Memorable quotes
 > "Racist turtle." / "That's not racist, you dumbass."

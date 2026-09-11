@@ -1,0 +1,1652 @@
+Transcript of 2026-09-10 18-37-40.mp3
+Duration: 153 min | Model: whisper large-v3 + pyannote 3.1 diarization
+Speakers (talk time): William (DM) 72m, Speaker 5 10m, Speaker 4 10m, Speaker 3 9m, Phoenix Cloak 8m, Speaker 2 2m
+Note: speaker separation is approximate. 'William (DM)' is mostly William but also contains some player lines
+(e.g. Scottishbard's vicious mockery at 02:12:47). Speakers 2-5 are unidentified players with mixed voices.
+------------------------------------------------------------
+
+[00:00:00] William (DM): So you guys fought the first enemy inside the Amber Temple and you did pretty good, like nothing bad happened. Yeah, there's no other bad guys inside this place.
+[00:00:10] Speaker 2: He said the first enemy.
+[00:00:13] William (DM): Are we taking a shot?
+[00:00:14] Speaker 2: Oh no.
+[00:00:16] William (DM): I mean.
+[00:00:17] Speaker 3: Are we sure those guys wouldn't come back? I
+[00:00:23] Speaker 4: Mean.
+[00:00:24] Speaker 3: It.
+[00:00:27] Speaker 3: Is a possibility. I haven't dealt with these entities before.
+[00:00:33] Speaker 2: Me neither.
+[00:00:36] William (DM): But I fear that the parable says: well, we can burn the corpse of this fox guy and he'll definitely still be dead.
+[00:00:45] William (DM): I guess,
+[00:00:48] Speaker 5: That do be a possibility.
+[00:00:50] William (DM): I mean, he's also not really human. So if y'all want, we could eat him.
+[00:01:01] Speaker 3: That's all up to you, man.
+[00:01:03] Phoenix Cloak: I only eat the rich people.
+[00:01:08] Phoenix Cloak: Just kidding guys.
+[00:01:14] Phoenix Cloak: Oh, only the rich. Nah, I'm just kidding, I don't eat such wine, nope.
+[00:01:25] William (DM): Casimir says I wouldn't mind a short rest. It is a bit cold in here though.
+[00:01:33] William (DM): Yeah.
+[00:01:34] Speaker 5: We have the group of people in the other room we might need to like hide out somewhere.
+[00:01:42] Speaker 4: That is something we do have, that's true. We could easily take care of.
+[00:01:51] William (DM): Y'all wanna deal with the group of people?
+[00:01:54] Speaker 3: Do
+[00:01:54] William (DM): We wanna do that now? I don't think I.
+[00:01:56] Speaker 3: Got some.
+[00:01:57] Phoenix Cloak: Spell.
+[00:01:57] Speaker 3: Slots.
+[00:01:58] William (DM): Take a little rest first, maybe outside.
+[00:02:02] Speaker 4: Well, if we beat the shit out of these people, we get their room for sleeping. Yeah,
+[00:02:09] Speaker 5: Or resting.
+[00:02:12] Speaker 5: We could also cause the death of one of our own.
+[00:02:16] Speaker 4: Well, from what I saw with my brief peek, it looked like a bunch of guys with swords, you know, and like a big wolf.
+[00:02:32] Speaker 3: Hmm, that would be another pelt to add to the collection. This is true.
+[00:02:47] Speaker 3: I mean, I could stay in the back if you.
+[00:02:50] William (DM): Wanna tank.
+[00:02:51] Speaker 2: Yes, we could do that okay.
+[00:02:54] William (DM): I guess I could tank in the front. I mean, I'll be up front. I guess I could tank in the front. I'll go too.
+[00:03:03] Speaker 2: Okay.
+[00:03:04] William (DM): Alright, do we wanna, or do we wanna, hold on, cause we have that hole? Do we wanna like rush them from both?
+[00:03:11] Speaker 5: Sides.
+[00:03:14] Speaker 3: Hmm, cause we can have two.
+[00:03:15] Speaker 5: People there and then I can fit through there. Yeah, that might be.
+[00:03:19] William (DM): Good.
+[00:03:22] Speaker 3: Alright, well, I might heal myself a little bit. Does anyone else need like a little bit of healing?
+[00:03:27] William (DM): I do.
+[00:03:28] Speaker 4: I have about half.
+[00:03:29] William (DM): Health. I could use some.
+[00:03:31] Speaker 5: Healing.
+[00:03:35] Speaker 5: But go for yourself first. Man, I know you're down. Maybe I'll aid everyone else.
+[00:03:42] William (DM): Aid, give them aids.
+[00:03:45] Speaker 3: Oh, my god, oh.
+[00:03:47] William (DM): Yeah, so I get wait. Who gets that healing? Uh, Bob, does he healed himself. What's an aid, isn't it temp health?
+[00:03:55] Speaker 3: Oh, that was, that was.
+[00:03:57] Speaker 5: Healing worth, I'm gonna cast it.
+[00:03:59] Speaker 3: Um.
+[00:04:00] Speaker 5: I.
+[00:04:05] Speaker 2: Don't know five, I think three.
+[00:04:06] William (DM): Creatures.
+[00:04:08] Speaker 2: Yeah, so I guess I'll get five and uh.
+[00:04:14] William (DM): Dablin or not Dablin? Uh, oh yeah, Dablin and Phoenix.
+[00:04:18] Speaker 5: Cloak, I guess.
+[00:04:21] Speaker 3: Alright.
+[00:04:22] William (DM): Yeah, okay, so this is temp health. Thank you, temp health: this is like your max HP goes up, but you also get healed by five.
+[00:04:30] Speaker 4: Yeah, yeah.
+[00:04:32] William (DM): Eight is pretty damn good, but it's gonna last for eight hours, so I mean yeah.
+[00:04:37] Phoenix Cloak: Wait. So I get eight health and you get no.
+[00:04:41] William (DM): You only get five health.
+[00:04:43] Phoenix Cloak: Oh, I get five okay.
+[00:04:45] William (DM): Okay, here's the deal. Also goes up by five, thank you. Here's the deal with this. No y'all can kick it open or open it, but only one of y'all can surprise them because it's a door, okay, and it's loud. I think it's loud, okay. I think what I'm gonna do is I'm like I'm gonna go on the other side and surprise them from the back.
+[00:05:09] Speaker 2: Okay.
+[00:05:10] William (DM): Like I'm gonna try and sneak and surprise them from the back. I'll be.
+[00:05:15] Speaker 4: Okay, I will say, uh, I'm just gonna, I'm just gonna, you know, put this out here.
+[00:05:28] Speaker 3: Yeah.
+[00:05:30] William (DM): I'm just gonna put this out here.
+[00:05:32] Speaker 5: Oh yeah, this is true.
+[00:05:34] William (DM): Okay, so. So my signal is gonna be the fireball, I guess.
+[00:05:39] Speaker 4: That might be good. Yeah, I'm just gonna point this out. This is: uh, I think we know who gets the surprise round, am I right guys?
+[00:05:48] William (DM): If anyone opens it, it's gonna alert all of them, because last time I was just being nice, they should have alerted and attacked you guys. I was just being nice last game. Thanks, William, yeah much.
+[00:05:58] Speaker 2: Appreciated. We love you. Bye, Bye, thank you.
+[00:06:02] William (DM): Because I think y'all would have actually died.
+[00:06:06] William (DM): Yeah, yeah, that's pretty mean they would have made it. Yeah, plus the chain.
+[00:06:12] Phoenix Cloak: Lightning yeah.
+[00:06:15] William (DM): Yeah, all right, so do you. Does anyone want to shoot the fireball?
+[00:06:21] Speaker 5: There's only one person who can.
+[00:06:23] William (DM): Let me see what Kezmar got.
+[00:06:28] William (DM): I mean yeah, I mean I would imagine that you're gonna like open the door. Kezmar says: Kezmar says I got, I got Ice Storm I can use on them. Ooh.
+[00:06:38] Speaker 2: I got Ice Storm, I'm all for it.
+[00:06:39] William (DM): It cuts their movement speed in half.
+[00:06:42] Speaker 2: Mm-hmm, that will work. That keeps the.
+[00:06:44] William (DM): Backline safe actually.
+[00:06:47] William (DM): Yeah, that might be better. What do you think I want to do?
+[00:06:52] Speaker 4: Ice Storm might be better. I want to play.
+[00:06:54] William (DM): Ice Storm is also a fourth level spell and he has a few of those spell slots. If you want him to use it, it.
+[00:06:58] Speaker 5: Would also kind of like be a detriment to the melee characters.
+[00:07:03] William (DM): Yeah, but who cared about them? Anyways? But like you know,
+[00:07:08] Speaker 4: It has. It has movement for everybody caught in the blood. Yeah, it's a blast radius right.
+[00:07:13] Speaker 5: And anyone who enters it.
+[00:07:16] Speaker 4: Ah
+[00:07:19] Speaker 5: Isn't.
+[00:07:20] William (DM): That right.
+[00:07:23] William (DM): Um Hailstones turn the storm area into difficult terrain. Until the end of your next turn.
+[00:07:33] William (DM): Oh, so it's just only one round. They get a supplies round, He'd get a. He gets a surprise, then we roll for initiative and he might get another round. Well, actually, I guess he rolls for initiative first, I don't know, um, no, he's just gonna blast, and then everyone rolls for initiative. Yeah,
+[00:07:49] Speaker 3: Sure.
+[00:07:51] William (DM): Yeah, I don't know.
+[00:07:52] Speaker 3: We're just carrying it.
+[00:07:54] William (DM): All right, do y'all want him to do it, or do y'all want to do Fireball? I don't want to make y'all do anything, whichever one you want to do.
+[00:08:01] Speaker 2: We'll have him do.
+[00:08:02] Speaker 4: It.
+[00:08:03] Speaker 5: Yeah, we'll have, we'll have him do it, but it it creates difficulty. There you go, Casimir. Okay, never mind.
+[00:08:08] Speaker 4: Okay, well, it ends on his next turn.
+[00:08:12] Speaker 5: The difficult terrain.
+[00:08:14] William (DM): Yeah, yeah, yeah, it says the. It says the Hailstones turn the storm area into difficult terrain. Until the end of your next turn, yeah.
+[00:08:28] William (DM): And I will say, I will say so. Who all's in position?
+[00:08:31] Speaker 4: All.
+[00:08:32] Speaker 2: Of our frontrunners have like really really high movement speed. You know, yeah.
+[00:08:38] William (DM): So he is going to, um, do a square that's gonna hit everyone. It said 20, 20 square, yeah, 20 square. Okay, so that's, he's gonna open the door and he's gonna cast Ice Storm. That sucked.
+[00:08:59] William (DM): Actually okay, it was pretty average.
+[00:09:06] William (DM): Um, we're gonna have them all make dex staves.
+[00:09:15] William (DM): Okay, so he takes full damage um, that's yeah.
+[00:09:29] Speaker 3: He's gonna take.
+[00:09:32] Speaker 3: He meets, so he beats.
+[00:09:34] William (DM): He's gonna take half damage okay.
+[00:09:47] Speaker 3: Full.
+[00:09:55] Speaker 3: Full.
+[00:10:01] Speaker 3: Um and then, yeah, this guy has a dex, he's gonna take it.
+[00:10:12] Speaker 3: After roll for him, he failed.
+[00:10:30] Speaker 3: Who got?
+[00:10:31] William (DM): The cloak of the mega items, or whatever.
+[00:10:35] William (DM): Okay, um, who wanted to put it on? Yeah, didn't remember, I don't. I don't think we decided yet. Yeah, I don't think we decided yet. I think we just okay, Looted it for now. Everyone, do an initiative roll, okay.
+[00:11:02] Speaker 4: Roll 20, roll 20 is on. It is fucking chugging for me today. I do have a fan, I have a fan, I have a fan.
+[00:11:12] Phoenix Cloak: Oh no, when that I'm doing group.
+[00:11:14] William (DM): Initiative on the on the freaking berserkers. I'm not, yeah, yeah, that's fair. So, uh, should we put like a little thing to Differentiate that that enemy and periwimple?
+[00:11:31] Speaker 4: He's stinky.
+[00:11:33] Speaker 5: Cool.
+[00:11:33] Speaker 4: He's:
+[00:11:34] William (DM): Stinky.
+[00:11:34] Speaker 4: Compared to periwimple.
+[00:11:37] William (DM): He's stinkier than periwimple. Okay, so all this ground for this turn, all this ground is difficult terrain.
+[00:11:49] Speaker 3: All right, um, all right, everyone rolled mm. Hmm, all right, all right, you want to go for a dog?
+[00:12:02] Speaker 3: Damn sure. Yeah, I'll go first, okay.
+[00:12:06] Speaker 5: Uh, I'm going to bonus. You can squeeze in.
+[00:12:10] William (DM): Yeah.
+[00:12:12] Speaker 5: Rage right up into here and start attacking uh the wolf.
+[00:12:17] Speaker 2: Mm, hmm.
+[00:12:18] Speaker 5: With three of my claw attacks.
+[00:12:22] Speaker 5: Uh, reckless doesn't Require a bonus action, right? No, it just all right, I'm.
+[00:12:29] William (DM): Doing reckless.
+[00:12:32] William (DM): I fully just dropped one of my dice on the floor. Womp, womp.
+[00:12:36] Speaker 3: Are you?
+[00:12:37] William (DM): Serious. Okay, that is. Did all of y'all want to be an actual like mile away from combat? Also, I'm just making sure
+[00:12:47] Speaker 3: Oh yeah.
+[00:12:49] William (DM): Okay, okay, that's fine, Todd, did you want to be a mile away from combat? This is more of a Todd question actually, oh.
+[00:12:56] Phoenix Cloak: Do I want to be?
+[00:12:58] William (DM): Yeah, you could have moved anywhere before it started.
+[00:13:02] Phoenix Cloak: Uh, I'd rather not be okay. So you're a month.
+[00:13:05] William (DM): Okay, so do you want to be like right here?
+[00:13:08] Phoenix Cloak: Do you? Oh, where are you going? You can.
+[00:13:10] William (DM): Um, I moved you right here.
+[00:13:13] Phoenix Cloak: Oh you did. Oh you mean here: um yeah, I think that'd be good. Okay, cause you can still yeah.
+[00:13:21] William (DM): It looks like since I got.
+[00:13:27] Speaker 5: A 22, a 23 and an 18.
+[00:13:30] William (DM): Okay well, Although, are you hitting the wolf first? Yeah, only when the first one hits.
+[00:13:37] Speaker 5: Only the first one.
+[00:13:39] William (DM): Well, I guess they all hit yeah.
+[00:13:44] William (DM): I was about to say: how does a 22 hit but not a 23?
+[00:13:48] Speaker 3: All.
+[00:13:49] William (DM): Right.
+[00:13:49] Speaker 3: So that's going to be.
+[00:13:53] Speaker 3: Three.
+[00:13:57] Speaker 3: Uh, so that is.
+[00:14:05] Speaker 3: Right, and then
+[00:14:10] Speaker 5: That's going to be 23 and then 27 damage.
+[00:14:12] William (DM): Okay, he's dead on the first hit. That's why I said you want to hit all of them. So who else with the other attacks?
+[00:14:19] Speaker 5: No, that 27 was my total.
+[00:14:22] William (DM): Oh well, he's dead with 10. So did you have what? Was there like a one? Your first one didn't do as much, or what.
+[00:14:30] Speaker 5: I think. I think, because I said I was going to do all three on the dog. I'm just going to do all three on the dog. Okay, I'm just going to go, ham sure.
+[00:14:38] William (DM): I guess,
+[00:14:39] Speaker 5: Yep, all right, there's only one dog around here, it's me.
+[00:14:44] William (DM): So what's Horkus Porkus going to do? Crazy.
+[00:14:48] Speaker 5: Yeah, you know what you know you.
+[00:14:51] William (DM): In a fire bowl, nice.
+[00:14:54] Speaker 5: Yeah, right there.
+[00:14:58] William (DM): All right, the door is open so you can shoot. This is going to be all of them, yeah.
+[00:15:04] Phoenix Cloak: Okay.
+[00:15:05] William (DM): Using all those little yummy spell slots.
+[00:15:09] Speaker 3: Yep.
+[00:15:10] William (DM): Yep, yep.
+[00:15:11] Speaker 3: Nope, see my guy.
+[00:15:19] Speaker 3: So this DC 16 got 16.
+[00:15:31] William (DM): The big boy failed and I'm just going to give all the rest of them. I don't want to roll a bunch, I'm going to give all the rest of them that.
+[00:16:18] William (DM): 30. Oh oops, I was moving the thing well.
+[00:16:23] Speaker 3: I.
+[00:16:23] William (DM): Guess.
+[00:16:24] Speaker 3: It's half now he.
+[00:16:26] William (DM): Can move that and he can move that does.
+[00:16:34] William (DM): An 18 hit a dog, yes, okay, well, you took 11 slashing, so you can half that however much you want, so six.
+[00:16:48] Speaker 3: Yeah, okay.
+[00:16:55] Speaker 3: I'm just gonna have to dash to get to you um.
+[00:16:59] William (DM): This guy's going to attack kesmar. He misses and so he's going to dash to get over there. So
+[00:17:14] William (DM): That's all their turns, uh, gladiators.
+[00:17:17] Speaker 3: Going to wait.
+[00:17:41] Speaker 3: I didn't give kesmar initiative I.
+[00:17:43] William (DM): Didn't, of course, or?
+[00:17:49] Speaker 5: Periwinkle I.
+[00:17:50] William (DM): Know, I know, I know, and of course they got high ones. Whatever, I'm gonna give them low ones because I don't, I really don't want to on anything.
+[00:18:10] Speaker 3: So where did this guy go? Okay, he was right there, yeah.
+[00:18:30] William (DM): Yeah, it looks like he can go for here as a dash at least, so he's gonna do that. Um, all right, bob, it's your turn.
+[00:18:41] Speaker 2: Let's
+[00:18:46] Speaker 2: See, what do we?
+[00:18:48] Speaker 3: Got here.
+[00:18:55] Speaker 3: What's he doing, big square, what?
+[00:19:01] Speaker 2: Is bro doing um okay.
+[00:19:08] Speaker 3: Maybe I'll try casting.
+[00:19:13] William (DM): Wait, are these guys like looking sort of hurt at all, or nah, they have been shot with fireball, shot with an ice storm. They look like they have freezer burn right now. Okay, well, I'll just cast vicious mockery on. Which one is this guy on the enemy team? Yeah all.
+[00:19:32] Speaker 2: Right.
+[00:19:39] Speaker 3: So he's got.
+[00:19:39] William (DM): To make a wisdom.
+[00:19:40] Speaker 3: Save he.
+[00:19:46] William (DM): Got a 15 meets a beats. Okay, dang all right.
+[00:19:55] William (DM): What are you gonna do?
+[00:19:56] Speaker 2: Let's
+[00:20:00] Speaker 4: Find out yeah.
+[00:20:01] Speaker 2: I'm.
+[00:20:03] Speaker 4: Probably gonna smack this guy the.
+[00:20:06] William (DM): Big guy gonna get angry oh.
+[00:20:09] Speaker 4: Yeah, I'm a bonus action: get angry first off.
+[00:20:16] Speaker 4: Smack bro with the spear, probably all.
+[00:20:22] Speaker 3: Right.
+[00:20:28] Speaker 3: What was it to hit?
+[00:20:29] William (DM): Um? 11 does not, but were you recklessly then, though or not, 20 does hit, yes.
+[00:20:38] Speaker 3: Sir.
+[00:20:40] William (DM): It could be a.
+[00:20:40] Speaker 2: 15 plus two, or is it three? At this point, for rage, it's still plus two.
+[00:20:51] Speaker 2: All right, I'm gonna say it's plus two, and then, uh, I also is I get to crit my divine fury as well.
+[00:21:03] Speaker 2: So in total it's going to be seven plus all.
+[00:21:07] William (DM): Right, that's pretty good damage seven:
+[00:21:08] Speaker 4: Plus.
+[00:21:08] Speaker 2: Two, it's actually seven plus two.
+[00:21:11] Speaker 4: So nine.
+[00:21:11] Speaker 2: Points of radiant.
+[00:21:12] Speaker 4: All.
+[00:21:15] Speaker 3: Right oh.
+[00:21:19] William (DM): The.
+[00:21:19] Speaker 3: Six didn't.
+[00:21:19] William (DM): Happen.
+[00:21:20] Speaker 4: The six happened, but I you don't add the modifier for crit dice. What I rolled was a two on the dice. My modifier is plus four. Okay, okay.
+[00:21:33] William (DM): That's your turn, phoenix cloak. What are you gonna do? Oh wait, you got another thing. You got a second attack. Back come again. Oh man, that's crazy. No.
+[00:21:44] Speaker 2: No, my guy can.
+[00:21:45] William (DM): End your turn. That's his ability.
+[00:21:48] Speaker 2: I'm still recklessly so here we go, hell yeah.
+[00:21:55] Speaker 2: You're 12 plus 2, 14 piercing yeah.
+[00:21:59] Speaker 4: There you go, you dead. No, damn, he's a tank. Yeah, anyways, that's my turn all.
+[00:22:09] William (DM): Right now that we got turned instead, or it's phoenix cloak's turn, todd.
+[00:22:20] Phoenix Cloak: Oh sorry.
+[00:22:24] Phoenix Cloak: Yeah, I was reading something all right, so um all.
+[00:22:35] Phoenix Cloak: Right, which one of these guys am I gonna attack? Attack which.
+[00:22:39] William (DM): One. Are you gonna attack buddy or?
+[00:22:44] Phoenix Cloak: Which one has lower health. Yeah,
+[00:22:47] William (DM): You don't know.
+[00:22:49] Phoenix Cloak: No, okay, yeah. Yeah, I guess that's kind of a medical question, yeah.
+[00:22:55] William (DM): They'll.
+[00:22:59] Speaker 2: Go pretty low, but you don't.
+[00:23:00] William (DM): Know the exact lowness of health. They all look pretty beat up, but that's all you really know, am.
+[00:23:10] Phoenix Cloak: I hidden no.
+[00:23:12] William (DM): You can't be.
+[00:23:13] Phoenix Cloak: You.
+[00:23:13] William (DM): Can't, oh yeah, can.
+[00:23:15] Phoenix Cloak: I hide using my bonus action.
+[00:23:18] William (DM): Mm-hmm.
+[00:23:18] Phoenix Cloak: Okay, yeah, that's right. And then, uh, I'll go over there and attack this guy in the bottom, it's uh.
+[00:23:31] Phoenix Cloak: Can I just put my guy here, but he's really here, no.
+[00:23:37] William (DM): Because a big old turtle's right there, you can shoot. You know fire. Oh yeah, oh.
+[00:23:43] Phoenix Cloak: Yeah.
+[00:23:44] William (DM): You can also hit this guy if you want. Actually,
+[00:23:49] Phoenix Cloak: Yeah, yeah, I'll. I'll use my bow, I'll be here. Are you gonna shoot? I'll shoot, uh, this guy bro.
+[00:24:02] William (DM): Is never going to use his plus two sword.
+[00:24:04] Phoenix Cloak: Right, oh no, you have a.
+[00:24:08] William (DM): Plus two sword that you've had this whole time and you never use.
+[00:24:12] Phoenix Cloak: You mean the rapier? Yeah.
+[00:24:15] William (DM): We gave it to you. It's a plus two sword. Yeah, you guys, you guys got it like a while ago. Remember the bridge? Oh,
+[00:24:26] Phoenix Cloak: Wait, oh yeah.
+[00:24:27] William (DM): Did you make it?
+[00:24:30] Phoenix Cloak: You just just.
+[00:24:31] William (DM): If you don't have it, just let's just continue the combat. It shouldn't- actually it shouldn't- change too much for this combat, and then we'll have a little bit of a tiny break as your short rest that you can add the weapon, yeah.
+[00:24:46] Phoenix Cloak: I don't have the weapon okay.
+[00:24:47] William (DM): So just just keep going.
+[00:24:49] Phoenix Cloak: Okay, so I'll just use my short bow.
+[00:24:52] Speaker 3: And.
+[00:24:55] Phoenix Cloak: I'm trying to see sneak attack. Yeah, I'll do a sneak attack. That's 46 damage, okay.
+[00:25:03] William (DM): We have to roll to hit first. Well,
+[00:25:05] Phoenix Cloak: Yeah, I know, yeah, you.
+[00:25:06] William (DM): Have to do a stealth check also first oh.
+[00:25:09] Phoenix Cloak: Because you're trying to, because
+[00:25:10] William (DM): You're trying to be stealthy, oh.
+[00:25:12] Phoenix Cloak: Trying okay, because you said you wanted to do.
+[00:25:14] William (DM): Stealthy. All right, thank you. Worked or not? Yeah, I won't let you know if that worked or not, just make the hit all.
+[00:25:23] Phoenix Cloak: Right, you know.
+[00:25:23] William (DM): Afterwards does.
+[00:25:27] Phoenix Cloak: The 15 hit.
+[00:25:29] William (DM): Um, it was a, it was he was. Uh, you were hidden, so the advantage hits.
+[00:25:37] William (DM): Nice. Yeah, so well for damage with your sneak attack also all.
+[00:25:42] Speaker 3: Right.
+[00:25:42] Phoenix Cloak: That's damage, and
+[00:25:51] Phoenix Cloak: Oh wait, no, it's 4d6. Yeah, ignore that number.
+[00:25:58] William (DM): So 16 damage yes.
+[00:26:02] Phoenix Cloak: Nice.
+[00:26:03] William (DM): That'll.
+[00:26:04] Phoenix Cloak: Be the end of my turn all.
+[00:26:10] William (DM): Right, so it's perry wimple's turn.
+[00:26:13] William (DM): He's gonna get behind this guy, have advantage and he's gonna smack the crap out of him. I.
+[00:26:19] Speaker 2: Don't know uh.
+[00:26:22] William (DM): What's your turn?
+[00:26:23] Speaker 2: I.
+[00:26:24] William (DM): Know, yes, he decimates. This guy put it, puts uh, puts his head on his skull, put his head on his spear and says: look at what I.
+[00:26:31] Speaker 5: Got, he looks.
+[00:26:32] Phoenix Cloak: Just.
+[00:26:32] Speaker 5: Like.
+[00:26:32] Phoenix Cloak: Me.
+[00:26:33] Speaker 5: You.
+[00:26:37] Speaker 2: Kill good um.
+[00:26:46] William (DM): I don't think he's gonna use any spell slots. He's probably just gonna disengage and get out of there. Mr kesmar mirror, I don't think he's gonna use any funny spells. All right, dog. Oh wait, now it's not.
+[00:27:07] Speaker 3: Difficult to reign. Yes, sir.
+[00:27:12] William (DM): Dog.
+[00:27:15] William (DM): Well, there's three of them and I got three attacks. Let's do one each, and uh, I'm doing reckless again. First,
+[00:27:28] William (DM): One that's going to be a 18 hits. That's going to be a dirty 20 that hits. That's.
+[00:27:41] Speaker 5: Going to be a nine. Oh no, actually that's a 16 plus seven, is all those 23.
+[00:27:49] William (DM): Okay, cool, cool, cool. So one guy will get what.
+[00:27:56] Speaker 5: Is it two plus four is six plus two is eight points of damage.
+[00:28:05] Speaker 4: Okay, eight, all right. The.
+[00:28:07] William (DM): Other. The other guy is going to get seven points of damage all.
+[00:28:12] Speaker 4: Right.
+[00:28:13] William (DM): And then the last one is also gonna get seven points of damage. All right, all.
+[00:28:19] William (DM): Right. So that means it's horkus porkus's turn um.
+[00:28:23] Speaker 3: Let's see, I think I will just do.
+[00:28:32] Phoenix Cloak: Fire bolt. Now you can do whatever you want. I.
+[00:28:42] Phoenix Cloak: Mean yeah, kind of kind.
+[00:28:47] Speaker 3: Of running.
+[00:28:47] Phoenix Cloak: Low.
+[00:28:48] Speaker 3: Gun juice is running low, so let's roll to hit uh, this berserker here natural.
+[00:29:07] Speaker 3: 20 very nice, so that's 4d10, 4d10.
+[00:29:16] Speaker 3: 21.
+[00:29:20] Speaker 3: Points of fire damage.
+[00:29:22] Speaker 5: Just.
+[00:29:22] William (DM): I shoot.
+[00:29:24] Speaker 5: Out the fireball and be like: well, at least now you'll be warmed up, put them all.
+[00:29:33] William (DM): Right and.
+[00:29:34] Speaker 5: That's my turn all.
+[00:29:36] William (DM): Right. So all these guys are going to attack dog. Let's see what happens. They have.
+[00:29:42] Speaker 5: Advantage.
+[00:29:43] William (DM): Does a 21, 22 and 24 hit. I am wearing reverse armor. Yes, that does hit. Okay, so you're in total gonna take 34 damage, but you can half that.
+[00:30:02] Speaker 3: Man.
+[00:30:03] William (DM): Barbarian's so good that would have like killed a wizard can.
+[00:30:06] Speaker 3: I cut yeah um.
+[00:30:10] William (DM): I think you're over 60 feet away, and plus it's half, so it's not as much, but I think you're. Don't you have to be more than 60 feet away, no less than 60, and also you can't see anything. Oh yeah, you're in a corner, all right. And then this guy's gonna attack mr alex and he misses. All right, it's bob's turn. He.
+[00:30:33] Speaker 4: Has an advantage. Oh,
+[00:30:35] William (DM): Even with advantage, human. I'm using buttons for these guys because I don't care. I'm using buttons because I could literally care less. I've been using buttons so much more because there's so many enemies. This game gives you right things.
+[00:30:48] Speaker 5: You don't want your dm to say I could care less. I.
+[00:30:52] William (DM): Can't rest about rolling. I don't want to roll and add modifiers. I hate doing that.
+[00:31:00] Speaker 5: Counts for the big boss fight, though.
+[00:31:04] William (DM): He's gonna make a save, a wisdom save.
+[00:31:09] Speaker 2: Okay.
+[00:31:10] William (DM): He failed, he failed. Hold up, hold up, hold up what.
+[00:31:14] Speaker 5: Do you say to him? What do you say to him?
+[00:31:18] William (DM): Oh, do you mock him by absence of speech? Do?
+[00:31:24] Speaker 5: You do the fortnite dance.
+[00:31:28] William (DM): Alright.
+[00:31:32] William (DM): What do you do? Or did you want to inspire someone, bob? I wanted.
+[00:31:41] Speaker 3: To inspire bob.
+[00:31:44] William (DM): Okay, boban, you're inspired.
+[00:31:46] Speaker 4: Very cool. Is this guy in front of me dead or I put the.
+[00:31:50] William (DM): X for the vicious mockery. Can you use your bardic inspiration?
+[00:31:59] William (DM): Do you want me to use my bardic? Yeah?
+[00:32:04] William (DM): Do you want me to use my bardic, like in this first one? Yeah, oh, okay, that's not what you're saying, go.
+[00:32:10] Speaker 4: Ahead and, uh, I'll attempt to hit 25 hits.
+[00:32:17] William (DM): Is there a special ability you're trying to get with the bardic inspiration right now? Is that why?
+[00:32:30] William (DM): Oh, I think it says: when it causes them to succeed, isn't that like you failed, but you use it and then you succeed? Yeah, it is that. Yeah, I mean so it has to be the direct cause of success.
+[00:32:45] Speaker 4: 12 points of piercing 12.
+[00:32:47] William (DM): Points of piercing. Okay, 12 points. He's freaking dead. How do you want to kill him?
+[00:32:52] Speaker 4: Spear through the eyeball. Good catch, yes and uh temp hb. Oh man eight, nice pretty.
+[00:33:02] Speaker 3: Good and.
+[00:33:07] William (DM): You got like two more attacks or something, attack let's.
+[00:33:15] William (DM): Smack this. You're not flanking that guy, but you're now you're flanking that guy, smack.
+[00:33:20] Speaker 4: This guy yeah.
+[00:33:26] William (DM): Yeah, hit him, beat him up, you have advantage. Yeah, beat the crap out of him we.
+[00:33:33] Speaker 2: Are he just told? Oh right, he's fucking dead.
+[00:33:39] William (DM): Um how much damage is it? It's 18 so far. All right, he's chilling damn.
+[00:33:47] Speaker 4: Really.
+[00:33:47] William (DM): Well, actually he's hurt, very hurt, but not for long. Seven points of radiant- okay, he's freaking dead now.
+[00:34:01] Speaker 3: That's.
+[00:34:01] Speaker 2: That's.
+[00:34:02] Speaker 4: My turn, because I don't have any more movement, okay.
+[00:34:07] William (DM): Dang phoenix cloak. What are you gonna do? I'm.
+[00:34:11] Phoenix Cloak: Gonna do. All right, I'm going to do another sneak attack, so I'm going to roll.
+[00:34:20] Phoenix Cloak: To uh, you know.
+[00:34:21] Speaker 3: Hide.
+[00:34:22] Phoenix Cloak: For my bonus action.
+[00:34:27] Phoenix Cloak: There's no shot.
+[00:34:29] Speaker 2: Yeah.
+[00:34:30] William (DM): You're, you're hidden.
+[00:34:32] Phoenix Cloak: Yeah, I think. I think I'm pretty well hidden. Okay, then, who are you gonna shoot?
+[00:34:36] William (DM): I.
+[00:34:39] Phoenix Cloak: Am going to shoot.
+[00:34:43] Phoenix Cloak: Eeny, meeny, miny, I I'll shoot the one that's in between. Uh, dog and bull, all right, shoot.
+[00:34:54] Speaker 2: Him you.
+[00:34:57] Phoenix Cloak: Think you can reach from here- I should be able to- probably can- 65 feet. I think it's like 80 feet.
+[00:35:04] William (DM): It's probably something and then something with disadvantage.
+[00:35:07] Phoenix Cloak: It says 80.
+[00:35:10] William (DM): Yeah, so you can hit him okay.
+[00:35:12] Phoenix Cloak: Would it be disadvantage? No,
+[00:35:15] William (DM): You just have. You have advantage because you're hidden.
+[00:35:19] Phoenix Cloak: Oh cool, all right just.
+[00:35:20] William (DM): Shoot him oh.
+[00:35:24] William (DM): Wow, no wait, that's a short. No, that's short, bro, um you did hit him.
+[00:35:30] Phoenix Cloak: Okay, all right, cool, then uh see what damage I do. And this is a sneak attack, yes, I'm doing so. Nine plus.
+[00:35:46] Phoenix Cloak: 12, so that's uh 21 damage okay.
+[00:35:51] William (DM): You almost killed him, but he's not dead yet. These are the only two that's saved. These are the only two that saved their fros from the from the ice storm. By the way, that's why they are as dead.
+[00:36:05] Speaker 2: Um, yeah.
+[00:36:06] William (DM): All right, so is that your turn.
+[00:36:11] Phoenix Cloak: I reckon so he's.
+[00:36:16] William (DM): Gonna dash over here. He doesn't have as much movement speed as you guys come.
+[00:36:21] Speaker 4: On mom.
+[00:36:22] William (DM): Actually wait. Actually it's not gonna dash. He's a bit reckless. I would say he's gonna get right over here. He's gonna throw his spear at one of them all.
+[00:36:37] William (DM): Right, he kills this guy, skewers him all.
+[00:36:43] William (DM): Right, I think kesmer is gonna go over here. Actually he's gonna go over here. Wait, I just sort of made that up. He can't go that far, okay, um, open the door. All right, he's dead too. Y'all made it, they dead.
+[00:37:06] William (DM): Very.
+[00:37:06] Speaker 3: Nice job.
+[00:37:10] Speaker 3: This room is ours now.
+[00:37:15] Speaker 3: Yeah, let's try to sleep.
+[00:37:19] Speaker 3: Yeah.
+[00:37:20] William (DM): Let's
+[00:37:21] Speaker 3: Do that.
+[00:37:21] William (DM): Here's good, let's get a little bit of a rest.
+[00:37:26] Phoenix Cloak: Oh yeah, and these uh smelly beds. Oh yeah, and these uh smelly beds.
+[00:37:29] William (DM): A.
+[00:37:29] Speaker 5: Short rest or a long rest?
+[00:37:31] William (DM): Yeah, y'all probably doing a short rest.
+[00:37:38] William (DM): Unless you can't really long rest in dungeons. That's the one thing.
+[00:37:43] Phoenix Cloak: Kind of the whole point of dungeons, right, yeah.
+[00:37:46] William (DM): All right, as you guys rest, I'm gonna go to the bathroom.
+[00:37:53] Speaker 4: Okay, cool.
+[00:37:57] William (DM): Ain't no.
+[00:37:57] Speaker 5: Way.
+[00:38:00] Phoenix Cloak: How much do you heal for a short rest again depends.
+[00:38:03] Speaker 5: On.
+[00:38:03] William (DM): How many hit dice you want to use?
+[00:38:05] Phoenix Cloak: Oh, oh.
+[00:38:10] Phoenix Cloak: Okay, I see. So mine says hit dice d8 and that I have eight of them. So if I roll d8 that's one of the dice. Yeah.
+[00:38:19] Speaker 2: Okay.
+[00:38:20] Phoenix Cloak: I guess that's pretty.
+[00:38:23] Speaker 5: Uh, straightforward. Do you have song arrest, mr bard? Yeah, okay.
+[00:38:37] Speaker 3: Hell yeah, I.
+[00:38:39] Speaker 5: Rolled five out of my eight. I.
+[00:38:50] Speaker 2: Think.
+[00:38:56] William (DM): Did y'all hit them up with a bit of a song arrest?
+[00:39:02] William (DM): Nice I.
+[00:39:04] Phoenix Cloak: Think I'll also use.
+[00:39:06] William (DM): Five.
+[00:39:09] William (DM): Wow, kazmar just got literally. I'm pretty sure he just literally got full health from that roll, because whenever you roll for stuff you also add your constitution modifier. Oh wait, it doesn't matter, he doesn't even have one nerd.
+[00:39:24] Speaker 5: Oh, you do.
+[00:39:26] William (DM): Do you? Am I wrong? I'm asking you guys. I'm asking you guys: is it just a flat roll or is it constitution modifier? Oh, it is, it is it's plus con mod. Nice, okay, well done man.
+[00:39:38] Phoenix Cloak: I just like overspent my dice: yeah.
+[00:39:41] William (DM): Me too. But that's fine, I'm just gonna. I'm just gonna call and get to full health. I still have three hit dice after.
+[00:39:48] Speaker 3: Same. Um, yeah, I'm gonna do that many because of song of rest.
+[00:40:02] Speaker 4: Yeah, what's the d for a song of rest right now?
+[00:40:06] William (DM): Is it still only a d6 bob uh?
+[00:40:10] Speaker 3: I don't know. I still have it as a d6. Okay, I'll look it up.
+[00:40:24] Speaker 3: Oh, it only goes to d8 when.
+[00:40:26] William (DM): I'm level.
+[00:40:27] Speaker 3: Nine okay.
+[00:40:28] William (DM): So yeah, so d6 works.
+[00:40:31] Phoenix Cloak: For me. Are you gonna use one?
+[00:40:34] William (DM): Of your arcane masteries to recover a spell. Um, mr kenny, yeah.
+[00:40:41] Phoenix Cloak: I'm absolutely gonna do that. William, did you say you were gonna get me like that spell sword?
+[00:40:48] William (DM): Um, did you? Can you uh make it? Are you able to, or do I have to give it to you? Let?
+[00:40:55] Phoenix Cloak: Me. Uh, take a looky here, so would.
+[00:41:03] Phoenix Cloak: I press just uh like a new item here. Yeah,
+[00:41:06] William (DM): Maybe you could press new item and find it.
+[00:41:10] Phoenix Cloak: Or wait. That's not it, and
+[00:41:12] Speaker 5: We do add our con mod right.
+[00:41:15] Phoenix Cloak: Wait, that's a custom item. Okay, I'll delete that. Yeah, that's pretty good.
+[00:41:21] Speaker 5: Pretty good for me, I'm.
+[00:41:23] Phoenix Cloak: Almost at full.
+[00:41:25] Speaker 5: Yes, same if.
+[00:41:26] Phoenix Cloak: You could give it to me. That might be easier, wizard.
+[00:41:30] Speaker 5: Actually has good constitution? No way.
+[00:41:33] Speaker 4: That's crazy. What the fuck did you just say to me? Just ignore that um.
+[00:41:38] William (DM): Anyways, um can I give it to you? Let me see if I can give it to you. I don't even know.
+[00:41:45] Phoenix Cloak: How to do that. I just need like another uh blank hey.
+[00:41:49] William (DM): Alex, do you know how to do this better? You know how to do this: micro making items and stuff.
+[00:41:56] Speaker 4: I really just break them myself. I haven't really see it, seen a dm give an item before. Oh, that's impossible okay.
+[00:42:10] William (DM): Well, if you ever want to use your sword, you just ask plus two to hit and plus two to damage.
+[00:42:15] Speaker 2: Yeah.
+[00:42:16] William (DM): Whatever role you use, it's not, it's not that crazy anyways. Um, who all is sleeping in the bags? I'm gonna check the bag first, all right. Um, there's not really anything, they're just. It's got little like they're just a little beds and they aren't really. Uh, yeah, that big honestly.
+[00:42:37] Speaker 2: Yeah.
+[00:42:37] William (DM): I probably need two. Yeah, all right, who else is? Well, we're not really taking a long rest, it's just a short. Okay, y'all just chilling out with them then. Yeah, just just for okay.
+[00:42:52] Phoenix Cloak: Just for a moment.
+[00:42:53] William (DM): Funny. Amber temple ability activates. Oh funny, um. Did the beds come to life? Let's see um. The only ones who don't have to do this is kesmar, bobin and dog. Everyone else has to make a constitution saving throw. Hmm.
+[00:43:16] Speaker 5: Not my strong suit.
+[00:43:18] William (DM): I have no.
+[00:43:18] Speaker 4: Idea why I don't have to do this.
+[00:43:23] Speaker 3: The constitution saving throw.
+[00:43:26] William (DM): Yeah, are the beds too stinky? You'll figure it out.
+[00:43:37] Speaker 2: Not
+[00:43:38] Speaker 5: Bad, not bad.
+[00:43:38] Speaker 2: Okay.
+[00:43:41] William (DM): It is really cold, like it's been really cold this whole time, and
+[00:43:47] Speaker 5: I would say actually:
+[00:43:49] William (DM): Todd, you do have a blanket, so for short rest you're probably exempt from this. That's true, I.
+[00:43:55] Phoenix Cloak: Do have a blanket um.
+[00:43:57] William (DM): For short rest, but not for anything else. Um, so why?
+[00:44:02] Speaker 5: Didn't bobin have to do it, he's literally. He has a bear coat. He.
+[00:44:06] William (DM): Took the bear coat. Oh, a bear pelt.
+[00:44:07] Speaker 5: He.
+[00:44:08] William (DM): Has the bear pelt. I, I, I listen, and a shell too. I didn't have to do it because I'm a furry. Yeah, you're, you're literally a furry beast. Do you want to do it? Yeah, I'll do it. Okay, the bear pelt is no matter how good is your blanket is this? Is this the starting blanket, kenny? Because if you didn't buy the blanket, it's not good enough. Um, if you just started with a blanket, but if you bought it from the store, oh, we bought.
+[00:44:34] Speaker 5: It.
+[00:44:35] William (DM): Okay, if you bought it, then it's fine.
+[00:44:36] Speaker 5: Okay, I also have one too, okay.
+[00:44:40] William (DM): So, um, here's the gimmick of the amber temple: anyone without anyone who is not pretty much the two barbarians. Once when this time reaches 60 that I have right here, you'll see that, um, y'all are going to have to repeat this. Throw a. Five minutes were passed in every check. Um, that you guys do when inspecting anything. Um, multiple people can do checks at the same time. But if you're not, if you ever want advantage, that's that single check by itself. Everyone's going to need to take five minutes to do that. If you ever want advantage on any check, all right. So that's pretty much it, just to let y'all know.
+[00:45:26] Speaker 2: Okay.
+[00:45:26] William (DM): You have to repeat the saving throws, except for the two people who have really cold stuff, and kism kazmar, because he has this weird ring on him. All right,
+[00:45:35] Speaker 4: Whenever he dies, somebody's gonna steal that ring. I swear to god.
+[00:45:38] William (DM): Whenever he dies. What do you mean by that? We got a.
+[00:45:42] Speaker 4: Hero what?
+[00:45:44] William (DM): Yeah, you saw what happened to the last one. Wait, did something happen with the constitution saving throw? Did we take damage? Y'all passed, all of you passed, excellent.
+[00:45:58] Speaker 5: But which way are y'all going? It's pretty cold here, oh.
+[00:46:01] William (DM): By the way, if y'all short rested without being here, I would have moved the barbarians to a random location. What? I would have moved them away from this room. Oh, so mean that makes sense, though yeah, y'all wouldn't know where they're at.
+[00:46:15] Speaker 5: That's true, so.
+[00:46:16] Speaker 4: Mean, anyways, I wanna go see what's in this side room. Hey wanna.
+[00:46:19] Speaker 5: Get this direwolf felt.
+[00:46:21] William (DM): Okay, yeah.
+[00:46:22] Speaker 4: Somebody go get somebody get the direwolf felt if
+[00:46:24] William (DM): Anyone wants to skin it? That's gonna take. That's gonna take five minutes.
+[00:46:31] William (DM): Is anyone?
+[00:46:32] Speaker 5: Hurting.
+[00:46:34] William (DM): Yeah, in.
+[00:46:35] Speaker 2: The room okay.
+[00:46:37] William (DM): Yeah, and inside that room, let me look at it um.
+[00:46:40] Speaker 5: I'll be okay.
+[00:46:44] William (DM): And it's gonna be five minutes for a skinning check. You're probably gonna have to skin it a couple of times, but the check gets easier every time.
+[00:46:53] William (DM): And then that would make you not have to do the check, mhm.
+[00:46:58] Speaker 4: Yeah, yeah.
+[00:47:01] Speaker 5: Probably.
+[00:47:03] Speaker 3: Wait.
+[00:47:03] Speaker 5: Who doesn't wait? Do you guys have advantage on your concentration? Alright, so.
+[00:47:07] William (DM): Over. There is just a bunch of empty yup buckets. It's just a bunch of- uh, broken barrels and stuff. Nothing really in there. I may try and skin it. If he, um, is anyone gonna help him skin it or is he gonna do it by himself?
+[00:47:23] Speaker 2: I.
+[00:47:23] Speaker 4: Can help him skin it.
+[00:47:25] William (DM): Alright, yeah, I can too. Okay, I'll watch, since y'all are helping. This is gonna take five minutes for a survival check.
+[00:47:36] William (DM): And you get advantage on this.
+[00:47:43] William (DM): Alright, so you did pass, so now I'm at 20, alright.
+[00:47:52] William (DM): Alright, um, what do y'all wanna do next does?
+[00:47:56] Speaker 3: That mean.
+[00:47:56] Speaker 5: I have the pelt now.
+[00:47:58] William (DM): You do have the pelt on you, so
+[00:48:00] Speaker 5: Now I'm like safe.
+[00:48:02] William (DM): You're safe from the cold, not safe from the dungeon. Safe from the cold, okay.
+[00:48:08] Speaker 5: Yup alright.
+[00:48:11] William (DM): Where y'all going um.
+[00:48:14] Speaker 5: Oh.
+[00:48:18] Speaker 5: Are you sure?
+[00:48:19] William (DM): What's in here? It's a bunch of broken barrels and wood down on the ground, um, and the ground's a little wet red, so it's stained like from what the wine was probably in it.
+[00:48:35] Speaker 5: Okay, uh, yeah, anything. I guess we can go up here check anything over here.
+[00:48:42] William (DM): Sir, okay, okay, you're gonna open that door also whenever y'all look through a place. We're gonna add five minutes, alright.
+[00:48:57] Speaker 5: Because,
+[00:48:58] Speaker 3: That's a sense of calm. Okay, you got the wand of secrets. Yeah,
+[00:49:01] Speaker 5: Um.
+[00:49:02] Speaker 3: Scottish bard: hmm, true.
+[00:49:05] Speaker 5: Maybe, maybe I'll use a little wand of secrets first. How?
+[00:49:10] William (DM): What radius is that?
+[00:49:12] Speaker 5: Thirty.
+[00:49:13] William (DM): Feet. Yes, it's thirty, thirty feet. Um, yep, there's some secrets, hidden things. Does it find out where exactly there are, or does it just tell you that there exist?
+[00:49:24] Speaker 3: Um, it pulses and points at the one nearest to me, okay.
+[00:49:30] William (DM): Then that's a lot better. Um uh, there's a secret door right here, so
+[00:49:40] William (DM): That's twenty-five. Are you gonna open the door?
+[00:49:44] Speaker 2: Sure.
+[00:49:45] William (DM): Okay, that's thirty.
+[00:49:49] William (DM): Thirty minutes. Alright, so there is a hallway.
+[00:49:56] Speaker 3: Woah, there's.
+[00:49:58] William (DM): A staircase woah down in this area.
+[00:50:01] Speaker 3: Hmm, wait, is that this? Is this the secret door?
+[00:50:05] William (DM): No, that's another door, but no, this right here was a secret wall. Oh, okay, so I could have just found that by going through this door. Mm, yeah, okay, maybe.
+[00:50:19] William (DM): Alright, anyone else looking anywhere else, or is everyone else just following him?
+[00:50:28] Speaker 2: Sure they're.
+[00:50:28] Speaker 3: Following you. Okay, scott, what about? What about?
+[00:50:34] Speaker 5: This door here, brother, yeah.
+[00:50:36] Speaker 3: I guess that door you.
+[00:50:38] Speaker 5: Wanna do this one first, yeah.
+[00:50:40] Speaker 3: Okay, this.
+[00:50:41] Speaker 5: Is right next to us. Okay, I open door, dang I.
+[00:50:46] William (DM): Did not expect. Oh cool, oh, I didn't even explain this, cause we were sort of speed running. This looks like a place to where they made potions. There's like some ingredients and stuff all around, but we were just kinda like looking for secret doors. So I should have pointed out that there's just a, but most of them are dried up and, like um, are like gone. But if y'all, if y'all wanna like search for it, it will take some time, but you might be able to find some potion ingredients and stuff, sure, yeah, let's, let's inspect it out.
+[00:51:14] Speaker 3: I.
+[00:51:15] Speaker 5: Would like to take charge of this, alright.
+[00:51:19] William (DM): Good.
+[00:51:19] Speaker 5: Idea cause of artificer's lore.
+[00:51:23] William (DM): Nice.
+[00:51:24] Speaker 5: So I double my proficiency on history checks.
+[00:51:30] Speaker 5: So that'll add what three more?
+[00:51:35] Speaker 5: Let's see where.
+[00:51:40] Speaker 5: Is the thing. Yeah, so I already have my int. Then I'll add twice my proficiency, so that's plus 11.
+[00:51:54] Speaker 3: Um.
+[00:51:55] William (DM): Natural.
+[00:51:59] William (DM): 20, it didn't matter. Okay, natural 20. Um, I'm gonna try.
+[00:52:08] William (DM): Um here. Give me a second, since this is a natural 20, I'll make you just able to make a potion. So let me figure out what potion.
+[00:52:19] Speaker 3: Here we um.
+[00:52:31] Speaker 3: It's.
+[00:52:31] William (DM): Just it's. It's the one that I can think of, the first you're able to make an alchemist fire potion. Okay, yeah, you just found some ingredients and like it was basically almost finished and you made it, so that took.
+[00:52:50] Speaker 3: Brr alchemist fire.
+[00:52:53] Speaker 3: Yeah.
+[00:52:54] William (DM): Wow.
+[00:52:55] Speaker 3: Alright.
+[00:52:56] William (DM): And you know what that does right.
+[00:52:59] Speaker 3: It's just basically like a molotov. Yeah, alright.
+[00:53:06] William (DM): Okay, I sure.
+[00:53:07] Speaker 3: Hell.
+[00:53:08] Speaker 5: Yeah, brother, so.
+[00:53:09] William (DM): What we doing. Anyone else want to go anywhere.
+[00:53:13] Speaker 5: Um, do you want to go downstairs? Or what about all these extra doors we can look through? We?
+[00:53:23] Speaker 4: Still have a lot to explore upstairs. I will say: yeah, I'm sorry I haven't been able to talk because you know people in the background, but that's my, my input. We should finish it out, this floor all.
+[00:53:40] Speaker 4: Right, yeah.
+[00:53:41] Phoenix Cloak: All.
+[00:53:44] William (DM): Right. So in here there's a lot of like weird creations that people were making, um, and there's a bunch of like there may be making some tools here, um, you can sort of tell that made from this, the community was kind of like living off the land over here for a little bit, because these are just basic necessity tools that are sort of all around it, nothing like super crazy or fancy. Um, there's a bunch of broken chests, except for this one that is not broken.
+[00:54:20] William (DM): Is.
+[00:54:21] Speaker 5: This a replica of like the place that we're in right now.
+[00:54:25] William (DM): Do you want to give me a wisdom? Uh, no, not, not a perception check.
+[00:54:31] Speaker 5: Yeah, I could do a perception.
+[00:54:32] William (DM): Uh, that is a 16.
+[00:54:39] William (DM): Um, yeah, this is a replica of strahd's castle I.
+[00:54:46] Speaker 5: Wouldn't know that I haven't seen strahd's castle.
+[00:54:49] William (DM): But you saw it when you drove by, y'all drove, you walked by it. That.
+[00:54:53] Speaker 5: Is very true.
+[00:54:56] William (DM): That's why you, that's why you walked by it, that's why you needed a high perception check.
+[00:55:02] William (DM): Oh, can I use mage hand to open up the chest? Okay, good one, you open it up, um, and you see in the front, you see in the beginning of it is on the front of it is like a map. There's like a thing that would contain a bunch of maps, say like case can.
+[00:55:27] Speaker 3: I.
+[00:55:27] Speaker 2: Collect the case.
+[00:55:30] Speaker 3: Yeah, um, yeah.
+[00:55:38] Speaker 3: Anything else?
+[00:55:39] William (DM): Y'all want to do in here.
+[00:55:43] Speaker 3: We're just saying it was an empty case.
+[00:55:46] William (DM): You opening up the case, oh yeah.
+[00:55:49] Speaker 3: The.
+[00:55:50] William (DM): Case has nothing. It might have had some maps, but it's literally kind of just dust now.
+[00:55:58] Speaker 2: Okay, N치, I guess.
+[00:56:04] Speaker 3: So on to the next room.
+[00:56:05] William (DM): It's so old.
+[00:56:08] Speaker 5: Yeah, but strahd's castle, that's pretty cool. Can I? Maybe we should use the
+[00:56:13] William (DM): Reverse aging spell to restore the maps. What do you mean by reverse aging, like the reverse curse technique? Yeah, from jjk just.
+[00:56:24] Speaker 5: Kidding, I don't have that stuff. Yeah.
+[00:56:26] William (DM): Yeah, who has a who's? Uh, how's everyone's passive perception? Who is the highest? I want to give you all a chance. I have a for something.
+[00:56:36] Speaker 3: I have 18 okay.
+[00:56:39] William (DM): When you noticed when you moved the thing. Maybe that wasn't all that was inside the chest, because you heard- heard a bump and maybe some movement inside the chest. Okay,
+[00:56:51] Speaker 3: Let's inspect the chest more closely, okay.
+[00:56:54] William (DM): Give me a perception, check I.
+[00:57:01] William (DM): Want to give you all a chance, because I'd really hate feeling this. All right, there's a hidden, there was a hidden bottom and you open it and there is a. There is a totem inside it that looks like dish guy. You know, when I have pictures that means it's a good item. You what is?
+[00:57:25] Speaker 3: That oh.
+[00:57:27] William (DM): Yeah.
+[00:57:32] William (DM): It's. May I see it? High quality? I'd like to. I'd like to see this item. I can help identify there you go. How long is identify gonna take uh?
+[00:57:44] Speaker 5: 10 minutes. It's a virtual casting, okay.
+[00:57:48] William (DM): Anyone else want to do anything while he's identifying? You're all gonna wait for his identify. I'm
+[00:57:53] Speaker 3: Gonna go over here and open these doors.
+[00:57:55] William (DM): Okay, yeah, so okay, you know. Yeah, it's a dining room, it instantly. It smells kind of amazing in here.
+[00:58:09] William (DM): It smells amazing. Uh, there's a bunch of food on the food on the table and uh, what's the big thing about this? It's hot. There's, there's piping hot gravy, some vegetables, some cooked meat, some wine, um, all around it. And uh, well, you notice, in the middle it's clay, it's gnawing at its surface with its traveler's glass. We'll start talking later. Sorry is like just this. This, uh, green copper, what's it? It's E-W-E-R.
+[00:58:45] William (DM): E-W-E-R. I think it's a type of sheep, a ewer that sounds right pitcher or jug with a hen. Yeah, it's a ewer and it has a bunch of images of like dancing bears, elks, wolves. Yeah,
+[00:59:06] Phoenix Cloak: That's pretty cool, can?
+[00:59:14] William (DM): I perceive the ewer like: make a perception check. Go for it, man.
+[00:59:21] Speaker 5: Presumably I'm still. Yeah, you're still.
+[00:59:24] William (DM): Hanging. No, you're identifying right now which I guess you can move and identify. I guess there was nothing saying you can't. I'll.
+[00:59:34] Speaker 5: Just stay right here, okay.
+[00:59:36] William (DM): Um, it looks pretty good and and, uh, it might. I mean, okay, you didn't make an arcana check, but I guess it was high enough. There's like some form of magic you can sort of perceive just generally by this room is a little off. Cause, if this place, if this place looked this good, why is everyone dead? You know, why is everyone around here like- well, actually, you haven't seen any dead people, nevermind. Why is like, why is it so off? There's.
+[01:00:08] Speaker 4: A dead body in the hallway. Yeah,
+[01:00:10] William (DM): But like there's been. But most of the things you've fought have been living besides the flaming skulls. Yeah, so like you just think it's generally suspicious why this place looks so cozy. But it just looks so cozy, you know yo.
+[01:00:25] Speaker 3: Dabbling. Can you, can you detect?
+[01:00:27] William (DM): Magic on this.
+[01:00:28] Speaker 3: Little thing. It looks a little sus.
+[01:00:31] William (DM): I, uh, do not have that prepared. Actually I don't have that oh.
+[01:00:38] Speaker 3: Okay, yeah.
+[01:00:41] Speaker 5: Sorry, man also still ritual casting in.
+[01:00:46] William (DM): That case I will just so. So um. Kezmar said he can, I can detect magic. Oh, thank you. Alright. So ritual casting: does that only take an hour or how long does that take ten?
+[01:01:01] Speaker 5: Minutes.
+[01:01:03] William (DM): Ten minutes. Alright, so since y'all entered the room, that passed, it's now six, it's now 460 and to finish, to finish, um, your detect magic, it's 45 out of 60, not your, your identify, and you have a tome of understanding.
+[01:01:28] Speaker 5: Tome of understanding, oh I.
+[01:01:32] William (DM): Would have been really sad if y'all missed this item and I feel like y'all, oh my gosh, would have, if someone just wrong range, grab mage hand, but I was like I'm gonna give them a chance to get it. Permanent increase of wisdom. Yeah, that's, that's crazy, alright, and now that's so cool. Do we have any wisdom now? 50 out of 60- um, that was the, that's the one it took to detect magic um.
+[01:02:05] William (DM): Yeah, there's like a transmutation spell around it. Um guess, it's a bit weird. It's transmutation and not illusion, because I mean like feel like we can all kind of assume that this is illusion and not real at this point. Um.
+[01:02:23] Speaker 3: Yeah, but.
+[01:02:31] William (DM): It's transmuted, does that mean it's just not looking right?
+[01:02:37] William (DM): Transmutation is usually changing one thing to another thing like Fullmetal Alchemist. Think about it like that.
+[01:02:44] Speaker 5: So what if this youer is actually another tome of understanding um?
+[01:02:51] William (DM): I don't think that's exactly it, but do you guys think this is worth, like a dispel, magic or something, or do we just move on?
+[01:03:04] Speaker 3: It might be.
+[01:03:12] Speaker 3: It is very interesting, can I?
+[01:03:14] William (DM): Grab it. I really want to grab it.
+[01:03:18] Speaker 3: Sure, grab it.
+[01:03:22] William (DM): Okay, everybody's okay if I grab it, because I really want to grab it.
+[01:03:32] William (DM): It's a little uneasy. What do y'all think?
+[01:03:39] Phoenix Cloak: How are?
+[01:03:39] Speaker 3: You.
+[01:03:40] Phoenix Cloak: To me.
+[01:03:45] William (DM): Um, dog and bulb, and y'all have any input.
+[01:03:51] William (DM): No, okay, no input. He wants to grab it. He can grab it, alright, be.
+[01:03:58] Phoenix Cloak: Cautious, I'm going.
+[01:04:00] William (DM): To assume Bulbin silences that he's okay with it. So
+[01:04:06] William (DM): He grabs it and as he grabs it, instantly the whole entire thing fades away, like all the illusion and everything. And uh, what appears from the illusion are these guys? Um, alright, and now I think you guys kind of knew it was a trap. See it's wolf, or initiative. I don't think you guys were shocked that something bad was going to happen.
+[01:04:46] Speaker 3: Alright.
+[01:04:47] Speaker 5: Wolf or.
+[01:04:47] Speaker 3: Initiative: yeah.
+[01:04:52] William (DM): We'll probably do.
+[01:04:55] Speaker 2: Probably.
+[01:04:55] William (DM): Do? I don't know. I think group initiative would still be cool.
+[01:05:03] William (DM): Maybe I can make a group A and group B, because that's still a lot of enemies to have in a group initiative.
+[01:05:11] Phoenix Cloak: This is going to be hard to hide from.
+[01:05:15] Phoenix Cloak: Dang.
+[01:05:18] William (DM): It. I can't do this. I can't put him in the same spot because he was in a perfect spot.
+[01:05:27] William (DM): No like.
+[01:05:32] William (DM): You can't make them perfectly sit in the chairs. Once they've been unchared you can use a you.
+[01:05:41] William (DM): Can hold alt and then you can use your arrow keys to move them like halfway. Okay, yeah.
+[01:05:49] William (DM): Alright.
+[01:05:52] William (DM): Everyone.
+[01:05:55] William (DM): Everyone rolled for initiative.
+[01:05:58] Speaker 2: Yeah.
+[01:05:59] William (DM): Alright, what are you going to do? Wait, did Bulbin roll? Bulbin is. Is Bulbin dead?
+[01:06:11] William (DM): Who killed Bulbin? I thought he was just muted. I don't know. He was actually not here. No, he is. He is here, just muted- same Bulbin. I'm pretty sure he can't talk right now.
+[01:06:23] Speaker 3: Adam. He was kidnapped.
+[01:06:31] Speaker 3: Wait, I was about saying all caps, oops.
+[01:06:39] Speaker 3: Just letting him know so.
+[01:06:49] Speaker 3: How was your guys' day?
+[01:06:52] Speaker 3: Pretty good. Yeah, oh, that's pretty good.
+[01:07:01] Speaker 3: Yeah.
+[01:07:03] Speaker 5: Not gonna lie. Once I saw that I was real suspicious of that room. What?
+[01:07:08] Speaker 2: Type of shenanigans.
+[01:07:10] Speaker 5: Right. What in the world someone?
+[01:07:13] William (DM): Opened, someone grabbed, so I didn't know you weren't here. So sorry, Alex, I thought you just weren't able to talk. No,
+[01:07:19] Speaker 2: You're not. Yeah, no, I wasn't here, so.
+[01:07:22] William (DM): What happened was one of them grabbed this. This place looked too good to be true and it turns out it was too good to be true and Perry and Whipple set off the trap.
+[01:07:32] Speaker 2: Damn Perry and Whipple did.
+[01:07:36] William (DM): You roll initiative yeah.
+[01:07:38] Speaker 2: I got a 17. Uh, I didn't actually pick me in the initiative check.
+[01:07:44] William (DM): You gotta beat the spectre I.
+[01:07:47] Speaker 3: Beat them.
+[01:07:48] Speaker 2: Off. You said: I got a 17.
+[01:07:52] William (DM): 17. Alright, I'll.
+[01:07:56] Speaker 3: Put you at.
+[01:07:56] William (DM): 17. Alright, that means you're tying with a spectre. Um, you wanna, you wanna roll to see who wins or who?
+[01:08:07] Speaker 2: Has the higher dex. He.
+[01:08:09] William (DM): Has a dex of plus 2 he.
+[01:08:12] Speaker 2: Goes.
+[01:08:12] Speaker 4: First:
+[01:08:13] Speaker 2: Ok.
+[01:08:15] William (DM): Alright, porcus, porcus. What are you doing?
+[01:08:18] Speaker 3: Hmm,
+[01:08:20] Speaker 2: You.
+[01:08:21] William (DM): Should fireball.
+[01:08:21] Speaker 2: Right.
+[01:08:24] Speaker 5: If.
+[01:08:25] Speaker 3: Only I had the spell slots, no.
+[01:08:29] Speaker 5: I will. I think I'm just gonna do the classic.
+[01:08:37] Speaker 3: Magic missile.
+[01:08:38] Phoenix Cloak: Yeah.
+[01:08:40] William (DM): Who you gonna magic missile I.
+[01:08:43] Phoenix Cloak: I think I'm going to.
+[01:08:45] Speaker 3: Hit, there is the come.
+[01:08:54] Speaker 3: On tool: ok, I'm gonna hit these for one each ok.
+[01:09:06] William (DM): This seems like a really optimal place. By the way, the tanks in the back and the specialists in the front: this seems like very optimal right.
+[01:09:15] Speaker 5: Ok.
+[01:09:17] Speaker 3: So that is.
+[01:09:21] Speaker 3: 3d4.
+[01:09:25] Speaker 5: Yeah, no, it's only 3 targets. I'll do the red team.
+[01:09:30] Speaker 2: Ok, I'll.
+[01:09:31] Speaker 5: Just do all the red team.
+[01:09:35] Phoenix Cloak: So first one's gonna get max damage, so 5.
+[01:09:42] Speaker 3: This one's gonna get 4.
+[01:09:46] Phoenix Cloak: Nice.
+[01:09:50] Speaker 3: And.
+[01:09:50] Phoenix Cloak: This one's.
+[01:09:51] Speaker 3: Gonna get.
+[01:09:52] Phoenix Cloak: Max damage 5.
+[01:09:54] Speaker 3: And.
+[01:09:54] Speaker 5: That is my turn. Alright, actually, I will scooch back right here, that's it.
+[01:10:03] William (DM): What are you doing? The?
+[01:10:04] Speaker 5: Only thing I can do. I've got magical claws, bro. 1, 2, 3, 4, 5, 6, 7, 8. I'm gonna go over here actually hold on instead.
+[01:10:19] Speaker 5: Of going that way, I go this way and I'm gonna go here so that I can help periwinkle. I'm gonna attack that guy 3 times, alright.
+[01:10:31] William (DM): First hold on. I should say that
+[01:10:35] Speaker 3: I should rage, ok, so 2 times, then right.
+[01:10:38] William (DM): I.
+[01:10:42] William (DM): Might be wrong. I thought bonus action is either rage or an attack. Maybe I'm wrong, no,
+[01:10:47] Speaker 5: No, so when I rage, that's a bonus action, but because of my claws.
+[01:10:52] William (DM): I just get an extra attack if I use the claws. Ok, so I'm pretty sure you get a bonus action attack, if I'm not mistaken. So you should be doing 4 attacks after your rage.
+[01:11:07] Speaker 5: I get a bonus action attack.
+[01:11:09] William (DM): Isn't that one. Am I picking a BG free, Alex? Or do barbarians get a bonus action attack? Uh, some do. Depends on the subclass. I don't are you sure you don't get one? He gets a bonus attack, but not to do with his bonus action. I get just an extra attack if I use my claws.
+[01:11:34] Speaker 4: Ok.
+[01:11:36] Speaker 5: So I'm also gonna do it reckless.
+[01:11:38] Speaker 4: But he's.
+[01:11:40] William (DM): Wrecking I.
+[01:11:41] Speaker 5: Rolled a 1 and a 2.
+[01:11:44] William (DM): Well, and I guess your plus mod, fire, is probably not high enough. That's better. That's a dirty 20. Alright, that hits, and then the other one's gonna be a 23, so 2 hit ok.
+[01:11:59] William (DM): That's gonna be 5 plus 8 plus 4 is 17 points of damage. He's dead.
+[01:12:11] William (DM): You ghosted him with my magical claws. Cause: I have that apparently. Alright, that's my turn.
+[01:12:22] William (DM): Alright, Mr. Mr Todd, you're about to get hit, oh.
+[01:12:27] Phoenix Cloak: No.
+[01:12:31] Phoenix Cloak: But wait, I alright, just go ahead and do the thing. Does a 20 hit.
+[01:12:36] Speaker 3: A.
+[01:12:38] Phoenix Cloak: 20 is don't probably. Let's see, yeah, it definitely hits ok.
+[01:12:44] William (DM): Make a constitution saving throw.
+[01:12:47] Phoenix Cloak: But ok, I was gonna do my reaction to. I guess I'll do that after ok.
+[01:12:57] William (DM): You pass, you take 4 necrotic damage uncanny dodge, so it'd be 2. Yeah, I do, uncanny dodge.
+[01:13:03] Phoenix Cloak: So I take.
+[01:13:05] Speaker 3: Half the damage, so that'd be 2 damage.
+[01:13:13] Speaker 3: Yeah, alright, and this guy attacks.
+[01:13:19] William (DM): Periwimple, periwimple saves, cause their freaking thing sucks. I did it again. Alright, and he takes. He takes damage, though. Alright, it's Bulbin's turn.
+[01:13:38] Speaker 3: What's Mr Bulbin gonna do?
+[01:13:41] Speaker 2: I'm gonna run.
+[01:13:42] Speaker 4: Up to this guy.
+[01:13:46] Speaker 4: Stab this.
+[01:13:47] Speaker 3: Man after raging well, actually.
+[01:13:56] Speaker 3: Can I really?
+[01:13:57] Speaker 4: Afford to raid? No, I really can't. I need to save it. Nevermind, I'm just gonna smack him twice.
+[01:14:11] William (DM): Raging has now become a commodity in this dungeon right.
+[01:14:14] Speaker 4: Cause it refreshes on long rest. Yup, I thought it refreshed on short rest 27.
+[01:14:25] Speaker 3: Oh for sure, let's go ahead. 13.
+[01:14:29] Speaker 4: Points of piercing is that.
+[01:14:30] William (DM): Magical. I think it is.
+[01:14:32] Speaker 4: Yes, it is in fact. Is he dead? No damn, here we go then. 14 that.
+[01:14:44] Speaker 3: Hits.
+[01:14:45] Speaker 4: Wow, ok, 14, he's dead. That was 30 points of movement. I'mma go ahead and I'mma do my last 10. You get temp HP.
+[01:14:58] William (DM): I.
+[01:14:59] Speaker 4: Do. Let's see if it's higher than what I already have. There's 26, there's not. I'm keeping my 8, alright.
+[01:15:12] William (DM): So that's your turn. What else am I gonna do? It's Bob's turn, I.
+[01:15:20] Speaker 3: Am going to this.
+[01:15:24] Speaker 3: One.
+[01:15:37] Speaker 3: Nice.
+[01:15:38] William (DM): Oh wait, I've totally phased out, ok, um.
+[01:15:46] William (DM): So he passed. That's sad.
+[01:15:52] William (DM): Ok.
+[01:15:55] Speaker 4: Um.
+[01:15:57] William (DM): Ok, dog's been inspired. Alright.
+[01:16:00] Speaker 3: Yippee I.
+[01:16:04] Speaker 5: Feel inspired. He's.
+[01:16:06] William (DM): The closest, so he's gonna attack parry it misses, alright.
+[01:16:17] Speaker 3: Cassius.
+[01:16:20] Speaker 2: Alrighty take.
+[01:16:22] Speaker 3: A hit take.
+[01:16:24] Speaker 2: A hit a.
+[01:16:26] Speaker 3: Uh.
+[01:16:29] Phoenix Cloak: Hit me. Yeah, he does not ok.
+[01:16:35] William (DM): Um Mr Bulbin, there's a 19 hit I.
+[01:16:42] Speaker 2: Think so you.
+[01:16:43] William (DM): Think so I.
+[01:16:45] Speaker 2: Think so I.
+[01:16:49] William (DM): Thought you had 20, no,
+[01:16:51] Speaker 2: A 19 hit ok.
+[01:16:53] William (DM): Make a constitution save.
+[01:16:54] Speaker 2: Understood.
+[01:16:58] Speaker 3: Ok.
+[01:17:04] Speaker 3: You passed, but you still take 8 necrotic damage. Oh,
+[01:17:08] Speaker 4: Man my temp HP.
+[01:17:10] William (DM): And then this guy's gonna. This guy misses, nevermind. Ok, next cloak, it's your turn. You should use your sword, your plus 2 sword, yeah.
+[01:17:20] Phoenix Cloak: So basically I just put in my notes that my sword does the plus 2 plus 2 to hit and plus.
+[01:17:27] William (DM): 2 damage.
+[01:17:28] Phoenix Cloak: And I have the rapier, so I guess I'll just remember to apply it to that. If or is it separate like damage type?
+[01:17:40] Speaker 3: Like would.
+[01:17:42] Phoenix Cloak: It be the same.
+[01:17:44] Speaker 3: Yeah.
+[01:17:44] Phoenix Cloak: It would be the same damage type and then the 8 plus 4 piercing damage you can.
+[01:17:51] William (DM): Just go in to like your weapon, press the little gear on your weapon and add like a plus 2 to the damage and then plus 2. Where else do I, where else do you put it? You put plus 2 to damage and you put plus 2 to somewhere else. Yeah,
+[01:18:10] Phoenix Cloak: That'd be just a flat plus 2 after the 1d6, just plus sign 2. I'll do that. Um, and damage and attack: wait, yeah.
+[01:18:22] William (DM): And attack. Yeah, there's an attack also. Just put plus 2 on both of them, ok.
+[01:18:27] Speaker 5: So for attack it just says: attack dex plus.
+[01:18:31] Phoenix Cloak: Ok, ok, here we go, plus 2.
+[01:18:34] Speaker 3: Now.
+[01:18:35] William (DM): Press, press that button, let's.
+[01:18:36] Speaker 3: Test it out alright before.
+[01:18:44] Speaker 3: I test it out. Is there a way I
+[01:18:47] Phoenix Cloak: Can delete one that's like empty that I may have added I.
+[01:18:55] William (DM): Don't, yeah you're, you'd have to figure that out probably later.
+[01:18:58] Phoenix Cloak: That's fine. Yeah, ok, alright. So am I able to hide by chance? Yeah,
+[01:19:05] William (DM): Go do a stealth thing if you want.
+[01:19:09] Phoenix Cloak: Alright, let's see. Let's see, uh, how.
+[01:19:17] William (DM): Likely. You're hidden. You said peekaboo while they were swinging at you. You somehow hid.
+[01:19:27] Phoenix Cloak: Like I like kinda juked them and like went under the table and
+[01:19:31] William (DM): Now, yeah, and now which one are you gonna hit? So
+[01:19:34] Phoenix Cloak: I'm gonna hit uh this.
+[01:19:39] Phoenix Cloak: Guy right here, which would make sense.
+[01:19:42] Speaker 3: Roll to hit.
+[01:19:45] Speaker 3: Test this baby out, let's.
+[01:19:53] Speaker 3: See what it did.
+[01:19:56] Speaker 3: Proficiency dex ok.
+[01:20:04] Speaker 3: I let's see here 4.
+[01:20:09] Speaker 3: Oh, your dex is 4, isn't it? Oh, shoot, wait a minute. I.
+[01:20:15] Speaker 4: Think you messed it up, mate did.
+[01:20:20] Speaker 3: I not save it.
+[01:20:23] William (DM): Yeah, I'll go and see. Oh, it says plus.
+[01:20:27] Phoenix Cloak: 7 for some, for some.
+[01:20:29] Speaker 3: Reason. I don't know why the
+[01:20:37] Speaker 3: Attack was supposed to be: uh plus 2 dex.
+[01:20:41] Phoenix Cloak: Plus 2 damage says: plus 2 ok.
+[01:20:45] William (DM): I did it. You should be good now ok.
+[01:20:48] Phoenix Cloak: Now it's plus 9. Yeah, well.
+[01:20:52] William (DM): Yeah, that's because it's plus all of your stuff. It's plus 9 because it's your proficiency bonus plus 2 plus your dex, which should be 9, so you have a plus 9 to hit whenever you hit now, which is great. Nat 1, alright, so for the 21 hits. So roll for damage.
+[01:21:16] Speaker 3: Sneak attack applicable.
+[01:21:21] Speaker 3: Plus the yeah. So it's yeah, there we go. It's plus mod. So
+[01:21:27] William (DM): That's is sneak attack magical. If his weapon is magical, yeah, ok. So whichever one you hit, it's dead. I think you hit that one, I don't know.
+[01:21:42] Phoenix Cloak: I hit the one. That's the right one. Ok, well, I'm moving this one.
+[01:21:45] William (DM): Right here cause he also didn't take damage yet.
+[01:21:49] Speaker 3: Alright.
+[01:21:53] William (DM): That will be my turn, let.
+[01:21:56] Phoenix Cloak: Me be clear.
+[01:21:59] William (DM): Now it's your turn.
+[01:22:02] Phoenix Cloak: Alright, not.
+[01:22:05] Speaker 3: That, not that one. Uh, yeah, obviously I have to move up.
+[01:22:16] Speaker 3: Do I have a line of sight?
+[01:22:21] Speaker 3: Sure.
+[01:22:25] Speaker 3: Do what you want, man.
+[01:22:27] William (DM): Cause.
+[01:22:27] Speaker 3: The.
+[01:22:27] William (DM): Pirate is free. You are a pirate, I'm.
+[01:22:31] Phoenix Cloak: Gonna shoot. Uh, this one right next to bulbin.
+[01:22:35] William (DM): Alright, shoot him, you won't with.
+[01:22:37] Speaker 5: Uh.
+[01:22:39] Speaker 5: Firebolt the classic.
+[01:22:43] William (DM): You said this one next to bulbin, or was it the other one, the?
+[01:22:46] Phoenix Cloak: Other one, that's an 18 18.
+[01:22:49] William (DM): Hits ok.
+[01:22:51] Phoenix Cloak: Uh.
+[01:22:54] Speaker 5: 5 fire damage: alright.
+[01:22:57] William (DM): Let me see um. Looks like it does less than what it should.
+[01:23:03] Speaker 3: Oh, hmm. Ok, now's my turn.
+[01:23:10] William (DM): Dog what the dog doing.
+[01:23:14] Speaker 5: We going in for another attack?
+[01:23:17] William (DM): Boop, boop.
+[01:23:18] Speaker 5: Boop and.
+[01:23:21] William (DM): Then I will attack. Yeah, I'm gonna reckless again. I'm gonna attack, uh, this one first, and I'm gonna do each individual attack.
+[01:23:31] Speaker 5: At a time so I can see if I kill it and then yeah.
+[01:23:33] William (DM): That's a better idea. Yeah, that's a good idea.
+[01:23:36] Speaker 5: Oh my goodness, what rolls uh.
+[01:23:40] William (DM): 20.
+[01:23:42] Speaker 5: Well, I rolled a 23. I said what rolls cause? I rolled a 16 and a 16 uh.
+[01:23:50] William (DM): 23 hits. Ok, so that's going to be.
+[01:23:55] William (DM): Uh 12.
+[01:23:56] Speaker 5: Points of damage: nice against the one with blue still alive. Yes,
+[01:24:01] William (DM): Ok.
+[01:24:02] Speaker 5: Cool another.
+[01:24:04] William (DM): Another uh.
+[01:24:06] Speaker 5: That's going to be uh 26, yeah, 26.
+[01:24:10] William (DM): That hits, ok, uh, let's do another one. That's going to be.
+[01:24:19] William (DM): 7 plus is 9 points of damage. It's still kicking. Oh wow, that's pretty sucky. Lucky, not gonna lie. Uh, that's going to be another 23 that hits. He's dead. He had one health. That's wow nice. Did you want to roll the damage anyways?
+[01:24:43] William (DM): I, I, I legitimately rolled a one on my d6, so it was the minimum amount of damage. Anyway, yeah, but yeah, that's that's. Uh, that's my turn then. Hey dog, you about to get attacked by this guy, Leo.
+[01:24:57] Speaker 5: Let's go, he has advantage. Hit me there's.
+[01:25:01] William (DM): A 12 hit. Nope, then you didn't get attacked, Bulbin, it's your turn.
+[01:25:10] William (DM): What's Bulbin doing?
+[01:25:14] Speaker 4: Guess what I'm smacking this guy? Mhm, let's see.
+[01:25:22] Speaker 4: Red guy for advantage.
+[01:25:27] William (DM): Go for it. You're recklessly oh wait, no, he's flanked.
+[01:25:31] Speaker 4: Alright that.
+[01:25:33] William (DM): Hits 8.
+[01:25:36] Speaker 4: Points of.
+[01:25:36] Speaker 2: Piercing he.
+[01:25:37] William (DM): Ain't dead yet.
+[01:25:39] Speaker 2: 19 yeah.
+[01:25:41] William (DM): That hits 11.
+[01:25:43] Speaker 4: Points of piercing. He's dead now let's see. Do I get a better roll? Well, actually I didn't need temp piercing, yeah.
+[01:25:51] William (DM): You need the temp, alright.
+[01:25:55] Speaker 4: Is.
+[01:25:56] William (DM): That your turn.
+[01:25:57] Speaker 4: Yes, it is.
+[01:25:59] William (DM): Alright, Bob, it's your turn.
+[01:26:03] William (DM): Oh, by the way, since these guys are ghosts, guess what they're immune to. Bob charmed well.
+[01:26:12] Speaker 3: That's ok, just to let you know.
+[01:26:16] William (DM): It isn't not anymore.
+[01:26:23] William (DM): Oh yeah, I guess so.
+[01:26:25] Speaker 3: I.
+[01:26:27] William (DM): Got rid of all those charm spells ever since the wolves that one day. That was a pretty smart idea. Alright, he takes free psychic, full psychic damage. Wow, full psychic damage you.
+[01:26:42] Speaker 5: Better track that disadvantage.
+[01:26:45] William (DM): Ok.
+[01:26:46] Speaker 3: Yes, aye, aye, captain, alright.
+[01:26:53] Speaker 3: Alex.
+[01:26:57] Speaker 3: You wanna get bullied bing.
+[01:27:04] Speaker 3: Bong bully time.
+[01:27:11] William (DM): Alex just a 21 hit. I think Alex is uh not here.
+[01:27:18] Speaker 2: 21 hit.
+[01:27:24] Speaker 3: Yeah.
+[01:27:25] William (DM): Ok.
+[01:27:26] Speaker 3: Make a con save make.
+[01:27:28] Speaker 2: My con save.
+[01:27:34] William (DM): Ok, you took 13 necrotic damage. Oh.
+[01:27:42] William (DM): Alright, it's Phoenix Cloak's turn, Todd.
+[01:27:51] William (DM): It's your turn. Oh boy brother, alright, so.
+[01:27:55] Phoenix Cloak: All.
+[01:28:00] Phoenix Cloak: You do is hide. Yeah, I'll do the same stick. It works pretty good. One trick.
+[01:28:06] William (DM): Pony man for.
+[01:28:07] Speaker 5: Real.
+[01:28:09] William (DM): Sneak attack I.
+[01:28:11] Speaker 2: Mean.
+[01:28:13] Phoenix Cloak: It's a little easier than paladin, where you know there's the spells I have to remember. It's true. I.
+[01:28:19] Speaker 2: Do
+[01:28:21] Phoenix Cloak: I guess I just wasn't ready for that. I don't know.
+[01:28:25] William (DM): Why does he even need to? He doesn't need to, but he can get advantage if he does it. But couldn't he just move?
+[01:28:32] Speaker 3: 5 feet, like right there.
+[01:28:34] William (DM): I guess, if you want to, you can move right here and you'd be flanking him, so you don't even need to stealth.
+[01:28:40] Phoenix Cloak: Oh really, yeah, so just roll ahead, wait. So would I still be able to do a sneak attack if?
+[01:28:48] William (DM): You move right here. Yes, you'd have advantage because you're flanking, which means you sneak attack.
+[01:28:54] Phoenix Cloak: So I move here.
+[01:28:57] William (DM): And then he also gets a sneak.
+[01:29:00] Speaker 5: Attack because he was attacking an enemy with an ally nearby. I think the
+[01:29:04] William (DM): Big thing we wanted to do was give him advantage, though. But yeah, you would have had it if it was within 5 feet. Alright, buddy, roll to hit 2 nat 1s. Ok, no, that hits. Alright, you go for the damage.
+[01:29:27] Phoenix Cloak: That kinda sucks.
+[01:29:30] Phoenix Cloak: That was supposed to be a. I wouldn't say plus, but I'm pretty sure. Oh yeah, that is the damage. That is the damage, plus 2 is in there. I.
+[01:29:42] William (DM): Did it for you, sneak.
+[01:29:45] Phoenix Cloak: Attack he's.
+[01:29:48] William (DM): Dead in the eyes and he's dead pocket.
+[01:29:52] Phoenix Cloak: Sand. Yeah, I poke him in the belly, he dies. Oh, my belly is.
+[01:29:59] William (DM): So full um.
+[01:30:04] Phoenix Cloak: Seeing.
+[01:30:05] Speaker 5: That that fire was not exactly the best I'm going to do.
+[01:30:16] Speaker 3: Hmm,
+[01:30:16] William (DM): Where's
+[01:30:18] Speaker 5: My stuff. I'm gonna do ray of frost. He's doing something different, no way.
+[01:30:27] William (DM): Woah, he's trying something new, oh.
+[01:30:33] Speaker 5: Yeah, that for sure hits nice.
+[01:30:34] Speaker 3: 27, nice. What's the damage?
+[01:30:41] Speaker 3: 2d8 guys.
+[01:30:45] William (DM): I never put kezmar in the initiative. Dang it, oh my gosh, 9 cold damage. Ok, well, whatever, they're dead because I forgot to put kezmar and I forgot to put periwimple. I just saw that I'm actually trolling, so they have to be dead by now. I
+[01:31:06] Phoenix Cloak: Thought: yeah.
+[01:31:08] William (DM): He got hit, but I never put him in initiative. Oh ok.
+[01:31:12] Speaker 3: Why do I keep forgetting them?
+[01:31:16] William (DM): Ok, they're dead, definitely by now do?
+[01:31:19] Speaker 3: We ok.
+[01:31:22] Speaker 3: What is that? What is that you were about? What?
+[01:31:27] William (DM): Was what? Oh, oh.
+[01:31:30] Speaker 3: I.
+[01:31:32] William (DM): Don't know. Oh, I guess there's no longer lights and it's cold in here. Now that was pretty mean. Do you want it?
+[01:31:41] Speaker 3: Hmm, I mean, do we care to identify it?
+[01:31:45] Speaker 5: I mean obviously we probably should right.
+[01:31:48] William (DM): Ok, y'all moving while identifying, then
+[01:31:52] Speaker 3: Yes.
+[01:31:53] William (DM): Alright, so you're gonna go through here or where you're going back here to the stairs? Yeah, can.
+[01:32:00] Speaker 5: I grab that.
+[01:32:02] William (DM): You wanna grab it instead of him.
+[01:32:04] Speaker 5: Oh.
+[01:32:05] William (DM): Oh no, sorry, you can grab it. Yeah, he was identifying, yeah.
+[01:32:12] William (DM): Alright, guys, do we wanna open all these other doors over here? Are we ready to go? Just run downstairs.
+[01:32:20] Speaker 4: I said we open.
+[01:32:21] William (DM): Door.
+[01:32:21] Speaker 4: You know,
+[01:32:22] William (DM): Ok.
+[01:32:22] Speaker 4: We came here to prepare to beat the shit out of stride, you know, oh yeah.
+[01:32:29] William (DM): Wait, let me, let me, let me reveal these, since, since you kinda can't see them,
+[01:32:34] Phoenix Cloak: Oh my.
+[01:32:36] William (DM): Goodness, oh, a door. Yeah, I guess we'll go that.
+[01:32:40] Speaker 5: Way. Presumably there's something over here ok.
+[01:32:46] William (DM): So you open that door, Bob? Uh, I'll let my mage hand open it up, ok, big.
+[01:32:54] Speaker 3: Smart ok.
+[01:32:59] William (DM): Let me get that. Ok, so this guy- there's a little knight there, isn't that? That's pretty cool. Let me get the description um.
+[01:33:14] William (DM): Yeah, there's a, there's like a little- there's a person there- of a bunch of like candlesticks that are like gone, um no, they aren't gone, they aren't lit. That's what I meant. Um.
+[01:33:30] William (DM): There's um. There's two little corpses that are right next to the statue. If you can see, um, yeah.
+[01:33:44] William (DM): Wait ok, um, no wait, nevermind, nevermind. Actually, you guys have to walk in to see any of that, so like is anyone walking in? Oh,
+[01:33:55] Speaker 5: Yeah.
+[01:33:55] William (DM): I'll go in first, ok, so you two, you two both walk in um make wisdom saves, ok? 17.
+[01:34:37] Speaker 3: Yeah, ok.
+[01:34:38] William (DM): Um.
+[01:34:41] William (DM): Yeah, this is, this is kind of a weird encounter. Anyways, um, nothing, nothing happens to y'all. Um, y'all sort of felt the urge to like walk towards the statue, but you don't want to anymore. Well, you sort of aren't going towards it anymore. Yeah, you gonna open that? Yeah, ok.
+[01:35:09] William (DM): Anyone who does not have a coat.
+[01:35:14] William (DM): Even if you have a blanket, I don't care, because you weren't wearing a blanket while fighting and stuff. Make a, make a uh constitution save. So
+[01:35:28] William (DM): That would be. Kenny, that would be.
+[01:35:34] William (DM): Phil, and that would be, um, uh, that would be Todd, because you don't have a coat, you just have a blanket.
+[01:35:46] Phoenix Cloak: Aw, if I do have a cloak, that's.
+[01:35:50] William (DM): Not enough. This is like negative. It says inside here it's negative 10 degrees celsius, so that's not enough.
+[01:35:57] Phoenix Cloak: That's cold, mhm bruh, that's cold.
+[01:36:04] Phoenix Cloak: Alright.
+[01:36:05] William (DM): Um.
+[01:36:08] William (DM): Dog, you get one level of exhaustion. Everyone else is fine. Nooo, I'm exhausted, brother.
+[01:36:15] Speaker 2: Oh.
+[01:36:16] William (DM): Nooo, hey, I rolled pretty good. For one constitution, one level is actually not that bad. I have.
+[01:36:24] Speaker 5: Disadvantage on everything. No,
+[01:36:26] William (DM): Not on attack throws, just on ability checks, I'm pretty sure. Ok on.
+[01:36:32] Speaker 4: Everything ok.
+[01:36:37] William (DM): Disadvantage on ability checks.
+[01:36:42] William (DM): Let's go. So that includes saving throws right. No, I think that's just ability checks.
+[01:36:51] William (DM): Because level 3 is saving throws.
+[01:36:56] William (DM): Unless if it's dc sc vantage.
+[01:37:00] William (DM): Which I don't think that's what we're saying. Ok, yeah, everyone else survived. Alright, dog caught a cold? Yeah, alright, that's crazy. So now it's back to 60 and 0, alright, um, yeah, that's another room. Um, it looked like maybe this was where some archers got posted or shoot up to like defend this. This place is like not only a temple. It seems mostly like also a fortress. Um.
+[01:37:30] Speaker 3: Alright.
+[01:37:39] William (DM): What are y'all doing? Continue this way.
+[01:37:44] William (DM): Ok, well, you wanna try to look for something hidden then?
+[01:37:48] Speaker 5: Or just open the door.
+[01:37:50] William (DM): Oh, you opened it. Yeah, there's just. I said that's why I said there's like an archer thing. Oh, it's still just like black. We don't see what, you don't see it, oh just. Oh, he's referring to this is the archer. Yeah, oh yeah, we don't see that. I can't- well, I can't reveal too much, because there's like a bunch of secret entrances and stuff everywhere. Um,
+[01:38:22] William (DM): Sure, let's use a secret entrance item. Oh, you're gonna try to detect one, yeah.
+[01:38:28] Speaker 3: Ok.
+[01:38:30] William (DM): So the nearest secret entrance is right over here.
+[01:38:34] Speaker 3: There.
+[01:38:36] William (DM): Was none over there. Yeah, if you're gonna open this one, sure, alright, so this is pretty fun. When you open it, there's a bunch of skulls, like so many skulls. They aren't. They're not. They're not flaming, they aren't any, anything like that. They're just a bunch of dead skulls literally filling the entire room. Can we see them? Like this entire room is just skulls. Oh, ok, can I make a? Are they like moving or they're just there? They're just there. Maybe I'll try and perceive them. Ok, is anyone gonna help? Or everyone just chilling outside of the room? Ok, you gonna walk in then?
+[01:39:33] William (DM): Yeah, if he walks in, then he can help ok.
+[01:39:41] William (DM): You in then?
+[01:39:46] Speaker 2: Yeah.
+[01:39:46] William (DM): Give me a wisdom, save oh.
+[01:39:50] Speaker 2: Wait.
+[01:39:52] William (DM): Am I saving now?
+[01:39:53] Speaker 3: No.
+[01:39:54] William (DM): He was ok.
+[01:39:58] Speaker 3: Um.
+[01:40:02] William (DM): So then that advantage didn't happen because you are drawn to this statue. It looks so pretty, it looks so cool, you know you could. Just you feel like you could just sit there your whole life and stay there, yeah.
+[01:40:28] William (DM): It's so pretty looking.
+[01:40:33] Speaker 2: Hmm,
+[01:40:35] William (DM): Anyone else gonna do anything um. You don't perceive anything wrong, Bob.
+[01:40:42] William (DM): No, is anyone else gonna do anything? I guess we'll be dead skulls nah.
+[01:40:50] Phoenix Cloak: Welcome.
+[01:40:53] Phoenix Cloak: Back.
+[01:40:58] William (DM): Dog, are you gonna do anything?
+[01:41:01] Speaker 5: There's nothing really here, besides some skulls. I don't really care about that. I'm looking for like a, an arm bone or a hip bone or something like that. Yeah, maybe, if you like.
+[01:41:11] Speaker 3: Yeah.
+[01:41:17] Speaker 2: Like I never thought about just sitting here and looking at this statue for a bit and
+[01:41:22] Speaker 3: Uh what.
+[01:41:30] Speaker 3: What yeah?
+[01:41:31] William (DM): Boban, we gotta what's.
+[01:41:33] Speaker 3: Going on can.
+[01:41:34] William (DM): I like, uh, like, what is that? Like, yeah, Boban, we gotta get out. Wait man, this statue just looks so cool. You know, yeah, Boban, Boban, we gotta, we gotta, we gotta get out of here, Boban, we gotta, we gotta leave the. Oh man, this statue looks so cool.
+[01:41:57] William (DM): Oh god, I think uh.
+[01:42:03] William (DM): Do you think we should like what's going on in there? Yeah, can we like do a check, I could stay here my whole life. Like do a check, could I do? Yeah.
+[01:42:17] William (DM): Like.
+[01:42:17] Speaker 5: An arcana check, could I well? Am I done ritual casting now to identify the oh yeah?
+[01:42:27] William (DM): Um, by this time, yeah, you would be, let me get that. Um, it doesn't have a, it has a description, but not a magic item thing I could just show to you guys. So I'm just gonna do this.
+[01:42:40] Speaker 4: Okay, and.
+[01:42:44] William (DM): Y'all can type it down eventually. Alright, there it is. It turns uh water and other things into wine.
+[01:42:55] Speaker 2: What.
+[01:42:57] Speaker 2: Can this like break Boban? Okay, give me a wisdom.
+[01:43:00] William (DM): Save if you wanna try to break it.
+[01:43:04] Speaker 4: Infinite.
+[01:43:04] Speaker 3: Wine uh.
+[01:43:10] Speaker 3: Uh.
+[01:43:16] William (DM): So like you had a glimmer of, like your eyes widen, but you still got pulled back to the statue.
+[01:43:23] Speaker 2: Would I not get like adventures on this? Check sure.
+[01:43:25] William (DM): If you wanna go for it.
+[01:43:27] Speaker 2: Like man, like shit your.
+[01:43:30] William (DM): Character is wine, the alcohol. Okay, you still are pulled towards the statue. Alright, um, alright, anyone gonna do anything?
+[01:43:44] Speaker 5: Um.
+[01:43:45] William (DM): I.
+[01:43:46] Speaker 5: Guess in the meantime- cause now I'm done ritual casting um- could I do an arcana check to see if there's
+[01:43:53] William (DM): Something.
+[01:43:53] Speaker 5: Magical.
+[01:43:55] William (DM): Like I'm not.
+[01:44:01] William (DM): Really good with arcana that.
+[01:44:08] Phoenix Cloak: Should be a 22, it's.
+[01:44:10] William (DM): Definitely magical, very magical.
+[01:44:14] Speaker 3: You.
+[01:44:15] William (DM): Get a sense, just as a general perception also, that the two people who were there before died looking at this statue for their whole life and maybe starving to death. Can I minor illusion and put like a plank in front of it, hmm?
+[01:44:37] Speaker 3: Interest a plank sure.
+[01:44:41] William (DM): Um.
+[01:44:45] William (DM): Okay, I think that's good enough. Um, okay, so it stops. Um, everybody snaps back to normal. Oh, back to.
+[01:44:56] Speaker 3: Reality do.
+[01:44:58] William (DM): We want to go through all these skulls. I mean I'm
+[01:45:03] Speaker 5: Kinda interested what.
+[01:45:05] Speaker 4: I'm gonna go ahead and look in the skulls and the.
+[01:45:08] Speaker 5: Main thing. Seeing that bard did that for the minor illusion, I'm gonna look at my blanket and be like, oh, I guess this'll help. Instead, it'll be more permanent solution.
+[01:45:23] William (DM): You cover it with a blanket. That's a good idea. Yup, alright, I cover it with my blanket for that amount of time you're able to go through the skulls and you're able to see um on top of that area- no, on top, just by generally looking on the ceiling- there's an iron chest.
+[01:45:46] Speaker 4: Ooooh, I'mma go for the iron chest, I'mma.
+[01:45:49] William (DM): Look.
+[01:45:50] Speaker 5: Wait, why would it be on the ceiling?
+[01:45:52] William (DM): It's on the ceiling of this one. Wait to try to open it. Hold on a second.
+[01:45:59] Speaker 5: Hold on.
+[01:46:00] William (DM): A second yeah.
+[01:46:02] Speaker 4: Actually maintain. You think on.
+[01:46:06] William (DM): The you think on the bottom it's like a weird trapdoor.
+[01:46:11] Speaker 3: That's why it's on the ceiling. What if it's filled with nothing? Why?
+[01:46:24] Speaker 3: Would it be filled with skulls then?
+[01:46:28] Speaker 3: That's a very good question. How?
+[01:46:33] Speaker 4: About we use one of your little magic hand thingies to open the chest? Yeah,
+[01:46:37] William (DM): Yeah, I will also use- I'll conjure- mage hand and try and open the chest on top of the uh on the ceiling. Oh, it's not budging with mage hand like you try, it's not budging, it's locked.
+[01:46:57] Speaker 3: And.
+[01:46:58] William (DM): Mage hand can only support like 20 pounds, so it's not opening with 20 pounds.
+[01:47:10] Speaker 5: Can I do an arcana check to see if there's something, some like magical trap? I'm suspicious.
+[01:47:21] Speaker 5: Anybody like to hold?
+[01:47:23] Speaker 4: Anybody would be suspicious of a room full of gold. I feel like.
+[01:47:27] William (DM): Anyone gonna help them, or nah, I'm not very okay. Let's say, five minutes pass because you guys need to, because you guys are all staying here, alright.
+[01:47:41] Phoenix Cloak: 19 the.
+[01:47:43] William (DM): Chest is definitely magical, but the ground is not magical.
+[01:47:49] Speaker 3: The chest is magical when it's locked. There's an arcane lock on it.
+[01:48:00] Speaker 3: Hmm,
+[01:48:04] Speaker 3: I mean, I could, just could.
+[01:48:09] Speaker 3: Do a knock what?
+[01:48:12] Speaker 3: Do you think?
+[01:48:14] Speaker 4: I want to use spell thought for that. Yeah, it might also be good to get the chest out of this room first. Good idea.
+[01:48:27] Speaker 2: Can.
+[01:48:27] Speaker 4: I get the chest out of the room.
+[01:48:31] William (DM): Right, could I like move the chest with my mage hand, like, can I like see, to shake it to see if it's like, um, you can tell that the bottom is has sovereign glue on the bottom so it's not moving. Damn, you just sort of tell with magic, with an arcana check I forgot to mention so it's like sovereign crude on top.
+[01:48:56] Speaker 5: Yeah, I only got one spell slot, brother, for that one. I'm gonna keep it for you wait.
+[01:49:07] William (DM): So we can't like spell, we can't like lock pick it, try to lock pick it. Or like: is it open? I mean, yeah, you can try to open it, you can try to. Yeah, I said it's magical and it didn't open by moving it, just like moving it a little bit. Oh,
+[01:49:24] Speaker 4: We could move it.
+[01:49:26] William (DM): Well, just by moving, like the locks and stuff. That's what I was saying.
+[01:49:31] Speaker 4: Or could we move the chest?
+[01:49:34] William (DM): You can't move the chest? Ok, I'm saying that just by using the force of a mage hand. It did not open, nothing happened. I see I
+[01:49:46] Speaker 4: See:
+[01:49:47] Speaker 5: I.
+[01:49:48] William (DM): See now.
+[01:49:50] Speaker 5: That's.
+[01:49:50] William (DM): All I can discern I.
+[01:49:52] Speaker 5: Gotta try to move it or like try to open it.
+[01:49:58] Speaker 5: Um, like, just sort of like, lift it up.
+[01:50:02] William (DM): Like lift the thing.
+[01:50:07] William (DM): Like lift the lid. What are you lifting the?
+[01:50:09] Speaker 3: Lid of it.
+[01:50:13] William (DM): It's not opening right now. Um, like, what do you mean? Like lifting up the lid? Ok, yeah, um, horkus porkus tried the same thing with the mage hand and it didn't move. But like, isn't the mage hand? Like weaker? Yeah, the mage hand's only? Oh, you're trying with your arms. Ok, give me a strength check.
+[01:50:37] Speaker 3: Yeah, ok.
+[01:50:39] William (DM): I was so confused. Didn't we do the same thing like: oh we're.
+[01:50:44] Speaker 4: Trying with our noodle arms.
+[01:50:46] William (DM): Yes, hey.
+[01:50:47] Speaker 5: Guess what this thing doesn't work? Oh, let me try it. Oh yeah, it doesn't work, that's.
+[01:50:52] William (DM): What I thought you guys were doing. I was literally about to go insane. Ok, yeah, yeah, you're not able to open it, but it feels like it. Maybe if you had someone stronger you could open it.
+[01:51:05] Speaker 2: Ok, ok, let me get in here.
+[01:51:10] William (DM): Are you gonna try to get some help? Are you staying in here, Bob, or are you leaving? No help out. Ok, alright.
+[01:51:20] William (DM): Are we not able to?
+[01:51:21] Speaker 4: Move the chest out first. Can we try that first? So
+[01:51:25] William (DM): The sovereign glue is connecting it to the top.
+[01:51:29] Speaker 4: I see, I see. So, uh, I guess, uh, we'll try and open up this box then. Yes,
+[01:51:38] Speaker 4: Uh, athletics check, I assume.
+[01:51:41] William (DM): Yeah.
+[01:51:43] Speaker 4: Two.
+[01:51:44] Phoenix Cloak: Dudes in a small room.
+[01:51:47] William (DM): Oof. That's not enough, oh no.
+[01:51:50] Speaker 5: Uh.
+[01:51:51] Speaker 4: But here's the thing. What's the bardic dice again, is it a d8? Oh,
+[01:51:56] William (DM): Yeah, get the bardic inspiration.
+[01:52:00] Speaker 4: Ok, I believe.
+[01:52:02] Speaker 3: It is.
+[01:52:04] Speaker 4: It's.
+[01:52:04] William (DM): A d8 is your magic succeeding. Oh, he made you succeed. You get a bardic inspiration.
+[01:52:13] William (DM): Alright, you open up the chest at this point because y'all didn't identify. You can tell it was an arcane lock locking lock the chest. But with your strength you're able to open it. And then, and then something shoots up on the floor and the floor disintegrates. Um, both of you make a dexterity saving pro uh.
+[01:52:36] Speaker 4: I assume I can make that an advantage, right?
+[01:52:38] Speaker 5: Hey, man does feather fall work.
+[01:52:42] William (DM): Hmm, can you make it? Do you have feather fall?
+[01:52:45] Speaker 4: Oh, I don't with danger sense. Uh, oh, yeah, sure you can make that.
+[01:52:52] William (DM): With extentage, you can see it. I was curious as to why. Yeah, ok.
+[01:52:58] Speaker 4: It's probably not gonna change much, though I'm not gonna lie to ya. Yeah, there it is.
+[01:53:04] William (DM): Alright, Bob's able to grab on the chest and you fall. Oh, I'm a rage, I'm getting angry as I fall. So that's 30 feet? Um, no, wait, that would be like 60, wouldn't it? No, that would be a very fall. No, um, no, 30 feet falls. So that's like what a d6? There's a 2d6 per turn. I.
+[01:53:26] Speaker 2: Think it's a d6 for 10 feet.
+[01:53:28] William (DM): Alright 3.
+[01:53:30] Speaker 5: Fall damage, so you.
+[01:53:32] William (DM): Take 10 fall damage, so it's 5 fall damage and uh, ok, this is gonna be so bad. Alright, um, Bob is able to hold on. I is this like a common thing in video games. I don't know how y'all just instantly knew it was a trap.
+[01:53:57] Phoenix Cloak: Man I.
+[01:53:58] Speaker 4: Will say what kind of person is going to go like: yeah, I'ma walk into the room full of skulls and open the traps chest.
+[01:54:10] Speaker 3: Right. That's why I was like I don't know. Alright, you go do it.
+[01:54:19] Speaker 4: I can probably live this.
+[01:54:22] William (DM): Ok, so you fall um.
+[01:54:28] William (DM): You fall right here. Do y'all see the map?
+[01:54:34] Speaker 4: I don't know.
+[01:54:36] William (DM): I don't know how to make it to where you can see, only is it like a fully different map. Yes,
+[01:54:44] Speaker 3: Yeah, I was about to say oh.
+[01:54:45] William (DM): Only me, can't you? Yeah, I guess, so I can't make. Can I make it to where it show you? Only no.
+[01:54:58] Speaker 2: Idea is:
+[01:54:59] William (DM): There a roll: 20 thing for that.
+[01:55:05] William (DM): Here, let me, let me work it up. I thought,
+[01:55:07] Speaker 4: You.
+[01:55:12] William (DM): Could only move like the party flag by its own. I'm.
+[01:55:28] Speaker 4: Pretty sure there is a way to do it ok.
+[01:55:39] Speaker 4: So there's gonna. So at the top of the screen, William, you see the page tool bar. Yeah, in the bottom left corner of the map we are currently on, you see our icons right.
+[01:55:52] William (DM): Yes.
+[01:55:53] Speaker 4: You drag only my icon to the other map.
+[01:55:58] William (DM): Wow, that's pretty cool. Can everyone else? Can you see it?
+[01:56:03] Speaker 4: I haven't had a map in a while. I haven't changed yet. Let me refresh my page.
+[01:56:06] Speaker 2: Me either.
+[01:56:09] Speaker 5: I'm gonna use the bathroom. I'll be right back as you guys figure that out.
+[01:56:13] Phoenix Cloak: Yeah, good break time. If it needs to break time, did you load or?
+[01:56:21] Speaker 4: Nah, give me a moment. I'm refreshing my page.
+[01:56:25] Phoenix Cloak: Yeah, I'm gonna go use the bathroom.
+[01:56:27] Speaker 4: Because my roll 20 has been a little bit wonk.
+[01:56:33] Speaker 3: Oh, I did it, you did.
+[01:56:35] Speaker 4: It, I'm freaking.
+[01:56:41] Speaker 4: Did you do it cause I'm still on the other page, oh,
+[01:56:46] William (DM): I thought I was amazing.
+[01:56:49] William (DM): Is someone else on this page. Oh, I put Kenny on this page. Hehehe, wrong person.
+[01:56:56] Speaker 5: Did.
+[01:56:56] William (DM): You see it, Kenny, I.
+[01:56:57] Speaker 5: Did see it. That's cool.
+[01:57:01] William (DM): I did see it. Alright, here we are. That.
+[01:57:04] Phoenix Cloak: Changes things, I'll be back.
+[01:57:09] William (DM): So you fall down. There's a place for a bunch of swords. I hate how there's.
+[01:57:13] Speaker 4: Like a turn order thing that bumps up immediately.
+[01:57:17] William (DM): Oh yeah, well, there is because, uh, as you sort of, as you sort of go down here, there's a couple of little spooky guys.
+[01:57:27] Speaker 4: Oh my god, oh my god, oh my god stop.
+[01:57:34] William (DM): Alright.
+[01:57:37] William (DM): Yeah you, I guess we can wait for them, but really you're gonna have a turn to where you scream at them. So they're all surprised and you're not.
+[01:57:45] Speaker 3: Bruh anyways.
+[01:57:51] Speaker 4: Uh, do I get a surprise round for being super angry? Um?
+[01:57:58] William (DM): These guys materialize also. So they weren't existing, so now they exist. So I think we all go at the same time. Understood, here I go. Can I see him from where I am? Uh, so you, I think you'd be able to. Not, you're not really able to see that much.
+[01:58:22] Speaker 4: There's a question, I'm back.
+[01:58:25] William (DM): How.
+[01:58:26] Speaker 4: Dark is it down there I.
+[01:58:32] William (DM): Hate that question cause it might actually be dark uh.
+[01:58:35] Speaker 4: Oh cause if.
+[01:58:36] William (DM): It's dark. All Bob is gonna see is just a fucking radiant light envelop my fucking sphere and we just yell out and rage. I will say it is relatively dark, so it's hard to see and I don't think you'd be able to see the guys you're fighting that clearly. Um, I do.
+[01:58:55] Speaker 5: Have dark.
+[01:58:56] William (DM): Skin. But yeah, but your hole is not. The hole you're in is not big enough to see where he's at. Um, you see his body and maybe he has his weapon out, but your hole is not big enough to see everything. Cause, uh, basically, Alex, his hole is like this big.
+[01:59:18] William (DM): Cause: it's a 4x4.
+[01:59:20] Speaker 2: Yeah.
+[01:59:21] Speaker 4: He.
+[01:59:21] William (DM): Can't see, he can't see crap he.
+[01:59:23] Speaker 4: Can literally just see me and nothing else. Alright.
+[01:59:26] William (DM): Uh.
+[01:59:30] Speaker 4: I rolled an 18. Alright, add that guy in.
+[01:59:35] Speaker 5: Uh, could I like talk to him like what if I, what if I wanted to like go get him?
+[01:59:44] Speaker 4: Oh, you could definitely talk to me down here now.
+[01:59:46] Speaker 5: Where am I? But?
+[01:59:47] William (DM): You are su- you are surprised. Everyone is surprised. This happened except for Alex, cause he's here.
+[01:59:57] Speaker 5: Anti barbarian.
+[01:59:58] William (DM): Too. Yeah, so so it is poltergeist's turn. Oh, so he's gonna go attack you, mister man, yeah, he's very mean. Um, wait, does this guy have a different? Does this guy have a different? Like frickin attack set? I guess he does, sure whatever than the other guy. Um, so he is going to do. Is he not actually the same guy? Oh, he is a little bit different. Okay, does a 22 hit? Yeah, okay, you take, you take. Uh, what is it? 9 force damage? Damn, are you kidding?
+[02:00:49] Speaker 3: Me no here.
+[02:00:57] Speaker 4: We go alright.
+[02:00:59] William (DM): And now it's your turn, my.
+[02:01:00] Speaker 4: Turn, I am going to fucking scream, scream at the top of my lungs, you know.
+[02:01:09] Speaker 4: Basically just go like: hey, I'm fighting down here, yeah, and uh, I'm gonna smack this guy in front of me. Alright, I'm a reckless cause. Everybody else is gonna get advantage on me either way, yeah.
+[02:01:27] Speaker 4: Here I ball. See if 19 to hit.
+[02:01:33] William (DM): 19 does hit 14.
+[02:01:36] Speaker 4: Plus 2, 16 points of piercing um.
+[02:01:40] William (DM): 16 points of piercing nice and then.
+[02:01:45] Speaker 4: 9 points of radiant.
+[02:01:46] Phoenix Cloak: I'm back.
+[02:01:47] William (DM): Alright, and I also. I forgot something. You can't kill him, um hey, um dog, can you roll for initiative, cause you wouldn't be surprised by this. Oh okay, unless if you, if you rage, actually actually if you rage, do you wanna rage?
+[02:02:01] Speaker 5: No, I don't think I would cause I'm almost at a rage, yeah.
+[02:02:05] William (DM): Alright, that's fair so.
+[02:02:07] Speaker 5: I'm surprised yeah.
+[02:02:08] William (DM): What.
+[02:02:09] Speaker 5: Am I surprised by?
+[02:02:10] William (DM): Um, he fell inside a hole and he's inside a separate map right now than you guys fighting up enemies, oh okay.
+[02:02:18] Speaker 5: Oh, we're fighting enemies, cool yeah.
+[02:02:22] William (DM): I'm fighting.
+[02:02:23] Speaker 4: Enemies, oh yeah.
+[02:02:24] William (DM): Not
+[02:02:25] Speaker 4: Fun.
+[02:02:27] William (DM): Alright, now you hit that guy. Yes,
+[02:02:30] Speaker 4: I do 15 to hit um. Yeah, that hits 13 points of piercing. Alright, he's still kicking.
+[02:02:41] Speaker 4: Then let's see that'll.
+[02:02:46] Speaker 4: Be my turn. Well, do I have a bonus action y.
+[02:02:54] William (DM): 'all can roll for initiative, because y'all are gonna be initiative next round, so y'all just get ready and roll for initiative, okay.
+[02:03:00] Speaker 4: Oh.
+[02:03:05] Speaker 5: Wait, I have advantage on initiative.
+[02:03:09] Speaker 5: That's better.
+[02:03:34] Speaker 3: Uh, I think what I'm.
+[02:03:37] Speaker 4: Going to do is: uh, is it a bonus action to drink healing potion?
+[02:03:43] William (DM): Action, that's uh, only rogues to get that special treatment. Apparently the
+[02:03:52] Speaker 4: Rogue thing, bonus action potion on yourself, action potion on somebody else, you know, gotta make sure every time.
+[02:04:05] Speaker 4: Uh, yeah, I don't have any bonus action, that's.
+[02:04:07] William (DM): Bro's turn I.
+[02:04:08] Speaker 4: Need to get a bonus action.
+[02:04:10] William (DM): Okay, before I forget, I'm gonna roll the other twos who I keep forgetting their initiative okay.
+[02:04:15] Speaker 3: They're.
+[02:04:21] William (DM): In there. Now I'm gonna go back to the other people. This is actually really cool, okay, um, anyways.
+[02:04:30] William (DM): Poltergeist. What is he? What's his special thing? Steal your money, my.
+[02:04:36] Speaker 3: Money okay.
+[02:04:48] Speaker 3: Nah, he's just, these are.
+[02:04:52] William (DM): Very gimmicky.
+[02:04:55] Speaker 4: Gimmicky my yeah.
+[02:04:58] William (DM): Uh, he.
+[02:05:01] Speaker 3: Misses. Damn, this guy's gonna go.
+[02:05:08] Speaker 3: They're.
+[02:05:08] William (DM): All trying to hit. Yeah, he misses and this guy's gonna go. Maybe they all just suck.
+[02:05:14] Speaker 3: Yeah.
+[02:05:15] William (DM): They all suck um. Okay, so now all right, porkus, porkus, what are you gonna do? Damn, that's crazy. He got a 20 as well. Uh, I, because of my subclass, I can add my int modifier to my initiative. That's crazy, yup.
+[02:05:35] Speaker 5: Tactical wit.
+[02:05:37] Speaker 4: Tactical wit and.
+[02:05:39] Speaker 3: Then also I.
+[02:05:42] Phoenix Cloak: Have you.
+[02:05:43] Speaker 4: Gonna help me down.
+[02:05:44] William (DM): Here, oh yeah.
+[02:05:45] Phoenix Cloak: Have some of that too let.
+[02:05:47] William (DM): Me, let me- oh yeah, this guy. This guy is visible to everybody. Now let me mimic what is happening on up there, just so you can see. So there is a guy right here from 30 feet of dabbling, but he's right here. That's the only guy you can see now. He's right next to dabbling, but they're both 30 feet down from the ground.
+[02:06:10] Speaker 3: Okay, um.
+[02:06:17] Speaker 3: Yeah, sounds like a uh solid we're.
+[02:06:24] Speaker 3: Gonna do firebolt oh.
+[02:06:31] Speaker 3: Yeah, that hits.
+[02:06:31] Phoenix Cloak: All.
+[02:06:33] William (DM): Right, give me 27.
+[02:06:34] Phoenix Cloak: That's 2d10.
+[02:06:40] Speaker 5: 15 fire damage. Okay, and I presume it lit up a little bit of the area, like slightly, just because.
+[02:06:48] William (DM): Uh yeah, but you can't really see any more monsters. You can see him getting whacked a lot, but you can't really see anything else. You mean, he seems to be getting not whacked at all. Oh yeah, you see him dodging like a pro cause you didn't get. You definitely didn't get whacked on your first hit. That definitely didn't happen. All right, all.
+[02:07:10] Speaker 5: Right, and then I'll step back, and that's my turn all.
+[02:07:15] William (DM): Right, it's your turn, mister, that's.
+[02:07:18] Speaker 3: Someone else.
+[02:07:21] William (DM): Mister.
+[02:07:25] William (DM): Bulbin.
+[02:07:28] William (DM): What's he gonna do? I'm
+[02:07:34] Speaker 4: Gonna smack this guy right here, that's.
+[02:07:37] William (DM): Pretty good, yeah, I'm.
+[02:07:39] Speaker 4: Over this.
+[02:07:40] William (DM): Is the guy he hit, by the way, just for reference. Oh,
+[02:07:44] Speaker 5: The one that I can see, yeah.
+[02:07:46] William (DM): Okay, I was just letting him to know which one he hit, because you're on different apps, true.
+[02:07:52] Speaker 5: True, so.
+[02:07:53] William (DM): Which one are you hitting the bottom right? Okay, go for it.
+[02:08:00] Speaker 4: From Macca and 18.
+[02:08:02] William (DM): That does it 11.
+[02:08:05] Speaker 4: Points of piercing, and then 10.
+[02:08:08] William (DM): Points of radiant. Oh, he's kicking, he's alive, yeah, oh.
+[02:08:16] Speaker 4: That's actually 13 points of piercing, oh.
+[02:08:19] William (DM): He's dead.
+[02:08:20] Speaker 4: Raging at Goldberg- yeah, my fault. And then I'm gonna, I'm gonna smack this guy right here. I
+[02:08:30] William (DM): Just hear clang clang in the distance. Oh,
+[02:08:34] Speaker 4: He's gonna be alive, isn't he? Yeah, damn, no, you have rage.
+[02:08:38] William (DM): Don't you it does more yeah.
+[02:08:40] Speaker 4: 10 actually, yeah, 10 points. So he's dead damn.
+[02:08:47] Speaker 4: I'm fucking beating the shit out of these people and then I'm gonna do the fandango and move over here. Alright, uh, let me roll my tempeh and see if I got anything better than a 10. I'm really, uh, fishing for the 12 right here. Yeah, that's a 2 dang, that's a 9, Alex.
+[02:09:09] William (DM): Has killed everyone besides the one that you can see. Basically, and that's my turn, oh,
+[02:09:17] Speaker 4: Bro, I'm not stuck in a room with them. They're stuck in a room with me, right?
+[02:09:21] Speaker 3: Yeah, stuck in a room with me.
+[02:09:28] William (DM): This guy is crazy. He got a nat dummy. Alright, um he he missed. Anyways, it is dog's turn. What are you gonna do, dog I?
+[02:09:43] Speaker 2: Mean, I think they got it down, don't they? You're just gonna.
+[02:09:46] William (DM): Chill.
+[02:09:48] Speaker 5: 1.
+[02:09:49] Speaker 4: I.
+[02:09:50] Speaker 5: Used up my bone right yeah.
+[02:09:57] Speaker 5: Am I able to?
+[02:09:57] William (DM): Like squeeze in here to.
+[02:09:58] Speaker 5: Attack.
+[02:10:00] William (DM): No, this guy is 30 feet down from the ground. This guy is 30 feet below what you can see. Alex is in a completely different room, trapped by himself fighting some guys. It was 1, 2, 3, 4. The floor fell and I'm just showing you guys all that you can see.
+[02:10:18] Speaker 5: 30 ok.
+[02:10:24] Speaker 5: I'm gonna, oh, shoot. Do I have to do? I have to be enraged in order to do this.
+[02:10:31] Speaker 2: Hold on hold on hold on hold on hold on.
+[02:10:36] William (DM): You haven't heard too many hits from Alex, though. You've just heard clanging. I will say: but you don't. He hasn't shouted how he's doing, so you don't know how he's doing I'm.
+[02:10:46] Speaker 5: Gonna. I'm gonna try and look down before doing anything.
+[02:10:49] Speaker 4: It's really just uh me fucking screaming out in rage down here, yeah.
+[02:10:56] William (DM): Am.
+[02:10:57] Speaker 5: I.
+[02:10:57] Speaker 3: Able to.
+[02:10:58] Speaker 5: Oh, I can only do that when I'm enraged. I literally can't do anything without spending a rage, and I only have one left. Ok.
+[02:11:08] William (DM): Well then, that's your turn. Yeah, dang.
+[02:11:14] Speaker 2: Alright.
+[02:11:15] William (DM): Bob, what are you doing?
+[02:11:17] Speaker 2: Um.
+[02:11:22] Speaker 5: Presumably
+[02:11:22] Speaker 3: He's chilling I.
+[02:11:25] Speaker 5: Have 50 feet of rope. Oh the.
+[02:11:29] William (DM): Chest. You're hanging onto the chest I forgot to describe. That's the only reason you didn't fall. You're hanging onto the chest right now, oh.
+[02:11:37] Speaker 5: And the chest is floating the
+[02:11:40] William (DM): Chest is still on on top of the uh as you, yeah, you are. It's not floating, it is on the top. The bottom fell. You were grabbing onto the chest. Motherfuckers going to the chest, yeah, like what's in the chest? Nothing, damn so.
+[02:11:58] Speaker 5: The.
+[02:11:59] William (DM): Bottom of the chest, which was attached to the floor, has disappeared. No, no, the bottom of the room disappeared. You are holding on to basically the chest, like the, the part of the chest that, like, opens up the lid, the lid of the chest, right now. That is the only reason you didn't fall. Ok, and is there something? There's nothing in the chest. You just said there's nothing in the chest. Ok, wait. So why did I spend all this time trying to open up the chest? Cause you thought there was something in it. Oh, ok. Yeah, I think next time you should just ask me if there's something good inside the room. Ok, I'm honestly very sure I'll answer to this. Ok, I guess, in that case, I will just try to attack.
+[02:12:46] Speaker 3: The.
+[02:12:47] William (DM): Little monster. Yeah, he's thirty feet below where I put him. Ok, I will use vicious mockery, don't you need to like hang off the side with one hand, so then he can do gestures.
+[02:13:00] Speaker 5: Like.
+[02:13:03] William (DM): Is it a hanging situation or like I'm just on top? You are hanging. You are currently hanging like any hit can make you fall and on your butt. Ok, I want to move to be on top of the chest. Wait, what, like you want?
+[02:13:23] Phoenix Cloak: To be inside of the lid. It's.
+[02:13:24] William (DM): Glued on the ceiling. It is glued to the ceiling. They're holding on to the lid which like flapped open, you know. So imagine the chest. Imagine the chest is a pull up bar and you are holding on to a pull up bar right now.
+[02:13:40] Speaker 3: Is the bottom of the chest on the ceiling.
+[02:13:42] William (DM): Yes, it's glued to the top of the ceiling. It's upside down. It's upside down, correct? Ok, now it's making sense. So I can't get on top of the chest because the chest is attached to the ceiling. Yup.
+[02:14:00] William (DM): Also he failed. He took the full points of damage. I presume all the skulls fell.
+[02:14:06] Phoenix Cloak: Down too.
+[02:14:06] Speaker 5: Yeah.
+[02:14:07] William (DM): All the skulls you didn't move fell down. So can I like get onto the back, onto the ledge.
+[02:14:18] Speaker 3: Yeah.
+[02:14:20] William (DM): Just use your movement and you can do it. Ok, give me actually wait, give.
+[02:14:25] Speaker 5: Me.
+[02:14:26] William (DM): An acrobatics check I.
+[02:14:28] Speaker 5: Was about to say that sounds like a acrobatics check. Fucker. That'd be kind of funny, is.
+[02:14:36] William (DM): The chest, helping me like can I swing on the chest? No, like Tarzan.
+[02:14:42] Speaker 5: The chest.
+[02:14:43] William (DM): Is going like this way, it would swing. That would be the direction of the swing, see.
+[02:14:50] Speaker 3: Wouldn't that make.
+[02:14:50] William (DM): Sense.
+[02:14:51] Speaker 3: Close no.
+[02:14:53] William (DM): If it was going like this way, it would, but that's not the way it's going. I'm
+[02:14:58] Speaker 3: Saying that's not the hinge line, that's the way it's swinging.
+[02:15:02] William (DM): Yeah.
+[02:15:02] Speaker 3: Oh, ok you.
+[02:15:06] William (DM): Have to do a side jump. Ok, I see, I guess I'll just acrobatics over there.
+[02:15:12] Speaker 3: That.
+[02:15:13] William (DM): Should.
+[02:15:13] Speaker 3: Be no problem.
+[02:15:14] William (DM): Multilayered combat. Can you what?
+[02:15:18] Speaker 4: Can I just smack?
+[02:15:21] William (DM): Well, we gotta see if Bob does something silly.
+[02:15:25] Speaker 4: I.
+[02:15:25] Speaker 2: Guess true, ok, Bob made it ok.
+[02:15:29] William (DM): Cloak. What are you gonna do, Todd?
+[02:15:37] William (DM): Todd, knock, knock, oh sorry.
+[02:15:41] Phoenix Cloak: My mic had the mute on, so I was talking.
+[02:15:48] Phoenix Cloak: So first I'm going to move a.
+[02:15:54] Phoenix Cloak: Little closer.
+[02:15:56] William (DM): Well.
+[02:15:57] Phoenix Cloak: Kind of in the room so I can so
+[02:15:59] William (DM): This guy's 30 feet below, so you're gonna have to. You might not even be able to shoot him with how crowded this is. This area is right now. You can jump down and try to save him and stab this guy, but that might not be recommended, honestly.
+[02:16:14] Speaker 4: I don't recommend it but.
+[02:16:17] William (DM): If you wanna do something cool, I wanna do something.
+[02:16:21] Phoenix Cloak: Cool? Well, I'm not sure. So if I can't shoot and I can't stab, can?
+[02:16:27] Speaker 3: You move there I.
+[02:16:28] William (DM): Would say: this took your movement, Bob, just getting in a sledge, just because you had to do a full jump. That's true.
+[02:16:38] Phoenix Cloak: Would it be possible for me to like flank him?
+[02:16:43] William (DM): So ok, maybe this is a bad explanation. They're currently 30 feet below you. Right now you would have to fall 30 feet down to the ground.
+[02:16:53] Speaker 5: Oh.
+[02:16:53] Phoenix Cloak: If.
+[02:16:54] William (DM): That's what you wanna do, you can do it.
+[02:16:55] Phoenix Cloak: Wait. Ok. So I'm like way up high here and they're lower, but
+[02:17:02] William (DM): Everyone inside this square. This is gonna be the hardest combat. To explain: it looks like a closet. No, no, it's because the map isn't doing a good job of explaining it. Could I just stab this thing? No, I can't stab it because I would have to fall. Do you wanna end your turn?
+[02:17:24] Phoenix Cloak: Um or.
+[02:17:26] William (DM): Do you have an idea?
+[02:17:27] Phoenix Cloak: I've.
+[02:17:27] William (DM): Got.
+[02:17:28] Phoenix Cloak: This. Just end your turn. Alright, I'm just gonna move so I can- like you know, my character can kinda see what's going on here, but stand from a relatively safe distance because he's just gonna fall down at this. Uh map, alright, ok.
+[02:17:48] Speaker 5: You're watching, you're.
+[02:17:49] William (DM): Watching from the skyline. Help me, Smalls. Ok, Perry Whipple isn't doing anything. He's like I don't know how I'll get down there, Casimiro's just like. Ok, whatever, Corkus Porkus, what are you gonna do?
+[02:18:00] Speaker 5: Um, I'm going to temporarily occupy space as dog and then I'm gonna be like, excuse me, dog, I'm gonna shoot a firebolt.
+[02:18:09] William (DM): Yeah, you're gonna try to have him scoot to the side and shoot a firebolt. Bro's trying to steal my kill.
+[02:18:14] Speaker 4: That's.
+[02:18:15] Phoenix Cloak: Uh 17.
+[02:18:17] William (DM): 17 hits. Bro's trying to steal my kill, roll two ones. Damn, 12 fire damage. Well, just half. So he's still alive. Oh hell, yeah, alright, I'm back to my original spot. Corkus Porkus, it's your turn. No, not Corkus Porkus. Uh, Dablin it's your turn. No, wait, that's the same guy. You mean Bulbin. Same pervert: William's turning, schizophrenic.
+[02:18:45] Speaker 3: William's turning. Schizophrenic, the stupid.
+[02:18:47] William (DM): Elevation's got him. He's dead.
+[02:18:50] Speaker 3: The stupid elevation's got him messed up.
+[02:18:54] William (DM): Alright. How is he dead? I didn't do my turn yet he's dead. Um, Bulbin killed him ok.
+[02:19:01] Speaker 5: I'm gonna take out the rope that I supposedly have and start. Why can't we just go down the stairs? You got a rope. Apparently I have rope from being a barbarian. It's part.
+[02:19:12] William (DM): Of my inventory. The door is open, isn't it? The?
+[02:19:18] Speaker 4: Door down. Here it looks open um.
+[02:19:22] William (DM): Here. Do you wanna explore more down there? Well,
+[02:19:26] Speaker 4: It's just that I would have some vision if this door had opened, that's.
+[02:19:32] Speaker 5: True. And then it's like: oh no, we're trapped.
+[02:19:36] Speaker 5: Oh so.
+[02:19:37] William (DM): He doesn't grab the rope. He's currently taking a peek right now. He is currently looking around Bulbin's dead. You guys just give me a moment. What is in this room? Rest in peace, Bulbin. Mostly broken swords. Um, let me see if there's anything good in here. I think it's just. I think it's just trash junk. Is there anything highlighted?
+[02:20:04] Speaker 4: Fucking square over here.
+[02:20:07] William (DM): Um, why is? I don't know honestly. There's not a trap or anything. I'll tell you that up front, there's no trap over there.
+[02:20:18] William (DM): Maybe that's where you're supposed to drop. Actually, that might actually make sense that.
+[02:20:22] Speaker 4: Might actually make sense.
+[02:20:25] William (DM): Um yeah, there's nothing over here. This is all just a bunch of broken loot.
+[02:20:33] Speaker 4: Yeah, we're gonna climb that rope. I hope you guys have oh fuck.
+[02:20:41] Speaker 4: Don't? I weigh like 400 pounds.
+[02:20:48] Speaker 3: This is true. You are a unit, so sorry.
+[02:20:52] William (DM): 500 pounds. My fault, I'm sure you can. I'm sure you can climb up. Okay, y'all, we can tie it to the.
+[02:21:00] Speaker 3: Chest no.
+[02:21:02] William (DM): I'm kidding, this is a group effort, okay. So I would say, with the amount of people that are helping, you're able to get him up.
+[02:21:11] Speaker 2: Yay.
+[02:21:15] Speaker 5: Welcome back. What if I tie it to the statue? That's.
+[02:21:19] William (DM): A good point.
+[02:21:29] Speaker 4: I don't know, man, I don't know, I don't know.
+[02:21:36] William (DM): Well, Todd, didn't you say I should have mentioned this at the beginning of the session? Is this about when you need to go, Todd? Yeah, it is 9. It is 857. Todd Arena: yeah, Todd, Todd, Todd, Todd, Todd, Todd.
+[02:21:53] Speaker 3: Todd.
+[02:21:56] William (DM): Todd dang.
+[02:21:58] Speaker 5: Believe you said he's going bathroom, mm-hmm.
+[02:22:04] Speaker 4: Oh see, the one who said: while we figured this out, you know.
+[02:22:07] Speaker 5: You know, I did.
+[02:22:08] Speaker 4: That was you that.
+[02:22:09] Speaker 5: Was literally like 15 minutes ago too, oh.
+[02:22:12] Speaker 4: My fault. No, no, no, I'm just.
+[02:22:16] Speaker 5: Saying because I think someone else said that's like: oh yeah, that's a good idea. And if that was Todd I was like man, I hope Todd's okay in the bathroom. Yeah.
+[02:22:23] Speaker 2: Man like shit, yeah, I.
+[02:22:25] Speaker 5: Wasn't being like: Oh, how could you not remember that I used the bathroom 15 minutes ago, right?
+[02:22:33] William (DM): You're really the problem with this relationship, Alex.
+[02:22:41] Speaker 4: That's my fault. I should have known, I should have offered to help you in the bathroom. That's my fault, I.
+[02:22:47] Speaker 5: Know right, I can't reach behind me when I wait. Where well?
+[02:22:51] William (DM): I was going to.
+[02:22:51] Speaker 4: Hold the.
+[02:22:52] William (DM): Hose, you know right.
+[02:22:54] Speaker 5: Over there.
+[02:22:55] William (DM): Okay, are you going to try to do some weird acrobatics to see if there's a secret door right there?
+[02:23:01] Phoenix Cloak: No, I suspect that there is one.
+[02:23:06] William (DM): No, you sounded so sad. Give me a perception check.
+[02:23:11] Speaker 2: I.
+[02:23:12] William (DM): Feel like you should give him an advantage out of pity. Give me a perception. Yeah, you got this, I believe.
+[02:23:19] Speaker 5: In you perception, check or not, that's so.
+[02:23:22] William (DM): Sad.
+[02:23:23] Speaker 5: I'm not that great. Let's.
+[02:23:26] Speaker 3: See, where is it.
+[02:23:29] Speaker 4: I'll help you.
+[02:23:31] Speaker 3: Okay.
+[02:23:33] Speaker 4: Well, I think.
+[02:23:35] Speaker 3: Well, I thank you.
+[02:23:37] Speaker 2: For.
+[02:23:41] Speaker 2: Seeing.
+[02:23:43] William (DM): Oh yeah, there's a door. There's a door and it's probably a secret door. Yeah, I think there's probably a secret door right there.
+[02:23:52] Speaker 5: Well, you want to try and get there at some point, maybe.
+[02:23:57] Speaker 3: Not now.
+[02:23:59] William (DM): Can't you climb dog? Wait, doesn't someone have a climbing speed?
+[02:24:04] Speaker 2: Yeah.
+[02:24:06] Speaker 5: Only if I rage, and I literally have only one rage left. Yeah,
+[02:24:12] William (DM): So,
+[02:24:13] Speaker 5: I'm going to.
+[02:24:14] William (DM): Use that when we really need it, that's.
+[02:24:16] Speaker 3: Fair.
+[02:24:18] William (DM): Kazmir says: what if we try like mage hands? Yeah, let's try some mage hands. Yeah, let's do that a little bit. Yeah, so you figure out that to open the secret door it's up down rough light. A, B, start, select and with that you open the door right here.
+[02:24:37] Speaker 4: Bro, do I need to do another little jig to open the door and you see a desk.
+[02:24:46] William (DM): I'll do a minor illusion and put a plank of wood over the gap. Yeah, then, walk on the wood.
+[02:24:54] William (DM): If only someone had like immovable rod, this would be like the one time that would be useful. Right, I know, right, you've got.
+[02:25:03] Phoenix Cloak: That rope, right, I guess?
+[02:25:05] William (DM): We can just tie the rope onto the other side. You got a rope, you.
+[02:25:12] Speaker 5: Want a lasso over there.
+[02:25:15] William (DM): Let me just jump across guys. Yeah, don't you have the jumping movement to literally do that without a check. Yeah, I'm really fucking strong. Okay, so you do it.
+[02:25:25] Speaker 5: How do you jump if you're 500 pounds?
+[02:25:28] William (DM): I'm.
+[02:25:29] Speaker 4: Really.
+[02:25:29] William (DM): Fucking strong. Uh, we find this and.
+[02:25:31] Speaker 5: We find what's your only do you realize how?
+[02:25:35] William (DM): Thick your thighs need to be. I'm really fucking strong. So, um, when you open it, you find this little guy. Oh,
+[02:25:44] William (DM): Hey, what's up? He's like:
+[02:25:47] Speaker 4: He's:
+[02:25:48] William (DM): Like oh.
+[02:25:48] Speaker 4: Oh Hello.
+[02:25:50] William (DM): How's.
+[02:25:51] Speaker 4: It going uh.
+[02:25:52] William (DM): Pretty good yeah.
+[02:25:54] Speaker 5: Doesn't sound very scary.
+[02:25:58] William (DM): Uh well, what are y'all doing here?
+[02:26:04] Speaker 4: Uh, well, uh, we're looking, uh, I'm gonna, I'm gonna. I really hope you don't take offense to this, but uh, were you uh looking for a way to kill Strahd?
+[02:26:15] William (DM): Oh, I, I don't really care about that. Um, yeah, that sounds, sounds like a cool, cool idea, I guess. Um, okay.
+[02:26:25] Speaker 4: What does this guy look like, William uh.
+[02:26:28] William (DM): Is he literally give me a perception check? Can I see that his face is rotting? Uh, he has a rotting face and flaming eyes. This guy looks like this guy looks like. This guy looks like a lich.
+[02:26:40] Speaker 4: Fuck, fuck, fuck uh perception. Check, here I go.
+[02:26:45] Speaker 2: Uh-oh, oh, no bro.
+[02:26:52] Speaker 4: I'm not trapped in here with you, an eleven.
+[02:26:58] William (DM): Uh, he's just like so, yeah, no, I think I think like liches are probably like second. They teach you that in second grade and stuff. Yeah, inside the D&D world it's like the, it's like the classic, it's like those classic Christmas stories to where, like Krampus and stuff like the evil ones. Yeah, I know, this is definitely like. You know, he's a lich.
+[02:27:22] Speaker 4: Yeah, yeah, but uh yeah.
+[02:27:24] William (DM): Anyways, uh, if you're going to seek power- um, I mean, there's a lot of power here. That's how I got my powers- honestly- is in here, oh really, yeah, William, don't fucking tell me. Uh, he's just like, he's like voila. Anyways, when you go up like the, it should be below inside the second place. There should be a lot of these like Sarcophaguses, and yeah, if you just you just touch them, you should be able to get powers. What type of powers? I can't really remember too much else besides touching that, though I don't really remember who I am. Do I look good?
+[02:28:06] Speaker 3: Yeah.
+[02:28:11] Speaker 2: Let's see, I'm back. Welcome back.
+[02:28:16] Speaker 3: Yeah.
+[02:28:17] William (DM): Some stuff happened. Yeah, the Shanann.
+[02:28:19] Speaker 4: Of McGinn's. Are they mayhaps?
+[02:28:21] William (DM): Have found a lich.
+[02:28:24] Speaker 4: That's an eight.
+[02:28:25] William (DM): A witch, yeah. You think he's telling the truth. No, a lich, yeah.
+[02:28:29] Speaker 4: For sure.
+[02:28:31] William (DM): He's like: well, I mean like, yeah, I've been here for so long like I don't remember that much. Man, why have you?
+[02:28:42] Speaker 4: Been.
+[02:28:42] William (DM): Here for so long. He's just like: why have you just left? Is there like something stopping you? I'm just, I just I'm just drawn to here. Still, like you know, I just, even though it's like I feel like it's a part of me gaining my memories, there's something that's making me want to stay here. I mean, it's not like a magical force, it's just like a feeling. Maybe when I was younger or something, I had a duty here.
+[02:29:17] William (DM): So now, now I'm sort of like- well, I'm not really the guide because I- but I'm more of like, more of like the person that people ask questions and like the front desk person, you know, front desk librarian- kind of, yeah, like the librarian, yeah.
+[02:29:39] William (DM): Do we hear this conversation as this is going on? For sure, but like yes, but you do not know he's a lich because you cannot see him right now.
+[02:29:47] Speaker 3: That's true. Oh, my God is there.
+[02:29:52] William (DM): Any like cool libraries or something around here. Could you ask that? Oh yeah, he's like: oh, you guys want a library, I guess I could show you through here and he opens the. He opens basically both of these doors. At this point I feel like with him walking over here, everybody can see. Oh yeah, he's a lich, everybody sees he's a lich. You're probably terrified, Kenny. Oh, my God, you probably have. So I'll be like
+[02:30:33] Speaker 2: Be careful.
+[02:30:39] William (DM): And over here inside, over here around, you can see there's like a spell book and stuff. Let me see what else is inside his place.
+[02:30:52] William (DM): Yeah, no, I think it's only like a spell book. Yeah, there's a spell book just sort of chilling right there. He's walking through over here. He's like: are y'all coming anyone? Hey wait, I see you bought some friends, hey, yeah.
+[02:31:07] Speaker 4: I did.
+[02:31:08] William (DM): How's it going?
+[02:31:09] Speaker 4: Yeah.
+[02:31:10] William (DM): Sure, and he creates ground from like over here there's just like ground now. Oh,
+[02:31:17] Speaker 5: I I thank you. I'm going to whisper to Casimir. We are so fucked.
+[02:31:26] William (DM): Hey, I feel like this might be a good stopping point. Am I right guys? Yeah, I think so. You think so. He's a friendly guy, he's just a friendly guy.
+[02:31:38] Speaker 4: Honestly, this guy has been really chill. I fully expected to come into this room and get fucking dusted. I'm not going to
+[02:31:51] Speaker 3: When.
+[02:31:52] William (DM): I read that it was a lich. I was like you guys are dead. You guys are dead right.
+[02:32:00] Speaker 4: But then you read further and went like wait, oh, you guys aren't dead. I think you guys.
+[02:32:04] William (DM): Aren't dead. Maybe you aren't dead. This guy's chill. You might not be dead as long.
+[02:32:07] Speaker 4: As we don't become hostile. We're fucking dead.
+[02:32:12] Speaker 2: Yep.
+[02:32:14] William (DM): So yeah.
+[02:32:17] William (DM): This is such a fucked place. To end, I'm not going to fucking lie.
+[02:32:24] Speaker 5: Like I said to Casimir guys, we
+[02:32:27] Phoenix Cloak: Are so fucked.
+[02:32:31] William (DM): Oh, my God.
+[02:32:33] Speaker 5: I wonder what Casimir thinks when he turns around the corner. Yeah, he's probably like, oh shit, Casimir.
+[02:32:38] William (DM): Turns along. Even though he's like: what is it? He's a dusk elf. He somehow turns even more pale.
+[02:32:51] William (DM): And Perry Wimple is just like: what are you guys looking at? Hey man, I think you need some lotion. And Casimir is like put his hand over his mouth and says: shut up.
+[02:33:03] William (DM): All right, that's a good time to end. That's a good time. Yeah, that was some fun. That was something I was very excited to do. I was hoping y'all would make it to that.
