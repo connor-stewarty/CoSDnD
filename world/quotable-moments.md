@@ -100,3 +100,27 @@ The running "best of" log — funny, iconic, or unhinged lines from the table (i
 
 > "I only eat the rich people."
 > — Phoenix Cloak, Session 04, declining to eat the dead guardian.
+
+> "I took one of the gifts. And look how I turned out."
+> — Exethanter the lich, Session 05, on what the power under the library costs.
+
+> "The voices."
+> — Exethanter, Session 05, asked who calls the numbers at his solo bingo night.
+
+> "I did in fact murder you. But you're back now."
+> — Casimir, Session 05, opening a conversation with his newly resurrected sister. She cast Time Stop and left.
+
+> "Maybe I should have talked to you guys. That might not have been the smartest thing to say in the beginning."
+> — Casimir, Session 05, immediately afterwards.
+
+> "If y'all don't fight me I won't fight you. But if you do fight me I will murder all of you."
+> — Rahadin, Session 05.
+
+> "I was the one who sort of ratted out the dusk elves and genocided them. So I got a pretty high position."
+> — Rahadin, Session 05, to Casimir's face.
+
+> "I solved a puzzle with no other information."
+> — Scottishbard, Session 05, after opening an arcane-locked door by saying the lich's name at it.
+
+> "We won't let you have this power."
+> — the vampire spawn, Session 05, climbing out of the sarcophagi.

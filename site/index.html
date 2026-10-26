@@ -819,8 +819,8 @@
       About a year into the campaign, fresh out of a house that cost them people, the party regrouped in Vallaki,
       picked up allies wherever they could find them — a dusk elf wizard, a strongman sold to them by his own
       mother, a grieving vampire hunter — and followed the one real lead on Strahd's weakness up into the
-      mountains. They are now deep inside the Amber Temple, working through it a freezing room at a time. The
-      thing that finally told them where the power is kept was a lich who answered the door politely.
+      mountains. They are now deep in the Amber Temple, standing in front of amber sarcophagi that hand out real
+      power at a price nobody will name in advance. Two of them have already said yes.
     </p>
   </div>
 </section>
@@ -1048,6 +1048,23 @@ const sessions = [
     ],
     quote: { text: "I'm not stuck in a room with them. They're stuck in a room with me.", who: "Bulbin, alone at the bottom of the pit" },
     cliffhanger: "Mid-conversation with a friendly, amnesiac lich who has opened his library and conjured a floor across the pit to let the party walk over. He says the temple's power sits in sarcophagi on the level below, and that touching one is how he got his."
+  },
+  {
+    number: 5,
+    title: "Dark Gifts",
+    date: "2026-10-15",
+    inGameDate: "Straight on from Session 04 \u2014 the library, the stairs down, and the sarcophagus vault beneath it",
+    tldr: "The party got the lich's blessing to go below, learned his name, and found the amber sarcophagi \u2014 which hand out real power at a cost the temple will not name in advance. Casimir took one, turned corpse-grey, and used it to resurrect the sister he murdered to stop her becoming Strahd's bride. Then they met the man who sold out his people, and chose not to fight him.",
+    highlights: [
+      "Exethanter \u2014 the lich finally has a name, read off his own spell book once Dablin absorbed a library book granting every language, permanently.",
+      "Vampire spawn climbed out of the sarcophagi: the regenerating problem from \u201cthe house\u201d again, beaten by Chill Touch shutting the healing off.",
+      "Casimir took a gift, turned corpse-grey, and resurrected his sister \u2014 then told her he'd murdered her himself. She cast Time Stop and left.",
+      "Phoenix Cloak accepted the Corpse Star's gift: one resurrection, for \u22124 to everything until a long rest the temple makes impossible.",
+      "Met Rahadin, Strahd's first servant and the man who had the dusk elves massacred. Insight said fighting him now would cost someone. They let him walk.",
+      "Left an entire treasure hoard untouched after Dog walked face-first into the invisible amber golem guarding it."
+    ],
+    quote: { text: "I took one of the gifts. And look how I turned out.", who: "Exethanter, on what the power downstairs costs" },
+    cliffhanger: "Standing in front of two more dark gifts \u2014 one of ice and hate, one of secrets \u2014 with two friendly nothics telling them to go ahead. Phoenix Cloak is carrying a one-shot resurrection and a \u22124 to everything he cannot clear."
   }
   // { number: 3, title: "...", date: "...", inGameDate: "...", tldr: "...", highlights: [...], quote: {text:"...", who:"..."}, cliffhanger: "..." },
 ];
@@ -1071,7 +1088,11 @@ const quotes = [
   { text: "I'm not stuck in a room with them. They're stuck in a room with me.", who: "Bulbin, alone at the bottom of a thirty-foot pit", session: 4 },
   { text: "I was just being nice last game \u2014 because I think y'all would have actually died.", who: "The DM, on the fight he quietly skipped last session", session: 4 },
   { text: "Raging has now become a commodity in this dungeon.", who: "The DM, as Bulbin learns rage waits for a long rest", session: 4 },
-  { text: "What are you guys looking at? Hey man, I think you need some lotion.", who: "Parriwimple, to a lich", session: 4 }
+  { text: "What are you guys looking at? Hey man, I think you need some lotion.", who: "Parriwimple, to a lich", session: 4 },
+  { text: "I took one of the gifts. And look how I turned out.", who: "Exethanter the lich, on what the power costs", session: 5 },
+  { text: "I did in fact murder you. But you're back now.", who: "Casimir, to his newly resurrected sister", session: 5 },
+  { text: "The voices.", who: "Exethanter, asked who calls the numbers at his solo bingo night", session: 5 },
+  { text: "I solved a puzzle with no other information.", who: "Scottishbard, on opening a locked door by saying the lich's name at it", session: 5 }
 ];
 
 // ---- Locations explored ----------------------------------------------------
@@ -1087,7 +1108,9 @@ const locations = [
   { name: "The Tower Past the Gate", session: 3, blurb: "A stone tower beyond the statue gate with a broken bridge outside. Warm on the first floor, frozen shut at the top, and full of stone soldiers in plate armor up there. Irina and Rudolph van Richten are still in it, keeping the fire going." },
   { name: "Amber Temple", session: 3, blurb: "Casimir named it back in Session 01; the party finally stood in front of it in Session 03. Fifty feet of temple built into the mountainside, six enclaves of praying hooded statues along its face. Entrance hall and upper floor now cleared. It is \u221210\u00b0C inside, and the cold is on a clock." },
   { name: "The Pit Below the Skull Room", session: 4, blurb: "Opened when a chest glued to the ceiling was forced and the floor disintegrated. Dark, full of broken swords and poltergeists. Bulbin fell thirty feet into it and cleared it by himself." },
-  { name: "The Lich's Library", session: 4, blurb: "Behind a secret door across the pit. Home to a small, amnesiac, disarmingly friendly lich who calls himself the front desk librarian. He opened the doors and conjured a floor across the gap; the party got as far as the threshold." }
+  { name: "Exethanter's Library", session: 4, blurb: "Behind a secret door across the pit. Home to a small, amnesiac, disarmingly friendly lich \u2014 named at last in Session 05, off his own spell book. Its books crumble to dust when touched, except the one that granted Dablin every language, permanently." },
+  { name: "The Sarcophagus Vault", session: 5, blurb: "Down the stairs from the library. Three amber sarcophagi radiating magic, guarded by vampire spawn that climbed out of them. Touching one shows you a vision and a yes-or-no prompt. The vampire's gift was declined; the Corpse Star's resurrection was not." },
+  { name: "The Amber Golem's Hoard", session: 5, blurb: "Tens of thousands of coins, thirty holy symbols, a gilded skull, a gilded chariot \u2014 and a giant golem made of amber standing invisible in the middle of it, found when Dog walked into it. The party took nothing. A second golem elsewhere on this level was destroyed long ago by persons unknown." }
 ];
 
 /* =========================================================================
@@ -1123,7 +1146,9 @@ function initial(name) {
 
 // Written as a sentence rather than a scoreboard, so it reads the same way
 // at one session as it will at forty.
-const WORDS = ['no', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten', 'eleven', 'twelve'];
+const WORDS = ['no', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten',
+  'eleven', 'twelve', 'thirteen', 'fourteen', 'fifteen', 'sixteen', 'seventeen', 'eighteen',
+  'nineteen', 'twenty'];
 function spell(n) {
   return n < WORDS.length ? WORDS[n] : String(n);
 }

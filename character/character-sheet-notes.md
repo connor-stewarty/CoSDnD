@@ -34,3 +34,6 @@ Consumables, quest items, favors owed/owed-to — the stuff that's easy to forge
 - **Bardic Inspiration** — handed a die to Bulbin in Session 03, which is worth remembering as a habit; it's easy to sit on these all fight.
 - The party was level 8 as of Session 03 (per the DM, sizing up the temple guardian).
 - Went down to Chain Lightning in Session 03 and spent most of that fight unconscious — stabilized by Casimir, then healed by Dog's plus-marked bone. Worth a line in the journal.
+- **College of Lore**, on the evidence of **Cutting Words** (Session 05, used to shave damage off hits on Dog and Dablin). Also confirmed this session: **War Caster**, **Dissonant Whispers** and **Vicious Mockery** in regular rotation.
+- Dissonant Whispers is worth more than its level in a crowded room — forcing an enemy to flee through the party drew four-plus opportunity attacks in Session 05.
+- Session 05: opened an arcane-locked door by saying the lich's name (**Exethanter**) at it, with no other information, and got inspiration for it.
