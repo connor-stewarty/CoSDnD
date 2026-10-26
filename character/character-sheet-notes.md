@@ -37,3 +37,10 @@ Consumables, quest items, favors owed/owed-to — the stuff that's easy to forge
 - **College of Lore**, on the evidence of **Cutting Words** (Session 05, used to shave damage off hits on Dog and Dablin). Also confirmed this session: **War Caster**, **Dissonant Whispers** and **Vicious Mockery** in regular rotation.
 - Dissonant Whispers is worth more than its level in a crowded room — forcing an enemy to flee through the party drew four-plus opportunity attacks in Session 05.
 - Session 05: opened an arcane-locked door by saying the lich's name (**Exethanter**) at it, with no other information, and got inspiration for it.
+
+### Session 05: the Corpse Star's gift — read this before next session
+- **You are carrying one single-use Resurrection.** Taken from an amber sarcophagus in the Amber Temple, offered by something the vision named only as "the Corpse Star." You touched all three on offer first, declined the Dark Gift of the Vampire and the Gift of Tenebrous, and accepted this one. Casimir took the same gift and spent it immediately on his sister, so his is gone; **yours is unspent.**
+- **The price is a −4 penalty to everything, until you take a long rest** — and long rests are impossible inside the temple because of the cold. Assume it applies to every attack, check and save you make down there until the party leaves or the DM says otherwise. Worth confirming the exact scope with William.
+- **Your appearance changed.** Skin gone wrinkled and corpse-like, and a good deal of your feathers fell out — what's left moves oddly against the loose skin. Casimir got the same corpse-grey look and hasn't noticed his.
+- The party immediately started talking about using a resurrection on **Cassius**. That needs a body, which nobody has.
+

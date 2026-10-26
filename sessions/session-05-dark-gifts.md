@@ -34,7 +34,7 @@ The party got the lich's blessing to go downstairs, learned his name, and found 
 - **The three sarcophagi in this room**, touched one at a time (touching shows you a vision and a yes/no prompt; you can decline):
   - **Dark Gift of the Vampire** — a world of blood, a cave of teeth. Declined, on the reasonable theory that it's how Strahd made himself.
   - **Gift of Tenebrous** — books with energy running through them, a plant growing on one side and a pile of bodies on the other. Life and death. Looked at, not taken.
-  - **The resurrection gift**, from someone the vision names only as **the Corpse Star** — a hand raising the dead. A **one-time** Resurrection, at the price of a **−4 penalty to everything until you take a long rest** — which, in this dungeon, you cannot. Casimir used his and lost the power. **Phoenix Cloak took it too**, and is now wrinkled, corpse-skinned, missing a good deal of his feathers, and carrying one resurrection and a −4 to everything.
+  - **The resurrection gift**, from someone the vision names only as **the Corpse Star** — a hand raising the dead. A **one-time** Resurrection, at the price of a **−4 penalty to everything until you take a long rest** — which, in this dungeon, you cannot. Casimir used his and lost the power. **Scottishbard took it too** — he touched all three one by one, declined the first two, and accepted this one. He is now wrinkled and corpse-skinned, has lost a good deal of his feathers, and carries one resurrection and a −4 to everything. Offered it around afterwards; everyone else passed.
   - The party immediately starts asking whether they could bring **Cassius** back. They'd need the body.
 - Exethanter confirms there are **more of these throughout the temple**, and apologizes for not mentioning it — he was waiting to see whether the party was chill.
 - **A short rest**, with Song of Rest, and Constitution saves against the cold for anyone without proper gear. Dog reports having been in single digits from full health during the fight.
@@ -54,7 +54,7 @@ The party got the lich's blessing to go downstairs, learned his name, and found 
 
 ## Key decisions
 - Went down the stairs on the lich's permission, knowing the power costs something and that nobody would say what.
-- **Phoenix Cloak accepted the Corpse Star's gift** — a single resurrection for a −4 penalty to everything that only a long rest clears, in a dungeon where long rests are impossible.
+- **Scottishbard accepted the Corpse Star's gift** — a single resurrection for a −4 penalty to everything that only a long rest clears, in a dungeon where long rests are impossible. He touched all three sarcophagi first to see what was on offer.
 - **Declined the Dark Gift of the Vampire** outright, on the theory that it's what Strahd used.
 - Took **nothing** from an enormous treasure hoard rather than wake the amber golem guarding it.
 - **Did not fight Rahadin.** Insight said they'd probably win eventually and probably lose someone doing it, and he's not Strahd.
@@ -62,7 +62,7 @@ The party got the lich's blessing to go downstairs, learned his name, and found 
 
 ## Combat / danger
 - **Vampire spawn at the sarcophagi** — the regenerating things from "the house," again. Resistant to non-magical weapons, healing every round unless hit with radiant damage or holy water. Beaten by a combination of Dablin's Chill Touch shutting off regeneration, Bulbin's newly-enchanted axe, and Dog's claws. Dog went from full health to single digits.
-- **Standing conditions:** no long rests anywhere in the temple, both barbarians on their last rage, the cold clock still running, and Phoenix Cloak now at **−4 to everything** with no way to clear it.
+- **Standing conditions:** no long rests anywhere in the temple, both barbarians on their last rage, the cold clock still running, and Scottishbard now at **−4 to everything** with no way to clear it.
 - **Rahadin** — not fought. Sized up as a fight the party could lose someone to right now.
 - **The amber golem** — not fought, and only noticed because Dog walked into it.
 
@@ -70,7 +70,7 @@ The party got the lich's blessing to go downstairs, learned his name, and found 
 - **Permanent comprehension of all languages** — Dablin, from the aura'd book in the library. Used immediately to read the lich's name.
 - **The lich's name: Exethanter.** Also the password to at least one arcane-locked door in this place.
 - **Bulbin's great axe is now +1**, courtesy of the lich.
-- **One single-use Resurrection** — Phoenix Cloak, at the cost of a −4 penalty to everything until a long rest.
+- **One single-use Resurrection** — Scottishbard, at the cost of a −4 penalty to everything until a long rest.
 - **Gifts seen and declined so far:** Dark Gift of the Vampire, Gift of Tenebrous, a gift "of ice and of hate," and the Gift of Secrets. Exethanter says there are more scattered through the temple.
 - **A hoard left untouched** behind an invisible amber golem — tens of thousands of coins, 30 holy symbols, six dresses, a gilded skull, an obsidian scepter and a gilded chariot among it.
 - Confirmed mechanically: the vampire spawn **regenerate unless hit with radiant damage or holy water**, which is the same rule as the things that killed Cassius.
@@ -117,10 +117,10 @@ No deaths. The resurrection gift is now in the party's hands for the first time,
 > — Scottishbard, after opening an arcane-locked door by saying the lich's name at it.
 
 ## Cliffhanger / where we left off
-Standing in front of two more dark gifts — one "of ice and of hate," one of secrets — with two friendly nothics telling them to go ahead. Behind them: an untouched treasure hoard guarded by an amber golem, a second golem someone already destroyed, and Rahadin walking away with a truce that lasts exactly as long as nobody swings. Phoenix Cloak is carrying a one-shot resurrection and a −4 to everything he cannot clear without a long rest he cannot take.
+Standing in front of two more dark gifts — one "of ice and of hate," one of secrets — with two friendly nothics telling them to go ahead. Behind them: an untouched treasure hoard guarded by an amber golem, a second golem someone already destroyed, and Rahadin walking away with a truce that lasts exactly as long as nobody swings. Scottishbard is carrying a one-shot resurrection and a −4 to everything he cannot clear without a long rest he cannot take.
 
 ## DM notes / questions for next time
-- **What does the −4 actually apply to**, and is there genuinely no way to clear it inside the temple? It's on Phoenix Cloak for as long as this dungeon lasts.
+- **What does the −4 actually apply to**, and is there genuinely no way to clear it inside the temple? It's on Scottishbard for as long as this dungeon lasts — which matters for every check, attack and save he makes down here.
 - Is **Casimir** going to keep deteriorating, or is corpse-grey the whole price? He hasn't noticed, and nobody has pushed him on it.
 - **Where did his sister go**, and does she now count as an ally, a problem, or a loose vampire-adjacent dusk elf with a grudge?
 - **Rahadin** knows the party's plan and let them live. Does the truce hold if they meet him again, and does he report to Strahd in the meantime?
