@@ -819,8 +819,10 @@
       About a year into the campaign, fresh out of a house that cost them people, the party regrouped in Vallaki,
       picked up allies wherever they could find them — a dusk elf wizard, a strongman sold to them by his own
       mother, a grieving vampire hunter — and followed the one real lead on Strahd's weakness up into the
-      mountains. They are now deep in the Amber Temple, standing in front of amber sarcophagi that hand out real
-      power at a price nobody will name in advance. Two of them have already said yes.
+      mountains. The Amber Temple gave them what they came for: real power, handed out by amber sarcophagi at a
+      price nobody names in advance. It also showed them the bill. The dusk elf who led them there took every
+      gift he could reach, decided he should rule Barovia once Strahd was gone, and the party killed him for
+      it. Nearly all of them took gifts of their own anyway.
     </p>
   </div>
 </section>
@@ -960,12 +962,6 @@ const partyMembers = [
     classRace: "Rogue",
     blurb: "Newest recruit, met in a Vallaki tavern, stepping in after Cassius (a paladin) died in \"the house.\" Attuned the Stone of Luck the same night he joined.",
     isYou: false
-  },
-  {
-    name: "Casimir",
-    classRace: "NPC • Dusk Elf",
-    blurb: "Leader of the Dusk Elves camped alongside the Vistani. Knows where the Amber Temple is and thinks it holds Strahd's secret. Joined the party this session.",
-    isYou: false
   }
   // { name: "...", classRace: "...", blurb: "...", isYou: true/false },
 ];
@@ -974,7 +970,8 @@ const partyMembers = [
 // ADD FALLEN PARTY MEMBERS HERE
 const fallen = [
   { name: "Cassius", classRace: "Paladin", session: 1, blurb: "Died in \"the house,\" just before this log begins. Dealt fire damage in the fight that killed him — fire and radiant were the only things that stopped the enemy regenerating. Replaced by Phoenix Cloak." },
-  { name: "Esmeralda", classRace: "Vampire hunter", session: 2, blurb: "Rudolph van Richten's daughter. Died in \"the house\" alongside Cassius, after making a pact with the party to help kill Strahd — her fate only confirmed this session, when her father tracked the party down." }
+  { name: "Esmeralda", classRace: "Vampire hunter", session: 2, blurb: "Rudolph van Richten's daughter. Died in \"the house\" alongside Cassius, after making a pact with the party to help kill Strahd — her fate only confirmed this session, when her father tracked the party down." },
+  { name: "Casimir", classRace: "Dusk elf wizard", session: 6, blurb: "With the party since Session 01, and the reason they ever found the Amber Temple. Took dark gift after dark gift until he was talking about ruling Barovia himself, and the party killed him for it. Died saying \"I won't die,\" then possessed a suit of amber armour and died again." }
 ];
 
 // ---- Sessions --------------------------------------------------------------
@@ -1065,6 +1062,23 @@ const sessions = [
     ],
     quote: { text: "I took one of the gifts. And look how I turned out.", who: "Exethanter, on what the power downstairs costs" },
     cliffhanger: "Standing in front of two more dark gifts \u2014 one of ice and hate, one of secrets \u2014 with two friendly nothics telling them to go ahead. Scottishbard is carrying a one-shot resurrection and a \u22124 to everything he cannot clear."
+  },
+  {
+    number: 6,
+    title: "What Casimir Became",
+    date: "2026-11-05",
+    inGameDate: "Straight on from Session 05 \u2014 the same hour, working the temple's lower level room by room",
+    tldr: "Casimir kept taking dark gifts until there was nothing left worth saving, announced he intended to rule Barovia once Strahd was dead, and the party killed him. His ghost jumped into an amber guardian and they killed that too. Nearly everyone took gifts of their own anyway, a room of fireball-slinging skulls put most of the party on the floor, and they agreed to leave and come back at full strength.",
+    highlights: [
+      "Casimir took gift after gift \u2014 lower voice, too many teeth, glowing eyes \u2014 then said the people couldn't be trusted to choose a ruler, so he would be one.",
+      "The party killed him. Bulbin landed it; his ghost possessed an amber guardian, and Phoenix Cloak killed that too.",
+      "Everyone except Phoenix Cloak accepted a gift: Bulbin's strength, Dog's wolves and his remaining eye, Scottishbard's sixth fingers, Parriwimple's bone wings.",
+      "Each gift's real effect was sent privately, and each carries a flaw \u2014 so nobody knows what anyone else is carrying.",
+      "Fire-immune flaming skulls then dropped Bulbin, Dog and Parriwimple in one fight. Scottishbard's Aid is the only reason it wasn't a wipe.",
+      "Out of rages and spell slots, the party agreed to leave the Amber Temple and come back at full strength."
+    ],
+    quote: { text: "Then why not take even more power while I'm still alive?", who: "Casimir, told the gifts were shortening his life" },
+    cliffhanger: "On the way out, battered and carrying a dead ally's spell book. Casimir is dead by the party's hand, the hoard is still golem-guarded, and next session is the walk back to the tower \u2014 or working out how to long rest well below freezing."
   }
   // { number: 3, title: "...", date: "...", inGameDate: "...", tldr: "...", highlights: [...], quote: {text:"...", who:"..."}, cliffhanger: "..." },
 ];
@@ -1092,7 +1106,11 @@ const quotes = [
   { text: "I took one of the gifts. And look how I turned out.", who: "Exethanter the lich, on what the power costs", session: 5 },
   { text: "I did in fact murder you. But you're back now.", who: "Casimir, to his newly resurrected sister", session: 5 },
   { text: "The voices.", who: "Exethanter, asked who calls the numbers at his solo bingo night", session: 5 },
-  { text: "I solved a puzzle with no other information.", who: "Scottishbard, on opening a locked door by saying the lich's name at it", session: 5 }
+  { text: "I solved a puzzle with no other information.", who: "Scottishbard, on opening a locked door by saying the lich's name at it", session: 5 },
+  { text: "Then why not take even more power while I'm still alive?", who: "Casimir, told the gifts were shortening his life", session: 6 },
+  { text: "Guys, I think we need to kill this guy.", who: "The table, out of character, thirty seconds after Casimir explained who should rule Barovia", session: 6 },
+  { text: "I won't die.", who: "Casimir, dying \u2014 before his ghost jumped into a suit of armour", session: 6 },
+  { text: "Who here is okay? Show of hands.", who: "The party taking stock. No one raised a hand", session: 6 }
 ];
 
 // ---- Locations explored ----------------------------------------------------
@@ -1109,7 +1127,8 @@ const locations = [
   { name: "Amber Temple", session: 3, blurb: "Casimir named it back in Session 01; the party finally stood in front of it in Session 03. Fifty feet of temple built into the mountainside, six enclaves of praying hooded statues along its face. Entrance hall and upper floor now cleared. It is \u221210\u00b0C inside, and the cold is on a clock." },
   { name: "The Pit Below the Skull Room", session: 4, blurb: "Opened when a chest glued to the ceiling was forced and the floor disintegrated. Dark, full of broken swords and poltergeists. Bulbin fell thirty feet into it and cleared it by himself." },
   { name: "Exethanter's Library", session: 4, blurb: "Behind a secret door across the pit. Home to a small, amnesiac, disarmingly friendly lich \u2014 named at last in Session 05, off his own spell book. Its books crumble to dust when touched, except the one that granted Dablin every language, permanently." },
-  { name: "The Sarcophagus Vault", session: 5, blurb: "Down the stairs from the library. Three amber sarcophagi radiating magic, guarded by vampire spawn that climbed out of them. Touching one shows you a vision and a yes-or-no prompt. The vampire's gift was declined; the Corpse Star's resurrection was not." },
+  { name: "The Sarcophagus Vaults", session: 5, blurb: "Several rooms of amber sarcophagi on the temple's lower level. Touch one, see a vision, accept or decline. Strength, flight, resurrection, the vampire's gift, lightning, disease, raising the dead \u2014 each with a flaw attached, handed out in private. Casimir took every one he could reach, and it destroyed him." },
+  { name: "The Lower Skull Room", session: 6, blurb: "Behind the last door the party got open. Three fire-immune skulls throwing Fireball into their own room, which put three of the party on the floor. They burned the broken beds and bookshelves for one fire afterwards \u2014 the wood is gone now. The farthest point reached in the temple." },
   { name: "The Amber Golem's Hoard", session: 5, blurb: "Tens of thousands of coins, thirty holy symbols, a gilded skull, a gilded chariot \u2014 and a giant golem made of amber standing invisible in the middle of it, found when Dog walked into it. The party took nothing. A second golem elsewhere on this level was destroyed long ago by persons unknown." }
 ];
 

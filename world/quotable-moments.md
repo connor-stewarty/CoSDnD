@@ -124,3 +124,33 @@ The running "best of" log — funny, iconic, or unhinged lines from the table (i
 
 > "We won't let you have this power."
 > — the vampire spawn, Session 05, climbing out of the sarcophagi.
+
+> "Then why not take even more power while I'm still alive?"
+> — Casimir, Session 06, told the dark gifts were shortening his life.
+
+> "Of course we can't fully let the people decide who wants to rule, because they're just gonna choose another Strahd. So that's why we should be the ones who rule over them."
+> — Casimir, Session 06, explaining his plan for after Strahd.
+
+> "Guys, I think we need to kill this guy."
+> — The table, Session 06, out of character, about thirty seconds later.
+
+> "I've realized what true strength is. And y'all can either choose to live in the past, or join me."
+> — Casimir, Session 06. The answer: "True strength are the friends we made along the way."
+
+> "I won't die."
+> — Casimir, Session 06, dying — before his ghost jumped into a suit of armour.
+
+> "Get rekt, freaking nerd!"
+> — The DM (William), Session 06, countering the party's counterspell.
+
+> "I hate counterspell. It's the stupidest spell in the game."
+> — The DM, Session 06, at some length.
+
+> "Who here is okay? Show of hands." / "No one raised your hand."
+> — Session 06, the party taking stock.
+
+> "Six-fingered crow, I guess?"
+> — Session 06, on Scottishbard's new hands.
+
+> "Kezmar wasn't necessarily supposed to become evil... some of the failed rolls he had, because he has to make the same rolls you guys do."
+> — The DM, Session 06, revealing afterwards that Casimir's turn was never planned.

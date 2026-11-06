@@ -44,3 +44,11 @@ Consumables, quest items, favors owed/owed-to — the stuff that's easy to forge
 - **Your appearance changed.** Skin gone wrinkled and corpse-like, and a good deal of your feathers fell out — what's left moves oddly against the loose skin. Casimir got the same corpse-grey look and hasn't noticed his.
 - The party immediately started talking about using a resurrection on **Cassius**. That needs a body, which nobody has.
 
+### Session 06: the second gift, and a flaw
+- **You took a second dark gift** — the one whose vision was a man talking while others acted out what he said: steal, kill, fight. William sent the mechanics privately, so they aren't on tape; whatever they are, they're yours alone to know.
+- **It came with a flaw**, agreed with William in a side call: **greedy, and wanting to be the centre of attention.** He was explicit that it doesn't need playing hard, and asked everyone to keep their flaws from being unkind to other players.
+- **You now have six fingers on each hand.** The table's phrase was "six-fingered crow" — which, with the feathers from Session 05, is the clearest the archive has ever been that Scottishbard is a corvid of some kind.
+- **The single-use Resurrection from Session 05 is still unspent.** Casimir died this session and nobody raised it at the table. Cassius is still an option too, if a body ever turns up.
+- Your **Aid** was the reason the skull fight didn't become a wipe — three people went down, and the extra HP is what kept them at "down" rather than dead. Worth casting earlier rather than hoarding it.
+
+
