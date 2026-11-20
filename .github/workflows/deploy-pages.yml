@@ -25,16 +25,23 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Setup Pages
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@v6
 
+      # These four are pinned to the Node 24 majors. On the older pins
+      # (checkout@v4, configure-pages@v5, upload-pages-artifact@v3,
+      # deploy-pages@v4) the runner started force-running Node 20 actions on
+      # Node 24, after which the upload step exited 0 but registered no
+      # artifact — so the deploy step failed with `Found 0 artifact(s)`.
+      # Session 06 deployed fine on 2026-11-06; Session 07 broke on 2026-11-20
+      # with nothing changed in this repo. Don't drop these back.
       - name: Upload site/ as Pages artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v5
         with:
           path: "site"
 
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
