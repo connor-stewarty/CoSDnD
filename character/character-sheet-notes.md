@@ -49,6 +49,12 @@ Consumables, quest items, favors owed/owed-to — the stuff that's easy to forge
 - **It came with a flaw**, agreed with William in a side call: **greedy, and wanting to be the centre of attention.** He was explicit that it doesn't need playing hard, and asked everyone to keep their flaws from being unkind to other players.
 - **You now have six fingers on each hand.** The table's phrase was "six-fingered crow" — which, with the feathers from Session 05, is the clearest the archive has ever been that Scottishbard is a corvid of some kind.
 - **The single-use Resurrection from Session 05 is still unspent.** Casimir died this session and nobody raised it at the table. Cassius is still an option too, if a body ever turns up.
+### Session 07: you talked the party past a fight
+- **Suggestion on the bandit bridge** got the whole party across without a swing — walk up looking harmless, pass a deception check, then cast it. The other bandits failed to notice a spell had even been cast. The table's verdict was "bard is carrying us," and it is worth remembering that this is a real option when the party is out of resources.
+- You are one of only two original party members still alive (with Bulbin). Casimir is dead; Cassius and Esmeralda died before the log began.
+- **The Tome of Understanding is unclaimed.** +2 Wisdom for 48 hours of study. You passed because you're a charisma caster, and the party agreed to hold it for whoever needs it most — possibly a replacement character.
+- Your single-use **Resurrection** is still unspent, two sessions on.
+
 - Your **Aid** was the reason the skull fight didn't become a wipe — three people went down, and the extra HP is what kept them at "down" rather than dead. Worth casting earlier rather than hoarding it.
 
 

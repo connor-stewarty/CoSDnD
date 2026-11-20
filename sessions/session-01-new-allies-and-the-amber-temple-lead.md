@@ -87,7 +87,7 @@ The party (now with Casimir in tow) has committed to heading toward Barovia vill
 
 ## DM notes / questions for next time
 - Confirm spellings: is it "Vallaki" (matches prep notes) rather than "Balaki"/"Valani" from the transcript? Is "Casimir" right, or "Kesimir"?
-- What exactly is the place near the Amber Temple that got called "Babo Lasagna" at the table? Worth writing down properly once confirmed.
+- ~~What exactly is the place near the Amber Temple that got called "Babo Lasagna" at the table?~~ **Resolved in Session 07:** it is **Baba Lysaga's village**. A were-raven named her on the way in; the DM pronounced it properly once and then kept saying "Baba Lasagna" because it is funnier.
 - What was "the house" the party left before this session — worth a short retroactive note in `world/locations.md` once we know.
 - Is "Gerland" (the one who did radiant damage in the fight that killed Cassius) actually Scottishbard's proper character name, or a different party member entirely?
 - What's Scottishbard's actual class/build beyond "bard, Scottish"? Worth filling out `character/character-sheet-notes.md` properly.

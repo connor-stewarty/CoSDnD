@@ -154,3 +154,27 @@ The running "best of" log — funny, iconic, or unhinged lines from the table (i
 
 > "Kezmar wasn't necessarily supposed to become evil... some of the failed rolls he had, because he has to make the same rolls you guys do."
 > — The DM, Session 06, revealing afterwards that Casimir's turn was never planned.
+
+> "Made it out of the Amber Temple, only one death — and that was the guy who got too hungry for power."
+> — The DM (William), Session 07, opening the night.
+
+> "You guys were fine before you left, but now it's like you're completely different people."
+> — Rudolph van Richten, Session 07, after casting Detect Good and Evil over the party.
+
+> "Strahd no longer sees you as bugs. He probably sees you as wolves now."
+> — Rudolph van Richten, Session 07, on what the dark gifts actually cost.
+
+> "I killed Strahd's lover, Maria, before she could become a vampire — and thus doomed her soul. All the village burned because of it."
+> — The ghost in the ruins of Baba Lysaga's village, Session 07.
+
+> "He's kind of a simp."
+> — The same ghost, Session 07, asked what he knows about Strahd.
+
+> "Your muscles are super swole, man. Guys, I'll meet you back on Tuesday."
+> — A druid, Session 07, leaving a fight he had just started.
+
+> "Bard is carrying us."
+> — The table, Session 07, after Suggestion walked everyone past an armed toll bridge for free.
+
+> "How do I look?"
+> — Parriwimple, Session 07, wearing a hollowed-out goat skull, with bone wings.
